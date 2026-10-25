@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Market Desk</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#1846a3">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Market Desk">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<link rel="icon" href="../icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,600;6..72,700&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: phone news reader. Sticky masthead with section filter, single column of story cards that expand to a breakdown; bottom tab bar switches News / Coming up. */
+:root{
+  --bg:#f2f4f5;--surface:#fff;--raise:#f7f9fa;--ink:#111a20;--muted:#59656f;--line:#dde3e7;--soft:#eaeef1;
+  --accent:#1846a3;--accent-ink:#fff;--accent-soft:#e6ecf9;--up:#137a47;--down:#bd3a2f;--amber:#a3670a;
+  --c-chip:#2a78d6;--c-grid:#d38b12;--c-cyber:#6250d6;--c-gold:#b8860b;--c-globe:#1b9a72;--c-delivery:#0f9d58;--c-soft:#c2477d;--c-macro:#4b5b6b;--c-plant:#e06a2c;--c-social:#3b6fd8;--c-optic:#0e8aa8;
+  --f-display:"Newsreader",Georgia,serif;--f-body:"Public Sans",system-ui,-apple-system,sans-serif;--f-mono:"JetBrains Mono",ui-monospace,monospace;
+  --nav:62px;color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0d1216;--surface:#141b21;--raise:#18212a;--ink:#e8edf1;--muted:#9ba7b1;--line:#25303a;--soft:#1c262f;
+  --accent:#8eaeff;--accent-ink:#0b1630;--accent-soft:#1b2843;--up:#4fc888;--down:#ff7f73;--amber:#e3a83a;
+  --c-chip:#5aa0f0;--c-grid:#eaa53a;--c-cyber:#9a8cf0;--c-gold:#d9aa3a;--c-globe:#3cc79a;--c-delivery:#3fc27f;--c-soft:#e1709f;--c-macro:#8fa1b3;--c-plant:#f08a52;--c-social:#6f9af0;--c-optic:#3cb6d2;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg)}
+body{color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5;-webkit-tap-highlight-color:transparent;padding-bottom:calc(var(--nav) + env(safe-area-inset-bottom,0px) + 20px)}
+a{color:var(--accent)}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.top{position:sticky;top:0;z-index:10;background:var(--surface);border-bottom:1px solid var(--line);
+  padding:calc(env(safe-area-inset-top,0px) + 10px) max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:8px}
+.mast{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.mast b{font-family:var(--f-display);font-size:1.55rem;font-weight:700;letter-spacing:-.01em}
+.mast b span{color:var(--accent)}
+.mast small{font-family:var(--f-mono);font-size:.7rem;color:var(--muted);text-align:right}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-inline:-4px;padding:0 4px 2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:99px;height:34px;padding:0 13px;font-size:.84rem;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--surface);font-weight:600}
+main{padding:14px max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:14px;max-width:640px;margin:0 auto}
+.brief{background:var(--accent);color:var(--accent-ink);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.brief h2{font-family:var(--f-display);font-size:1.25rem;margin:0}
+.brief ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px;font-size:.95rem}
+.sect{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:6px 2px -4px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.art{position:relative;aspect-ratio:2/1;background:color-mix(in srgb,var(--c) 14%,var(--surface));color:var(--c);display:flex;align-items:center;justify-content:center}
+.art svg{width:42%;height:auto}
+.art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.art .lab{position:absolute;left:12px;bottom:8px;font-family:var(--f-mono);font-size:.72rem;font-weight:600}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:9px}
+.kick{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.kick span:last-child{color:var(--muted);font-family:var(--f-mono);font-weight:500;letter-spacing:0;text-transform:none}
+.card h3{font-family:var(--f-display);font-weight:600;font-size:1.32rem;line-height:1.2;margin:0;text-wrap:balance}
+.card p{margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-family:var(--f-mono);font-weight:600;font-size:.76rem;border-radius:6px;padding:1px 7px;border:1px solid currentColor;line-height:1.6}
+.tag.up{color:var(--up)}.tag.down{color:var(--down)}.tag.mixed{color:var(--amber)}.tag.watch{color:var(--muted)}
+.more{align-self:flex-start;border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:99px;height:38px;padding:0 16px;font-size:.88rem;font-weight:600}
+.bd{display:flex;flex-direction:column;gap:12px;border-top:1px solid var(--soft);padding-top:12px}
+.bd h4{margin:0;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.box{background:var(--raise);border-radius:12px;padding:11px 13px;display:flex;flex-direction:column;gap:6px;font-size:.93rem}
+.box.learn{background:var(--accent-soft)}
+.box.learn b{color:var(--accent)}
+.imp{display:grid;grid-template-columns:auto minmax(0,1fr);gap:9px;align-items:start;font-size:.92rem}
+.reads{display:flex;flex-direction:column;gap:8px}
+.reads a{display:flex;justify-content:space-between;gap:10px;align-items:center;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:11px 13px;color:var(--ink);min-height:48px}
+.reads a b{color:var(--accent);font-size:.92rem}
+.reads a small{color:var(--muted);font-size:.78rem;display:block}
+.reads a span:last-child{color:var(--accent);font-size:1.1rem;flex:none}
+.ev .head{display:flex;gap:12px;align-items:baseline}
+.ev .date{font-family:var(--f-mono);flex:none;width:62px}
+.ev .date b{display:block;font-size:1.05rem}
+.ev .date small{color:var(--muted);font-size:.75rem}
+.trio{display:flex;flex-direction:column;gap:8px}
+.trio .box span.h{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.trio ul{margin:0;padding-left:1.1em;font-size:.9rem}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:16px;padding:28px 16px;text-align:center;color:var(--muted)}
+.empty b{display:block;font-family:var(--f-display);font-size:1.2rem;color:var(--ink)}
+.foot{font-size:.76rem;color:var(--muted);text-align:center;padding:4px 8px 10px}
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);
+  padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+nav.tabs .in{max-width:640px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;height:var(--nav)}
+nav.tabs button{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:.74rem;font-weight:600;color:var(--muted)}
+nav.tabs svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs button[aria-selected="true"]{color:var(--accent)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="mast"><b>Market <span>Desk</span></b><small id="stamp">Loading…</small></div>
+  <div class="chips" id="chips"></div>
+</header>
+<main id="view"><div class="empty"><b>Loading today's briefing</b>One moment.</div></main>
+<nav class="tabs"><div class="in" role="tablist">
+  <button role="tab" id="t-news" aria-selected="true" data-v="news"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>News</button>
+  <button role="tab" id="t-cal" aria-selected="false" data-v="cal"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Coming up</button>
+</div></nav>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl=u=>/^https:\/\//i.test(String(u||''))?String(u):null;
+const DAYS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const pd=s=>{const[y,m,d]=String(s).slice(0,10).split('-').map(Number);return new Date(Date.UTC(y,(m||1)-1,d||1))};
+const nice=s=>{const d=pd(s);return `${DAYS[d.getUTCDay()]} ${d.getUTCDate()} ${MON[d.getUTCMonth()]}`};
+const DIR={up:'▲',down:'▼',mixed:'◆',watch:'●'},DW={up:'Positive',down:'Negative',mixed:'Mixed',watch:'Watch'};
+const ART={
+chip:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><rect x="38" y="18" width="44" height="44" rx="6" fill="currentColor" fill-opacity=".15"/><rect x="50" y="30" width="20" height="20" rx="3"/><path d="M30 26h8M30 40h8M30 54h8M82 26h8M82 40h8M82 54h8M46 10v8M60 10v8M74 10v8M46 62v8M60 62v8M74 62v8"/></svg>',
+pylon:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M60 6 44 76M60 6l16 70M50 30h20M47 46h26M44 62h32M50 30l23 16M70 30 47 46M47 46l29 16M73 46 44 62M30 22h60M30 38h60"/></svg>',
+shield:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><path d="M60 6 34 16v22c0 18 11 30 26 36 15-6 26-18 26-36V16z" fill="currentColor" fill-opacity=".15"/><circle cx="60" cy="36" r="7"/><path d="M60 43v12"/></svg>',
+gold:'<svg viewBox="0 0 120 80" fill="currentColor"><path d="M22 70l8-20h30l8 20z" fill-opacity=".85"/><path d="M52 70l8-20h30l8 20z" fill-opacity=".6"/><path d="M37 48l8-20h30l8 20z" fill-opacity=".75"/></svg>',
+globe:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="2.6"><circle cx="60" cy="40" r="32" fill="currentColor" fill-opacity=".12"/><ellipse cx="60" cy="40" rx="14" ry="32"/><path d="M28 40h64M33 24h54M33 56h54"/></svg>',
+delivery:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><rect x="62" y="20" width="26" height="22" rx="3" fill="currentColor" fill-opacity=".18"/><circle cx="34" cy="62" r="10"/><circle cx="88" cy="62" r="10"/><path d="M34 62l14-20h22l10 20M48 42l-6-12h-8"/></svg>',
+blueprint:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M10 10h100v60H10z" fill="currentColor" fill-opacity=".1"/><path d="M24 62V26h34v36zM58 40h26v22H58" stroke-width="3"/></svg>',
+plant:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><path d="M22 72c4-16 4-34 0-50h26c-4 16-4 34 0 50z" fill="currentColor" fill-opacity=".15"/><path d="M60 72V44h40v28"/><path d="M84 8 74 26h10l-8 16"/></svg>',
+search:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3.2"><circle cx="52" cy="36" r="20" fill="currentColor" fill-opacity=".14"/><path d="M67 51l18 18"/></svg>',
+social:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 14h52a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8H40l-12 10V50h-10a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="currentColor" fill-opacity=".15"/></svg>',
+optic:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><rect x="64" y="22" width="44" height="36" rx="5" fill="currentColor" fill-opacity=".15"/><path d="M6 26c20 0 24 10 58 10M6 40h58M6 54c20 0 24-10 58-10"/></svg>',
+macro:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 30 60 10l40 20z" fill="currentColor" fill-opacity=".15"/><path d="M28 34v30M44 34v30M60 34v30M76 34v30M92 34v30M18 70h84"/></svg>',
+chart:'<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3"><path d="M14 56l18-12 14 8 18-22 14 10 24-22"/><path d="M14 66h92" stroke-opacity=".4"/></svg>'};
+const TA={NVDA:['chip','--c-chip'],FN:['optic','--c-optic'],VST:['plant','--c-plant'],FGRD:['pylon','--c-grid'],GOOGL:['search','--c-chip'],META:['social','--c-social'],GRAB:['delivery','--c-delivery'],ADSK:['blueprint','--c-soft'],ISPY:['shield','--c-cyber'],SGLN:['gold','--c-gold'],VWRP:['globe','--c-globe']};
+const THA={'Cyber security':['shield','--c-cyber'],'Grid & energy':['pylon','--c-grid'],'Gold':['gold','--c-gold'],'Global markets':['globe','--c-globe'],'AI & chips':['chip','--c-chip']};
+const CA={Rates:['macro','--c-macro'],Inflation:['macro','--c-macro'],Policy:['macro','--c-macro'],Economy:['macro','--c-macro'],Energy:['pylon','--c-grid'],Gold:['gold','--c-gold'],Cyber:['shield','--c-cyber'],Currency:['globe','--c-globe']};
+function artFor(s){if(s.theme&&THA[s.theme])return THA[s.theme];const t=(s.tickers||[])[0]||((s.impacts||[])[0]||{}).ticker;if(s.kind!=='macro'&&TA[t])return TA[t];return CA[s.category]||TA[t]||['chart','--c-macro']}
+function tile(a,label,img){const im=safeUrl(img)?`<img src="${esc(img)}" alt="" loading="lazy" onerror="this.remove()">`:'';return `<div class="art" style="--c:var(${a[1]})">${ART[a[0]]||ART.chart}<span class="lab">${esc(label||'')}</span>${im}</div>`}
+
+let eds=[],view='news',filter='all',open=new Set();
+try{view=localStorage.getItem('mda-view')||'news'}catch(e){}
+const sec=s=>s.section||(s.kind==='macro'?'macro':'holding');
+
+function breakdown(s){
+  const imp=(s.impacts||[]).map(i=>{const d=DW[i.direction]?i.direction:'watch';return `<div class="imp"><span class="tag ${d}">${DIR[d]} ${esc(i.ticker)}</span><span>${esc(i.why)}</span></div>`}).join('');
+  const pi=s.priced_in&&s.priced_in.note?`<div class="box"><span><b>${s.priced_in.status==='surprise'?'A surprise':s.priced_in.status==='expected'?'Expected, so largely priced in':'Priced in?'}:</b> ${esc(s.priced_in.note)}</span></div>`:'';
+  const reads=(s.sources||[]).map(x=>{const u=safeUrl(x.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener"><span><b>Read on ${esc(x.publisher||'source')}</b><small>${esc(x.title||'')}${x.date?' · '+esc(x.date):''}</small></span><span>↗</span></a>`:''}).join('');
+  return `<div class="bd">
+    ${s.meaning?`<div><h4>What this means</h4><p style="margin-top:6px">${esc(s.meaning)}</p></div>`:''}
+    ${imp?`<div><h4>Your holdings</h4><div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">${imp}</div></div>`:''}
+    ${pi}
+    ${s.explainer&&s.explainer.term?`<div class="box learn"><span><b>Learn: ${esc(s.explainer.term)}.</b> ${esc(s.explainer.meaning)}</span></div>`:''}
+    ${reads?`<div><h4>Read the full story</h4><div class="reads" style="margin-top:8px">${reads}</div></div>`:''}
+  </div>`;
+}
+function card(s,i){
+  const isOpen=open.has(i);const tickers=[...new Set([...(s.tickers||[]),...(s.impacts||[]).map(x=>x.ticker)])];
+  return `<article class="card">${tile(artFor(s),s.theme||(s.kind==='macro'?s.category:(s.tickers||[]).join(' · ')),s.image_url)}<div class="body">
+    <div class="kick"><span>${esc(s.theme||(sec(s)==='macro'?'Economy':(s.tickers||[]).join(' · ')||'Company'))}</span><span>${esc(s.published||'')}</span></div>
+    <h3>${esc(s.headline)}</h3><p>${esc(s.summary)}</p>
+    ${tickers.length?`<div class="tags">${tickers.map(t=>{const m=(s.impacts||[]).find(x=>x.ticker===t);const d=m&&DW[m.direction]?m.direction:'watch';return `<span class="tag ${d}">${DIR[d]} ${esc(t)}</span>`}).join('')}</div>`:''}
+    ${isOpen?breakdown(s):''}
+    <button class="more" data-i="${i}" aria-expanded="${isOpen}">${isOpen?'Hide breakdown':'What this means for me'}</button>
+  </div></article>`;
+}
+function vNews(){
+  const e=eds[0];if(!e)return `<div class="empty"><b>No briefing yet</b>The morning edition appears here.</div>`;
+  const all=(e.stories||[]).map((s,i)=>({...s,_i:i}));
+  const groups=[['holding','Your holdings'],['theme','Your themes'],['macro','Economy & markets']];
+  const tick=[...new Set(all.flatMap(s=>[...(s.tickers||[]),...(s.impacts||[]).map(x=>x.ticker)]))];
+  $('chips').innerHTML=[['all','All'],['holding','Holdings'],['theme','Themes'],['macro','Economy']].concat(tick.map(t=>[t,t])).map(([k,l])=>`<button class="chip" data-f="${esc(k)}" aria-pressed="${k===filter}">${esc(l)}</button>`).join('');
+  const match=s=>filter==='all'||sec(s)===filter||(s.tickers||[]).includes(filter)||(s.impacts||[]).some(x=>x.ticker===filter);
+  let html='';
+  if(filter==='all'&&(e.topline||[]).length)html+=`<section class="brief"><h2>The short version</h2><ul>${e.topline.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></section>`;
+  groups.forEach(([k,l])=>{const list=all.filter(s=>sec(s)===k&&match(s));if(list.length)html+=`<div class="sect">${l}</div>`+list.map(s=>card(s,s._i)).join('')});
+  if(!html)html=`<div class="empty"><b>Nothing for ${esc(filter)} today</b>Try All.</div>`;
+  return html+`<p class="foot">Summaries come from the linked articles. "Your holdings" lines report what those sources say. Research, not financial advice.</p>`;
+}
+function trio(c){
+  const L=u=>safeUrl(u)?` <a href="${esc(u)}" target="_blank" rel="noopener">source ↗</a>`:'';
+  const ul=a=>a&&a.length?`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';
+  if(!(c.expected||c.priced||c.beat_record||(c.upside||[]).length))return '';
+  return `<div class="trio">
+    <div class="box"><span class="h">What's expected</span><span>${esc(c.expected||'No published forecast found.')}${L(c.expected_url)}</span></div>
+    <div class="box"><span class="h">How it's priced</span><span>${esc(c.priced||'No market-implied figure found.')}${L(c.priced_url)}</span></div>
+    <div class="box"><span class="h">Can it beat it?</span>${c.beat_record?`<span>${esc(c.beat_record)}</span>`:''}${(c.upside||[]).length?`<b style="color:var(--up);font-size:.82rem">Could beat if</b>${ul(c.upside)}`:''}${(c.downside||[]).length?`<b style="color:var(--down);font-size:.82rem">Could disappoint if</b>${ul(c.downside)}`:''}</div>
+  </div>`;
+}
+function vCal(){
+  $('chips').innerHTML='';
+  const today=new Date().toISOString().slice(0,10);
+  const ev=((eds[0]||{}).calendar||[]).filter(c=>c.date>=today).sort((a,b)=>a.date.localeCompare(b.date));
+  if(!ev.length)return `<div class="empty"><b>No dates yet</b></div>`;
+  const intro=`<div class="box learn"><span><b>Priced in?</b> Prices already reflect what traders expect. On the day a share moves on the surprise: the gap between the result and the expectation. Each event shows the expectation, how markets have priced it, and what sources say could beat or miss it.</span></div>`;
+  return intro+ev.map((c,i)=>{const u=safeUrl(c.url);const key='c'+i;const isOpen=open.has(key);
+    const aff=(c.affects||[]).map(a=>`<div class="imp"><span class="tag watch" style="color:var(--accent)">${esc(a.ticker)}</span><span>${esc(a.why)}${safeUrl(a.url)?` <a href="${esc(a.url)}" target="_blank" rel="noopener">source ↗</a>`:''}</span></div>`).join('');
+    const prev=(c.previews||[]).map(x=>safeUrl(x.url)?`<a href="${esc(x.url)}" target="_blank" rel="noopener"><span><b>Preview: ${esc(x.name)}</b></span><span>↗</span></a>`:'').join('');
+    return `<article class="card ev"><div class="body">
+      <div class="head"><div class="date"><b>${esc(pd(c.date).getUTCDate()+' '+MON[pd(c.date).getUTCMonth()])}</b><small>${esc(DAYS[pd(c.date).getUTCDay()])}</small></div>
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0"><h3 style="font-size:1.12rem">${esc(c.event)}</h3><small style="color:var(--muted)">${esc(c.time||'')}</small>
+        ${(c.tickers||[]).length?`<div class="tags">${c.tickers.map(t=>`<span class="tag watch" style="color:var(--accent)">${esc(t)}</span>`).join('')}</div>`:''}</div></div>
+      ${isOpen?`<div class="bd">${trio(c)}${aff?`<div><h4>Your holdings</h4><div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">${aff}</div></div>`:''}
+        ${(u||prev)?`<div><h4>Read more</h4><div class="reads" style="margin-top:8px">${u?`<a href="${esc(u)}" target="_blank" rel="noopener"><span><b>${esc(c.source||'Source')}</b></span><span>↗</span></a>`:''}${prev}</div></div>`:''}</div>`:''}
+      <button class="more" data-i="${key}" aria-expanded="${isOpen}">${isOpen?'Hide':'Expected, priced, can it beat it?'}</button>
+    </div></article>`}).join('')+`<p class="foot">Research, not financial advice.</p>`;
+}
+function render(){
+  ['news','cal'].forEach(k=>$('t-'+k).setAttribute('aria-selected',k===view?'true':'false'));
+  $('view').innerHTML=view==='news'?vNews():vCal();
+  const e=eds[0];$('stamp').textContent=e?`${nice(e.date)}${e.compiled_at?' · '+e.compiled_at.split(',')[0]:''}`:'';
+  document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{filter=b.dataset.f;open.clear();render();window.scrollTo(0,0)});
+  document.querySelectorAll('.more').forEach(b=>b.onclick=()=>{const k=isNaN(+b.dataset.i)?b.dataset.i:+b.dataset.i;open.has(k)?open.delete(k):open.add(k);const y=window.scrollY;render();window.scrollTo(0,y)});
+}
+document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{view=b.dataset.v;open.clear();try{localStorage.setItem('mda-view',view)}catch(e){};render();window.scrollTo(0,0)});
+const get=p=>fetch(p+'?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
+async function load(){
+  try{const idx=await get('../data/index.json');const d=(idx.editions||[]).slice().sort().reverse()[0];if(!d)return render();
+    eds=[await get('../data/editions/'+d+'.json')];render();}
+  catch(e){if(!eds.length)$('view').innerHTML=`<div class="empty"><b>Couldn't load the briefing</b>Check your connection and reopen the app.</div>`}
+}
+load();
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')load()});
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script>
+</body>
+</html>

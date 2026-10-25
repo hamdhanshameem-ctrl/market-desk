@@ -427,7 +427,7 @@ function storyHTML(st,lead){
   const label=st.theme||(st.kind==='macro'?st.category:(st.tickers||[]).join(' · '));
   return `<article class="story${lead?' lead':''}">${tile(artFor(st),label,st.image_url)}<div class="body">
     <div class="kicker"><span>${esc(st.theme||(st.kind==='macro'?'Macro':(st.tickers||[]).join(' · ')||'Company'))}</span>${st.category?`<span style="color:var(--muted)">${esc(st.category)}</span>`:''}${st.published?`<span class="time">${esc(st.published)}</span>`:''}</div>
-    <h4>${esc(st.headline)}</h4><p>${esc(st.summary)}</p>${ex}
+    <h4>${esc(st.headline)}</h4><p>${esc(st.summary)}</p>${st.meaning?`<div style="background:var(--raise);border:1px solid var(--soft);border-radius:10px;padding:10px 12px;font-size:.92rem"><b style="color:var(--accent)">What this means.</b> ${esc(st.meaning)}</div>`:''}${st.priced_in&&st.priced_in.note?`<div style="font-size:.86rem;border-left:3px solid ${st.priced_in.status==='surprise'?'var(--amber)':'var(--c-globe)'};padding-left:10px"><b>${st.priced_in.status==='surprise'?'Surprise':st.priced_in.status==='expected'?'Expected / priced in':'Priced in?'}:</b> ${esc(st.priced_in.note)}</div>`:''}${ex}
     ${imp?`<div class="impacts"><span class="lbl">What the sources say it means for your holdings</span>${imp}</div>`:''}
     ${reads?`<div class="reads">${reads}</div>`:''}</div></article>`;
 }
@@ -496,6 +496,17 @@ function vNews(){
   ${list.length?`<div class="stories">${list.map((s,i)=>storyHTML(s,i===0&&list.length>2)).join('')}</div>`:`<div class="empty"><b>Nothing here in this edition</b>${cur[2]==='theme'?'Theme coverage starts with the next morning run.':'No stories matched.'}</div>`}
   <p class="foot">Summaries are written from the linked articles; "what the sources say" lines report the articles' own views, not a prediction. Research, not financial advice.</p>`;
 }
+function prevHTML(c,eu){
+  const L=u=>safeUrl(u)?` <a href="${esc(u)}" target="_blank" rel="noopener">source ↗</a>`:'';
+  const has=c.expected||c.priced||c.beat_record||(c.upside||[]).length||(c.downside||[]).length;if(!has)return'';
+  const col=(h,body)=>`<div style="background:var(--raise);border:1px solid var(--soft);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:5px;min-width:0"><span style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)">${h}</span>${body}</div>`;
+  const ul=(a,c2)=>a&&a.length?`<ul class="list" style="font-size:.86rem">${a.map(x=>`<li${c2?` style="color:${c2}"`:''}><span style="color:var(--ink)">${esc(x)}</span></li>`).join('')}</ul>`:'';
+  return `<div class="grid3" style="gap:10px">
+    ${col("What's expected",`<span style="font-size:.9rem">${esc(c.expected||'No published forecast found.')}${L(c.expected_url)}</span>`)}
+    ${col("How it's priced",`<span style="font-size:.9rem">${esc(c.priced||'No market-implied figure found.')}${L(c.priced_url)}</span>`)}
+    ${col("Can it beat it?",`${c.beat_record?`<span style="font-size:.9rem">${esc(c.beat_record)}</span>`:''}${(c.upside||[]).length?`<b class="pos" style="font-size:.8rem">Could beat if</b>${ul(c.upside)}`:''}${(c.downside||[]).length?`<b class="neg" style="font-size:.8rem">Could disappoint if</b>${ul(c.downside)}`:''}`)}
+  </div>${(c.previews||[]).length?`<div class="reads" style="flex-direction:row;flex-wrap:wrap;gap:6px 14px">${c.previews.map(x=>safeUrl(x.url)?`<a href="${esc(x.url)}" target="_blank" rel="noopener">Preview: ${esc(x.name)} ↗</a>`:'').join('')}</div>`:''}`;
+}
 function vCalendar(){
   const ev=upcoming();
   const aff=c=>{const a=(c.affects||[]);if(!a.length)return (c.tickers||[]).length?'':`<div class="note">No source yet links this to a specific holding of yours.</div>`;
@@ -508,7 +519,7 @@ function vCalendar(){
     <div class="num"><b style="font-size:1.05rem">${esc(short(c.date))}</b><div style="color:var(--muted);font-size:.78rem">${esc(DAYS[pd(c.date).getUTCDay()])}${c.time?'<br>'+esc(c.time):''}</div></div>
     <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
       <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline"><b style="font-size:1.02rem">${esc(c.event)}</b>${(c.tickers||[]).map(t=>`<a class="tag" style="color:var(--accent)" href="#${esc(t)}">${esc(t)}</a>`).join('')}${u?`<a href="${esc(u)}" target="_blank" rel="noopener" style="font-size:.82rem">${esc(c.source||'source')} ↗</a>`:''}</div>
-      ${c.expected?`<div class="learn"><b>Expected:</b> ${esc(c.expected)}${eu?` <a href="${esc(eu)}" target="_blank" rel="noopener">source ↗</a>`:''}</div>`:''}
+      ${prevHTML(c,eu)}
       ${aff(c)}</div></div>`}).join('')}</section>`:`<div class="empty"><b>No dates yet</b></div>`}
   <p class="foot">"Affects" lines say what the linked sources report about the link, not a forecast of the move.</p>`;
 }
