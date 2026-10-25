@@ -475,7 +475,7 @@ const today=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMon
 function upcoming(){
   const e=latest();const map=new Map();
   ((e&&e.calendar)||[]).forEach(c=>map.set((c.date||'')+'|'+(c.event||''),{...c,ticker:(c.tickers||[])[0]}));
-  Object.values(stocks).forEach(s=>(s.events||[]).forEach(v=>{const k=v.date+'|'+v.text;if(![...map.values()].some(m=>m.date===v.date&&(m.tickers||[]).includes(s.ticker)))map.set(k,{date:v.date,time:v.time,event:v.text,tickers:[s.ticker],ticker:s.ticker,url:v.url,source:v.source})}));
+  Object.values(stocks).forEach(s=>(s.events||[]).forEach(v=>{const k=v.date+'|'+v.text;if(![...map.values()].some(m=>m.date===v.date&&(m.tickers||[]).includes(s.ticker)))map.set(k,{date:v.date,time:v.time,event:v.text,tickers:[s.ticker],ticker:s.ticker,url:v.url,source:v.source,expected:v.expected,affects:v.affects})}));
   return [...map.values()].filter(c=>c.date>=today()).sort((a,b)=>a.date.localeCompare(b.date));
 }
 function vNews(){
@@ -498,11 +498,19 @@ function vNews(){
 }
 function vCalendar(){
   const ev=upcoming();
-  return `<div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Next few weeks</span><h1>Coming up</h1><p class="lede">Results dates and economic releases that can move your holdings. Results are the biggest single-day risk for a short hold.</p></div>
-  ${ev.length?`<section class="panel" style="padding:6px 22px">${ev.map(c=>{const u=safeUrl(c.url);return `<div style="display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:16px;padding:14px 0;border-bottom:1px solid var(--soft);align-items:baseline">
-    <div class="num"><b style="font-size:1.05rem">${esc(short(c.date))}</b><div style="color:var(--muted);font-size:.78rem">${esc(DAYS[pd(c.date).getUTCDay()])}${c.time?' · '+esc(c.time):''}</div></div>
-    <div>${esc(c.event)}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">${esc(c.source||'source')} ↗</a>`:''}</div>
-    <div class="bar">${(c.tickers||[]).map(t=>`<a class="tag" style="color:var(--accent)" href="#${esc(t)}">${esc(t)}</a>`).join('')}</div></div>`}).join('')}</section>`:`<div class="empty"><b>No dates yet</b></div>`}`;
+  const aff=c=>{const a=(c.affects||[]);if(!a.length)return (c.tickers||[]).length?'':`<div class="note">No source yet links this to a specific holding of yours.</div>`;
+    return `<div class="impacts" style="border:0;padding:0">${a.map(x=>{const t=String(x.ticker||'');const known=!!stocks[t];return `<div class="imp">${known?`<a class="tag watch" style="color:var(--accent)" href="#${esc(t)}">${esc(t)}</a>`:`<span class="tag watch">${esc(t)}</span>`}<span>${esc(x.why)}${safeUrl(x.url)?` <a href="${esc(x.url)}" target="_blank" rel="noopener">source ↗</a>`:''}</span></div>`}).join('')}</div>`};
+  return `<div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Next few weeks</span><h1>Coming up</h1><p class="lede">Results and economic releases, with what the market already expects and which of your holdings each one touches.</p></div>
+  <section class="panel" style="background:var(--accent-soft);border-color:transparent"><header><h2 style="font-size:1.25rem">Is it already priced in?</h2></header>
+    <p style="margin:0">Prices already reflect what traders <b>expect</b> to happen. On the day, a share moves on the <b>surprise</b>: the gap between the result and the expectation. That is why Fabrinet fell 19% on 18 Aug despite beating forecasts, and Meta fell 7% on 22 Oct despite beating on sales: investors had expected more, or disliked the spending plans.</p>
+    <p style="margin:0">Each event below shows the expectation where a source gives one: for example, interest-rate futures put about an 80% chance on the Fed holding on 28 Oct, so a hold should move little, while a surprise hike would. Prices also keep adjusting for weeks after results ("post-earnings drift"), so the first day is not always the whole reaction.</p></section>
+  ${ev.length?`<section class="panel" style="padding:6px 22px">${ev.map(c=>{const u=safeUrl(c.url);const eu=safeUrl(c.expected_url);return `<div style="display:grid;grid-template-columns:110px minmax(0,1fr);gap:16px;padding:16px 0;border-bottom:1px solid var(--soft);align-items:start">
+    <div class="num"><b style="font-size:1.05rem">${esc(short(c.date))}</b><div style="color:var(--muted);font-size:.78rem">${esc(DAYS[pd(c.date).getUTCDay()])}${c.time?'<br>'+esc(c.time):''}</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline"><b style="font-size:1.02rem">${esc(c.event)}</b>${(c.tickers||[]).map(t=>`<a class="tag" style="color:var(--accent)" href="#${esc(t)}">${esc(t)}</a>`).join('')}${u?`<a href="${esc(u)}" target="_blank" rel="noopener" style="font-size:.82rem">${esc(c.source||'source')} ↗</a>`:''}</div>
+      ${c.expected?`<div class="learn"><b>Expected:</b> ${esc(c.expected)}${eu?` <a href="${esc(eu)}" target="_blank" rel="noopener">source ↗</a>`:''}</div>`:''}
+      ${aff(c)}</div></div>`}).join('')}</section>`:`<div class="empty"><b>No dates yet</b></div>`}
+  <p class="foot">"Affects" lines say what the linked sources report about the link, not a forecast of the move.</p>`;
 }
 function vLearn(){
   const items=[
@@ -571,7 +579,8 @@ function vStock(s){
     <div class="panel"><header><h2 class="neg">Why it could go down</h2></header><ul class="list">${(s.bear||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
   </section>
   ${(s.why_down||[]).length?`<section class="panel"><header><h2>Why it is below its high</h2></header><div class="timeline">${s.why_down.map(x=>`<div class="tl">${typeof x==='string'?esc(x):`<b>${esc(x.date||'')}</b>${esc(x.text)}${safeUrl(x.url)?` <a href="${esc(x.url)}" target="_blank" rel="noopener">Read ↗</a>`:''}`}</div>`).join('')}</div></section>`:''}
-  ${(s.events||[]).length?`<section class="panel"><header><h2>Coming up</h2></header><ul class="list">${s.events.map(x=>`<li><b class="num">${esc(nice(x.date))}</b>${x.time?' · '+esc(x.time):''} · ${esc(x.text)}</li>`).join('')}</ul></section>`:''}
+  ${(()=>{const m=upcoming().filter(c=>!(c.tickers||[]).includes(s.ticker)&&(c.affects||[]).some(a=>a.ticker===s.ticker));return m.length?`<section class="panel"><header><h2>Other events that touch ${esc(s.ticker)}</h2></header><ul class="list">${m.map(c=>`<li><b class="num">${esc(nice(c.date))}</b> · ${esc(c.event)}<div class="note">${esc((c.affects.find(a=>a.ticker===s.ticker)||{}).why||'')}</div></li>`).join('')}</ul></section>`:''})()}
+  ${(s.events||[]).length?`<section class="panel"><header><h2>Coming up</h2></header><ul class="list">${s.events.map(x=>`<li><b class="num">${esc(nice(x.date))}</b>${x.time?' · '+esc(x.time):''} · ${esc(x.text)}${x.expected?`<div class="note">Expected: ${esc(x.expected)}</div>`:''}</li>`).join('')}</ul></section>`:''}
 
   <div class="secthead" id="sec-news"><h2>Latest news</h2><span>from the last ${editions.length} edition${editions.length===1?'':'s'}</span></div>
   ${news.length?`<div class="stories">${news.map(x=>storyHTML(x,false)).join('')}</div>`:`<div class="empty"><b>No stories yet</b>Stories mentioning ${esc(s.ticker)} collect here from each morning's briefing.</div>`}
