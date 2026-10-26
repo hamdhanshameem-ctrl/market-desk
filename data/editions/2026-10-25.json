@@ -154,7 +154,8 @@
      "name": "Top1Markets",
      "url": "https://www.top1markets.com/news/alphabet-q3-2026-earnings-preview-cloud-capex"
     }
-   ]
+   ],
+   "kind": "earnings"
   },
   {
    "date": "2026-10-28",
@@ -206,7 +207,8 @@
      "name": "Zacks",
      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-beat-estimates-again-151002495.html"
     }
-   ]
+   ],
+   "kind": "earnings"
   },
   {
    "date": "2026-10-29",
@@ -271,7 +273,8 @@
      "name": "24/7 Wall St",
      "url": "https://247wallst.com/investing/2026/10/20/q3-trendssuggest-amazon-will-rise-on-oct-29-but-thats-not-why-im-buying/"
     }
-   ]
+   ],
+   "kind": "earnings"
   },
   {
    "date": "2026-11-02",
@@ -304,7 +307,8 @@
      "url": "https://www.tradingkey.com/news/market-movers/262212285-market-movers-fn-20261012"
     }
    ],
-   "affects": []
+   "affects": [],
+   "kind": "earnings"
   },
   {
    "date": "2026-11-02",
@@ -331,7 +335,8 @@
      "name": "Q2 call transcript",
      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-grab-posts-record-q2-2026-profit-growth-shares-rise-93CH-4832657"
     }
-   ]
+   ],
+   "kind": "earnings"
   },
   {
    "date": "2026-11-03",
@@ -479,7 +484,8 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-vst-keep-earnings-surprise-151003565.html"
     }
    ],
-   "affects": []
+   "affects": [],
+   "kind": "earnings"
   },
   {
    "date": "2026-11-10",
@@ -550,7 +556,8 @@
      "name": "XTB",
      "url": "https://www.xtb.com/ae-en/market-analysis/news-and-research/nvidia-shares-react-to-solid-earnings-report-and-stonger-guidance-what-s-next-for-the-ai-giant"
     }
-   ]
+   ],
+   "kind": "earnings"
   },
   {
    "date": "2026-11-24",
@@ -577,7 +584,8 @@
      "name": "Finviz",
      "url": "https://finviz.com/news/386537/autodesk-shares-fall-as-fiscal-2027-earnings-guidance-trails-expectations-despite-q2-beat"
     }
-   ]
+   ],
+   "kind": "earnings"
   }
  ],
  "compiled_at": "05:25 UK, Sun 25 Oct",
