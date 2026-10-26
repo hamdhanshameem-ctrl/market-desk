@@ -1,1 +1,1426 @@
-{"calendar":[{"date":"2026-10-28","event":"UK Autumn Budget + OBR forecasts","source":"House of Commons Library","tickers":[],"time":"Time TBC","url":"https://commonslibrary.parliament.uk/research-briefings/cbp-12245/","affects":[{"ticker":"VWRP","why":"Your pie funds are priced in pounds; a budget that moves the pound changes the sterling value of their mostly US holdings. A weaker pound has added to sterling returns this year (Pound Sterling Live).","url":"https://www.poundsterlinglive.com/"},{"ticker":"SGLN","why":"Gold is priced in dollars, so a pound move changes what SGLN is worth in pounds.","url":"https://www.poundsterlinglive.com/"}],"expected":"Headline income tax, VAT and NI rates pledged unchanged; reported measures include a higher bank surcharge and a cut to the mansion-tax threshold. Economists put the fiscal headroom at about \u00a310\u201312bn (Reuters poll median), down from \u00a324bn in March.","expected_url":"https://www.vantagemarkets.com/en/market-analysis/autumn-budget-2026-gilts-pound-ftse-100-explained/","priced":"10-year gilt yield 5.40% (21 Oct), just off its highest since 2007; GBP/USD about 1.337. FX options suggest traders don't see the budget as a big risk event, though BofA warns against complacency.","priced_url":"https://www.indexbox.io/blog/uk-budget-2026-john-healeys-first-budget-gilt-yields-and-sterling-risk/","beat_record":"Some fund managers (M&G, Ninety One, HSBC) are buying gilts betting on a 'play-it-safe' budget (Bloomberg).","upside":["Headroom of \u00a315bn+ could pull the 10-year yield down up to 20bp and lift GBP/USD towards 1.34 (Admirals, UBS)."],"downside":["Headroom under \u00a310bn or uncosted spending could push the 30-year towards 6% and GBP/USD to 1.31\u20131.30 (Admirals).","ING lists a defence 'spending splurge' and bigger borrowing (~\u00a3325bn) as possible shocks."],"previews":[{"name":"Bloomberg","url":"https://ca.finance.yahoo.com/news/uk-debt-buy-traders-betting-061000139.html"},{"name":"Admirals","url":"https://admiralmarkets.com/analytics/traders-blog/uk-budget-gbp-usd-eur-gbp-ftse-100-scenarios"},{"name":"ING via FXStreet","url":"https://www.fxstreet.com/analysis/five-ways-the-uks-autumn-budget-could-shock-us-202610160805"}]},{"date":"2026-10-28","event":"Fed rate decision (FOMC), Warsh press conference","source":"TradingKey","tickers":[],"time":"2pm ET (6pm UK)","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/262235520-alphabet-stock-forecast-q3-earnings-preview-cloud-capex-315-support-october-24-2026-tradingkey","expected":"Hold at 3.75\u20134.00% after September's hike. No new projections until 9 Dec; the watch point is how many members dissent in favour of a hike.","expected_url":"https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/","affects":[{"ticker":"SGLN","why":"Gold pays no interest, so rate-rise odds weigh on it; it fell this week as hike odds rose (Trading Economics).","url":"https://tradingeconomics.com/commodity/gold"},{"ticker":"NVDA","why":"Benzinga ties this month's AI-stock sell-off partly to rising interest rates.","url":"https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"},{"ticker":"FGRD","why":"Grid-equipment shares sold off on the same rate and AI-bubble worries (Benzinga).","url":"https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"}],"priced":"CME FedWatch: about 90% hold now (only ~9% hike), but 84% odds of a hike on 9 Dec. October hike odds were 42% as recently as 14 Oct, so a hold is now fully priced.","priced_url":"https://yardeniquicktakes.com/economic-week-ahead-october-26-30","beat_record":"A hawkish hold is the base case and is expected to move markets little (Admirals).","upside":["A dovish hold that lowers December hike odds would support gold and shares (Admirals); gold's bull case is $4,150 (FinanceFeeds)."],"downside":["A surprise hike would likely mean higher yields and dollar, lower gold, and falling shares including tech (Admirals).","A clear December signal: gold's bear case $3,890 (FinanceFeeds)."],"previews":[{"name":"Forbes","url":"https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/"},{"name":"Admirals","url":"https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026"},{"name":"FinanceFeeds (gold)","url":"https://financefeeds.com/gold-price-today-3996-saturday-week-ahead-fed-28-october-silver-year-low-bull-4150-bear-3890"}]},{"date":"2026-10-28","event":"Alphabet Q3 2026 earnings","source":"StockTitan earnings calendar","tickers":["GOOGL"],"time":"After US close; call 4:30pm ET (8:30pm UK)","url":"https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026","expected":"EPS about $3.03 (MarketBeat; Zacks $2.94), revenue about $127.9bn. Google Cloud expected at ~$29.2bn, +92% (Zacks). Alphabet gives no revenue guidance.","expected_url":"https://www.marketbeat.com/stocks/NASDAQ/GOOGL/earnings/","affects":[{"ticker":"GOOGL","why":"Your holding; Cloud growth and 2027 capex guidance are the numbers previews focus on (Pepperstone).","url":"https://pepperstone.com/en/insights/market-analysis/equities/alphabet-q3-2026-earnings-preview-can-cloud-and-tpu-growth-justify-the-ai-spending-boom"},{"ticker":"NVDA","why":"Alphabet's AI spending plans feed chip demand; when Meta changed its spending outlook on 22 Oct, AI-hardware shares moved sharply (24/7 Wall St).","url":"https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"},{"ticker":"FGRD","why":"The same 22 Oct spending news sent Eaton down 6% and FGRD's US twin down 4% (24/7 Wall St).","url":"https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"},{"ticker":"VST","why":"Power and grid shares fell with AI-spending worries this month; Benzinga links the sell-off to rates and data-centre cancellations.","url":"https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"}],"priced":"Options imply a \u00b16.2% move, close to its 10-year average (\u00b16.6% intraday peak, \u00b15.2% at the close). Shares are ~21% below their high going in.","priced_url":"https://earnings-watcher.com/wiki/googl-earnings-october-2026","beat_record":"Beat EPS in 8 of the last 8 quarters (MarketBeat), though Q2's beat came from a one-off investment gain. Estimate revisions are mixed: Zacks +1.4% over 30 days, TradingKey -2%.","upside":["Cloud growth above 75% and the $514bn Cloud backlog converting (Top1Markets, TradingKey).","Search still growing mid-to-high teens."],"downside":["Q2 free cash flow was -$5.9bn; debt and equity raises are rising (TradingKey).","The stock fell 7.1% after Q2 on capex, so a higher 2027 spending plan is the main risk."],"previews":[{"name":"Zacks","url":"https://finance.yahoo.com/markets/stocks/articles/countdown-alphabet-googl-q3-earnings-121507781.html"},{"name":"TradingKey","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/262235520-alphabet-stock-forecast-q3-earnings-preview-cloud-capex-315-support-october-24-2026-tradingkey"},{"name":"Top1Markets","url":"https://www.top1markets.com/news/alphabet-q3-2026-earnings-preview-cloud-capex"}]},{"date":"2026-10-28","event":"Microsoft Q1 FY27 earnings (AI capex read-across)","source":"StockTitan earnings calendar","tickers":[],"time":"After US close; call 5:30pm ET (9:30pm UK)","url":"https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026","affects":[{"ticker":"NVDA","why":"Microsoft's AI spending plans feed chip demand; when Meta changed its spending outlook on 22 Oct, AI-hardware shares moved sharply (24/7 Wall St).","url":"https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"},{"ticker":"FGRD","why":"The same 22 Oct spending news sent Eaton down 6% and FGRD's US twin down 4% (24/7 Wall St).","url":"https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"},{"ticker":"VST","why":"Power and grid shares fell with AI-spending worries this month; Benzinga links the sell-off to rates and data-centre cancellations.","url":"https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"},{"ticker":"VWRP","why":"Microsoft is 3.6% of the All-World fund (Vanguard, 30 Sep).","url":"https://www.vanguard.co.uk/professional/product/etf/equity/9679/ftse-all-world-ucits-etf-usd-accumulating"}],"expected":"EPS $4.71, revenue ~$90.6bn. Company guided Azure growth ~45% and ~$50bn capex for the quarter; Yahoo calls 45% 'the baseline, not the upside case'.","expected_url":"https://finance.yahoo.com/markets/stocks/articles/microsofts-earnings-problem-even-great-120000006.html","priced":"Options imply \u00b15.5%, in line with its 10-year average (\u00b15.3%); shares ~6% below their high.","priced_url":"https://earnings-watcher.com/wiki/msft-earnings-october-2026","beat_record":"Beat EPS in 8 of the last 8 quarters, average surprise 8.75% over the last two (Zacks).","upside":["Azure above 45% and commercial bookings (RPO $678bn, +84%) with 'demand exceeding capacity'."],"downside":["Azure can disappoint even on a beat: in January it beat guidance and the stock fell 10%.","Capex above $50bn and free cash flow down 23%. For your holdings, higher Microsoft capex is the read-across for Nvidia, Fabrinet and the grid stocks."],"previews":[{"name":"Yahoo Finance","url":"https://finance.yahoo.com/markets/stocks/articles/microsofts-earnings-problem-even-great-120000006.html"},{"name":"Zacks","url":"https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-beat-estimates-again-151002495.html"}]},{"date":"2026-10-29","event":"Amazon Q3 2026 earnings (AI capex read-across)","source":"StockTitan earnings calendar","tickers":[],"time":"After US close; call 5pm ET (9pm UK)","url":"https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026","affects":[{"ticker":"FN","why":"Amazon is about 11% of Fabrinet's sales (Fabrinet Q4 call).","url":"https://www.nasdaq.com/articles/fabrinet-q4-earnings-call-highlights"},{"ticker":"NVDA","why":"Amazon's AI spending plans feed chip demand; when Meta changed its spending outlook on 22 Oct, AI-hardware shares moved sharply (24/7 Wall St).","url":"https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"},{"ticker":"FGRD","why":"The same 22 Oct spending news sent Eaton down 6% and FGRD's US twin down 4% (24/7 Wall St).","url":"https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"},{"ticker":"VST","why":"Power and grid shares fell with AI-spending worries this month; Benzinga links the sell-off to rates and data-centre cancellations.","url":"https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"},{"ticker":"VWRP","why":"Amazon is 2.3% of the All-World fund (Vanguard).","url":"https://www.vanguard.co.uk/professional/product/etf/equity/9679/ftse-all-world-ucits-etf-usd-accumulating"}],"expected":"EPS ~$1.96\u20132.02, revenue ~$202bn (guide $197\u2013202bn). AWS expected to grow 30\u201335% after 37% in Q2; 2026 capex ~$220bn.","expected_url":"https://www.benzinga.com/trading-ideas/movers/26/10/62522059/amazon-earnings-are-a-week-away-heres-what-to-expect","priced":"Options imply \u00b16.2% (Unusual Whales) to \u00b17.7% (EarningsWatcher), around its 10-year average. Shares rose 15% after Q2.","priced_url":"https://earnings-watcher.com/wiki/amzn-earnings-october-2026","beat_record":"Beat EPS in 7 of the last 8 quarters by MarketBeat's count, but only 2 of the last 4 by Zacks'; Zacks ESP -2.1%.","upside":["Jassy says AWS 2026 capacity is fully committed and most of 2027 sold; AWS backlog $496bn (TokenPost).","Advertising +26% (24/7 Wall St)."],"downside":["Trailing free cash flow -$7.6bn; Q2 EPS was flattered by a $53.4bn Anthropic gain.","AWS growth slipping towards 30% would test the story (24/7 Wall St, PrimeXBT)."],"previews":[{"name":"Benzinga","url":"https://www.benzinga.com/trading-ideas/movers/26/10/62522059/amazon-earnings-are-a-week-away-heres-what-to-expect"},{"name":"24/7 Wall St","url":"https://247wallst.com/investing/2026/10/20/q3-trendssuggest-amazon-will-rise-on-oct-29-but-thats-not-why-im-buying/"}]},{"date":"2026-11-02","event":"Fabrinet Q1 FY27 earnings","source":"Fabrinet press release","tickers":["FN"],"time":"After US close; call 5pm ET (10pm UK)","url":"https://www.stocktitan.net/news/FN/fabrinet-to-announce-first-quarter-fiscal-year-2027-financial-ky68oflej8g8.html","expected":"EPS $4.19, revenue $1.40bn (MarketBeat), right in the middle of Fabrinet's own guide ($1.375\u20131.425bn, EPS $4.10\u20134.25).","expected_url":"https://www.marketbeat.com/stocks/NYSE/FN/earnings/","priced":"Options imply a huge \u00b116.5% move. Shares are 58% below their high and down 47% since the last report, so a lot of bad news is already in the price.","priced_url":"https://unusualwhales.com/stock/FN/earnings","beat_record":"Beat EPS in 6 of the last 7 quarters (MarketBeat) \u2014 but it fell 19% after the last beat, so beating alone has not been enough.","upside":["Data-centre sales (51% of revenue, +68%) and demand above supply; new factory capacity from early 2027 (Trefis)."],"downside":["Fears that co-packaged optics will replace its pluggable modules; 12% gross margin at a multi-year low.","Four customers are over 57% of sales; weaker Nvidia orders caused the August fall (TradingKey, Yahoo)."],"previews":[{"name":"Trefis","url":"https://www.trefis.com/stock/fn/articles2/614727/how-far-can-fabrinet-stock-fall-while-its-business-accelerates/2026-09-09"},{"name":"TradingKey","url":"https://www.tradingkey.com/news/market-movers/262212285-market-movers-fn-20261012"}],"affects":[]},{"date":"2026-11-02","time":"after US close (date per Unusual Whales/MarketBeat; not confirmed by Grab)","event":"Grab Q3 2026 results","tickers":["GRAB"],"source":"Unusual Whales","url":"https://unusualwhales.com/stock/GRAB/earnings","expected":"EPS $0.02, revenue ~$1.05bn (MarketBeat). Full-year guide (raised in August): revenue $4.10\u20134.15bn, adjusted EBITDA $720\u2013740m.","expected_url":"https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings","priced":"Options imply \u00b18.5%. Shares are down 24% since the last report and below their 50- and 200-day averages.","priced_url":"https://unusualwhales.com/stock/GRAB/earnings","beat_record":"Mixed record: 2 beats, 2 misses, 2 in line over the last 6 quarters (MarketBeat). Zacks upgraded it to Strong Buy on 6 Oct.","upside":["Financial services turning profitable in the second half, deliveries growth speeding up, $750m buyback (Q2 call)."],"downside":["Lower take rates, a 2\u20133% currency headwind and Indonesian commission rules (Q2 call)."],"previews":[{"name":"Q2 call transcript","url":"https://www.investing.com/news/transcripts/earnings-call-transcript-grab-posts-record-q2-2026-profit-growth-shares-rise-93CH-4832657"}]},{"date":"2026-11-03","event":"US midterm elections","source":"Reuters","tickers":[],"time":"All day","url":"https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24","expected":"Prediction markets favour Democrats to win the House (~91%) and the Senate (~66%).","expected_url":"https://defirate.com/odds/2026-midterms/","priced":"Republican sweep priced at only 7.5\u20139.4%. Admirals says a Democratic result is largely priced, so the first move could be muted.","priced_url":"https://admiralmarkets.com/analytics/traders-blog/us-midterms-night-us500-us100-dollar-gold","beat_record":"The S&P 500 was higher 12 months after all 19 midterms since 1950 (Admirals).","upside":["A split Congress: 'gridlock is Goldilocks' for shares (BofA's Hartnett)."],"downside":["A Republican sweep is the 'unpriced' risk: higher long yields and dollar, lower gold (FXStreet).","A slow or disputed count would hit high-beta tech hardest (TradingKey)."],"previews":[{"name":"FXStreet","url":"https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"},{"name":"TradingKey (tech)","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/262202848-us-midterm-elections-stock-market-tech-stocks-ai-trade-scenarios-tradingkey"}],"affects":[{"ticker":"SGLN","why":"A Republican sweep would push yields and the dollar up and gold down; a slow count could lift gold as a haven (FXStreet, Admirals).","url":"https://www.fxstreet.com/analysis/what-would-a-republican-sweep-mean-for-gold-and-treasury-yields-202610231410"},{"ticker":"NVDA","why":"In a disputed result, high-beta tech would take the brunt; a Democratic House brings data-centre regulation risk (TradingKey).","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/262202848-us-midterm-elections-stock-market-tech-stocks-ai-trade-scenarios-tradingkey"},{"ticker":"VWRP","why":"US shares are ~62% of the fund; Hartnett's downside case is a US stock drop of 10% or more.","url":"https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"}]},{"date":"2026-11-05","event":"Bank of England rate decision + Monetary Policy Report","source":"Cambridge Currencies","tickers":[],"time":"12:00 UK","url":"https://cambridgecurrencies.com/next-bank-of-england-interest-rate-decision/","expected":"A rise from 3.75% to 4.00%: 54 of 63 economists in a Reuters poll expect it, after September inflation came in at 3.5% vs 3.4% forecast.","expected_url":"https://hoa.org.uk/news/interest-rate-predictions-2/","affects":[{"ticker":"VWRP","why":"A rate decision that moves the pound changes the sterling value of your dollar holdings and pie funds (Pound Sterling Live).","url":"https://www.poundsterlinglive.com/"}],"priced":"About 95\u201396% priced in SONIA futures, with ~48% odds of a second rise by December.","priced_url":"https://www.fxstreet.com/news/the-british-pound-goes-into-retail-sales-with-its-november-hike-already-priced-202610212153","beat_record":"Because November is fully priced, weaker UK data would hit December odds first (FXStreet).","upside":["A hike with hawkish guidance could take GBP/USD through 1.3408 towards 1.35 (Tradingnews)."],"downside":["A hold 'would be a sharp surprise', sending GBP/USD towards 1.32 (Tradingnews).","A tighter budget could ease pressure to hike, softening the pound (Admirals)."],"previews":[{"name":"FXStreet","url":"https://www.fxstreet.com/news/the-british-pound-goes-into-retail-sales-with-its-november-hike-already-priced-202610212153"},{"name":"Tradingnews","url":"https://www.tradingnews.com/news/gbpusd-133365-outperforms-the-euro-as-a-november-boe-hike-to-4-percent"}]},{"date":"2026-11-06","event":"US October jobs report","source":"FedRateCalc","tickers":[],"time":"8:30am ET (1:30pm UK)","url":"https://fedratecalc.com/us-economic-calendar/november-2026/","affects":[{"ticker":"SGLN","why":"Strong data raises the odds of the 9 Dec Fed hike markets already expect (Forbes); higher rate odds have weighed on gold this month (Trading Economics).","url":"https://tradingeconomics.com/commodity/gold"}],"expected":"No survey consensus yet. September added only 29k jobs vs 89k expected; unemployment 4.2%.","expected_url":"https://www.bls.gov/news.release/empsit.nr0.htm","priced":"Prediction markets (14 Oct) put the median at about +55k jobs, range -10k to +125k.","priced_url":"https://www.octagonai.co/markets/economics/jobs-economy/unemployment-in-october/","beat_record":"A miss of 100k+ typically moves the S&P 500 0.5\u20131.5% and the dollar about 0.5% in the first hour; unemployment, wages and revisions can reverse it (FinanceCalendar).","upside":["A weak number would lower the odds of the December Fed hike; falling December odds support gold and shares (Admirals)."],"downside":["A strong number would firm up the December hike that is already 84% priced (FedWatch via Yardeni)."],"previews":[{"name":"FinanceCalendar","url":"https://www.financecalendar.com/us-jobs-report/"}]},{"date":"2026-11-06","event":"Vistra Q3 2026 results","source":"Vistra press release (Finviz)","tickers":["VST"],"time":"Call 10am ET (3pm UK)","url":"https://finviz.com/news/396792/vistra-to-report-third-quarter-results-on-nov-6-2026","expected":"EPS ~$2.71\u20132.89, adjusted EBITDA ~$2.1bn (TIKR); 2026 EBITDA guidance $6.8\u20137.6bn reaffirmed. Revenue estimates vary widely ($6.7\u20137.8bn). Results before the US open, call 3pm UK.","expected_url":"https://www.tikr.com/blog/vistra-stock-fell-6-in-a-day-after-a-20-run-heres-what-its-november-6-report-needs-to-show","priced":"Options imply \u00b18\u201311%, about double its 10-year average (\u00b15.3%); the actual move beat the implied move in only 4 of 18 reports.","priced_url":"https://earnings-watcher.com/wiki/vst-implied-move","beat_record":"Zacks ESP +8.2%; average EPS surprise 23% over the last two quarters. EBITDA beat in 4 of 5 quarters, revenue missed in 4 of 5 (TIKR).","upside":["The DOE nuclear loan (up to $4.2bn) and a 2026/27 guidance update on the call (TIKR)."],"downside":["2027 revenue consensus cut ~4% since June; weaker Texas power forward prices; BMO cut its target to $210 (TIKR)."],"previews":[{"name":"TIKR","url":"https://www.tikr.com/blog/vistra-stock-fell-6-in-a-day-after-a-20-run-heres-what-its-november-6-report-needs-to-show"},{"name":"Zacks","url":"https://finance.yahoo.com/markets/stocks/articles/vistra-vst-keep-earnings-surprise-151003565.html"}],"affects":[]},{"date":"2026-11-10","event":"US October CPI","source":"FedRateCalc","tickers":[],"time":"8:30am ET (1:30pm UK)","url":"https://fedratecalc.com/us-economic-calendar/november-2026/","expected":"No survey consensus yet. Cleveland Fed nowcast: headline 3.75% y/y (+0.25% m/m), core 2.48% y/y. September was 3.7%.","expected_url":"https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting","affects":[{"ticker":"SGLN","why":"Hot inflation lifted rate-hike odds, which pushed gold to its lowest since July this week (Trading Economics).","url":"https://tradingeconomics.com/commodity/gold"}],"priced":"A December Fed hike is already 84% priced (FedWatch), so a hot print mainly confirms it; a soft print would be the surprise.","priced_url":"https://yardeniquicktakes.com/economic-week-ahead-october-26-30","beat_record":"Treasury yields usually rise on a hot print and fall on a soft one (TickerVelocity).","upside":["A soft print would pull yields down, which helps long-duration growth shares (TickerVelocity)."],"downside":["A hot print lifts yields; growth shares can suffer while financials outperform (TickerVelocity)."],"previews":[{"name":"TickerVelocity","url":"https://tickervelocity.com/2026/10/18/us-cpi-october-2026-report/"}]},{"date":"2026-11-17","event":"Nvidia Q3 FY27 earnings","source":"Wall Street Horizon","tickers":["NVDA"],"time":"After US close (~9pm UK)","url":"https://www.wallstreethorizon.com/nvidia-earnings-calendar","expected":"EPS $2.49, revenue $108.8bn (MarketBeat), just above Nvidia's own $108bn \u00b12% guide; gross margin guided 74%. Date not yet confirmed (17, 18 or 25 Nov listed).","expected_url":"https://www.marketbeat.com/earnings/reports/2026-11-18-nvidia-co-stock/","affects":[{"ticker":"FN","why":"Nvidia is about 16% of Fabrinet's sales (Fabrinet Q4 call).","url":"https://www.nasdaq.com/articles/fabrinet-q4-earnings-call-highlights"},{"ticker":"VWRP","why":"Nvidia is the All-World fund's largest holding at 5.0% (Vanguard).","url":"https://www.vanguard.co.uk/professional/product/etf/equity/9679/ftse-all-world-ucits-etf-usd-accumulating"}],"priced":"Options not yet listed for the event. Its 10-year average results move is \u00b18.4% (2-year \u00b15.7%); last quarter options implied \u00b15.9% and it closed +8.7%.","priced_url":"https://earnings-watcher.com/wiki/nvda-implied-move","beat_record":"Beat EPS in 7 of the last 8 quarters (MarketBeat).","upside":["Last quarter's guide was well above consensus, and the CFO pointed to ~70% growth in FY28 vs ~44% expected (XTB)."],"downside":["Three customers are 44% of revenue; purchase commitments up to $279bn; gross margin guided lower; no China data-centre sales assumed (XTB)."],"previews":[{"name":"XTB","url":"https://www.xtb.com/ae-en/market-analysis/news-and-research/nvidia-shares-react-to-solid-earnings-report-and-stonger-guidance-what-s-next-for-the-ai-giant"}]},{"date":"2026-11-24","time":"after US close (estimate; not yet confirmed)","event":"Autodesk Q3 FY27 results","tickers":["ADSK"],"source":"MarketBeat","url":"https://www.marketbeat.com/stocks/NASDAQ/ADSK/earnings/","expected":"Autodesk's own guide: revenue $2.125\u20132.140bn, non-GAAP EPS $3.04\u20133.09. Consensus ~$3.14 (Earnings Whispers).","expected_url":"https://www.sec.gov/Archives/edgar/data/0000769397/000076939726000059/q227pressrelease.htm","priced":"Options not yet listed. Last quarter implied \u00b19.4%; its 10-year average move is \u00b18.5% (2-year \u00b17.8%).","priced_url":"https://earnings-watcher.com/wiki/adsk-implied-move","beat_record":"Beat EPS in each of the last 4 quarters.","upside":["Subscription revenue grew 17% last quarter vs 14.5% expected; BofA calls second-half guidance conservative (Finviz)."],"downside":["Current bookings growth (cRPO) slowed to 12% from 18\u201320% and is expected to stay lower for several quarters; full-year guide midpoint was below consensus."],"previews":[{"name":"Finviz","url":"https://finviz.com/news/386537/autodesk-shares-fall-as-fiscal-2027-earnings-guidance-trails-expectations-despite-q2-beat"}]}],"compiled_at":"05:25 UK, Sun 25 Oct","date":"2026-10-25","gbpusd":1.3366,"prices":[{"as_of":"23 Oct close","change_pct":-1.08,"price":"$252.20","ticker":"ADSK"},{"as_of":"23 Oct close","change_pct":-0.86,"price":"$314.94","ticker":"FN"},{"as_of":"23 Oct close (mid, AJ Bell, delayed)","change_pct":-0.05,"price":"4,248p","ticker":"FGRD"},{"as_of":"23 Oct close","change_pct":-0.48,"price":"$140.16","ticker":"VST"},{"as_of":"23 Oct close","change_pct":-1.24,"price":"$320.21","ticker":"GOOGL"},{"as_of":"23 Oct close","change_pct":-0.96,"price":"$642.62","ticker":"META"},{"as_of":"23 Oct close","change_pct":-0.59,"price":"$210.96","ticker":"NVDA"},{"as_of":"23 Oct close (mid, AJ Bell, delayed)","change_pct":-0.08,"price":"14,165p","ticker":"VWRP"},{"as_of":"23 Oct close (mid, AJ Bell, delayed)","change_pct":1.07,"price":"3,596p","ticker":"ISPY"},{"as_of":"23 Oct close (mid, AJ Bell, delayed)","change_pct":-1.45,"price":"5,795p","ticker":"SGLN"}],"stories":[{"category":"Earnings","headline":"Meta beats on revenue but negative free cash flow and higher capex hit shares","id":"s1","impacts":[{"direction":"down","source_refs":[3,2],"ticker":"META","why":"Yahoo Finance says Meta dropped roughly 7% Thursday after results before paring losses Friday; Fortune says settlements and AI spending squeezed profit and free cash flow."},{"direction":"down","source_refs":[4],"ticker":"VST","why":"TIKR reports AI-linked stocks including Vistra sold off the day after Meta's results on concerns over the rising cost of data-centre expansion."}],"kind":"company","published":"21 Oct 2026","section":"holding","sources":[{"date":"21 Oct 2026","publisher":"Meta press release (via StockTitan)","title":"Meta Reports Third Quarter 2026 Results","url":"https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html"},{"date":"21 Oct 2026","publisher":"Fortune","title":"Meta's revenue surges 26% to $64.6 billion, but billions in settlements and skyrocketing AI spending turn screws on profit, free cash flow","url":"https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/"},{"date":"23 Oct 2026","publisher":"Yahoo Finance","title":"Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise","url":"https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"},{"date":"24 Oct 2026","publisher":"TIKR","title":"Vistra Stock Fell Nearly 10% in a Day After Meta's Earnings","url":"https://www.tikr.com/blog/vistra-stock-fell-nearly-10-in-a-day-after-metas-earnings-heres-why-its-forecast-already-discounts-the-data-center-hype"}],"summary":"Meta's Q3 revenue rose 26% to $64.6bn and it guided Q4 to $73-76bn, but a $9.9bn legal charge cut EPS to $3.83 and free cash flow was about -$2.1bn. It raised the low end of 2026 capex to $135-145bn and announced a Class C share dividend expected to work like a 2-for-1 split from January.","tickers":["META","VST"],"meaning":"Meta's ad business is still growing fast (sales +26%), but it is spending so heavily on AI data centres that it now burns more cash than it makes, and it raised its spending plans again. Yahoo Finance says investors sold the shares about 7% on that. For you this matters twice: Meta's spending is revenue for your AI-supplier holdings, and TIKR says the same worries dragged Vistra and other AI-linked shares down the next day.","priced_in":{"status":"surprise","note":"Revenue beat forecasts ($64.6bn vs ~$63.3bn), but the size of the 2026 capex plan and the negative free cash flow were not expected; shares fell ~7% (Yahoo Finance)."}},{"category":"Analysts","headline":"Rosenblatt lifts Meta target to $900, keeps Buy","id":"s2","impacts":[{"direction":"up","source_refs":[1],"ticker":"META","why":"Investing.com reports Rosenblatt sees AI-driven ad performance supporting its positive view."}],"kind":"company","published":"23 Oct 2026","section":"holding","sources":[{"date":"23 Oct 2026","publisher":"Investing.com","title":"Rosenblatt raises Meta stock price target to $900 on AI ad growth","url":"https://www.investing.com/news/analyst-ratings/rosenblatt-raises-meta-stock-price-target-to-900-on-ai-ad-growth-93CH-4968487"}],"summary":"Rosenblatt raised its Meta price target to $900 from $886, citing Q3 revenue growth near Q2's pace and Q4 guidance implying about 27% growth. It credited AI improvements for better engagement and ad returns.","tickers":["META"],"meaning":"One analyst firm, Rosenblatt, looked at the results and became slightly more positive, lifting its 12-month price target to $900 (about 40% above today's price). Investing.com says it credits AI tools for making Meta's ads work better. Analyst targets are opinions, but a run of raised targets shows the professionals still back the business despite the spending worries.","priced_in":{"status":"expected","note":"Several brokers raised targets after results; a small $14 increase from $886 suggests Rosenblatt's view was already positive."}},{"category":"Analysts","headline":"Vistra sinks ~10% in AI sell-off; HSBC starts coverage at Buy","id":"s3","impacts":[{"direction":"down","source_refs":[1],"ticker":"VST","why":"TIKR links the drop to a broad AI sell-off on data-centre cost concerns after Meta's report."},{"direction":"up","source_refs":[2],"ticker":"VST","why":"MarketBeat (via Daily Political) says HSBC's $190 target implied about 22% upside at the time."}],"kind":"company","published":"24 Oct 2026","section":"holding","sources":[{"date":"24 Oct 2026","publisher":"TIKR","title":"Vistra Stock Fell Nearly 10% in a Day After Meta's Earnings","url":"https://www.tikr.com/blog/vistra-stock-fell-nearly-10-in-a-day-after-metas-earnings-heres-why-its-forecast-already-discounts-the-data-center-hype"},{"date":"22 Oct 2026","publisher":"Daily Political (MarketBeat)","title":"Vistra (NYSE:VST) Now Covered by HSBC","url":"https://www.dailypolitical.com/2026/10/22/vistra-nysevst-now-covered-by-hsbc.html"}],"summary":"Vistra fell 9.81% to $140.83 on 22 Oct as AI-linked stocks slid after Meta's results, then edged lower Friday. The same day HSBC initiated coverage with a Buy rating and a $190 target.","tickers":["VST"],"meaning":"Vistra sells electricity, and part of its story is supplying power to AI data centres. When Meta's results revived fears about AI spending, TIKR says investors sold anything tied to the AI build-out, and Vistra fell almost 10% in a day with no bad news of its own. On the same day HSBC started covering it with a Buy rating and a $190 target, so analysts did not change their view of the company itself.","priced_in":{"status":"surprise","note":"No Vistra-specific news: the fall came from the market-wide AI sell-off after Meta (TIKR)."}},{"category":"Analysts","headline":"Fabrinet slide deepens as Susquehanna and B. Riley cut targets","id":"s4","impacts":[{"direction":"down","source_refs":[1,2],"ticker":"FN","why":"Trefis says the slide is largely Fabrinet-specific rather than market-driven, without naming a single cause; MarketBeat reports the target cuts but gives no reason."}],"kind":"company","published":"21 Oct 2026","section":"holding","sources":[{"date":"21 Oct 2026","publisher":"Trefis","title":"A 9-Day Losing Streak Has Fabrinet Stock Down 29%","url":"https://www.trefis.com/stock/fn/articles/619603/a-9-day-losing-streak-has-fabrinet-stock-down-29/2026-10-21"},{"date":"21 Oct 2026","publisher":"MarketBeat","title":"Fabrinet (NYSE:FN) Stock Price Target Lowered at Susquehanna","url":"https://www.marketbeat.com/instant-alerts/analyst-fabrinet-nyse-fn-stock-price-target-lowered-at-susquehanna-2026-10-21/"},{"date":"19 Oct 2026","publisher":"Fabrinet press release (via StockTitan)","title":"Fabrinet to Announce First Quarter Fiscal Year 2027 Financial Results on November 2, 2026","url":"https://www.stocktitan.net/news/FN/fabrinet-to-announce-first-quarter-fiscal-year-2027-financial-ky68oflej8g8.html"}],"summary":"Fabrinet fell for nine straight sessions to 20 Oct, losing about 29%, and closed Friday at $314.94. Susquehanna cut its target to $600 from $850 while staying positive, after B. Riley moved to Neutral with a $431 target; Q1 FY27 results are due 2 Nov.","tickers":["FN"],"meaning":"Fabrinet has fallen nine days in a row and lost about 29% this month, and two analysts cut their targets (Susquehanna to $600, still positive; B. Riley to $431, neutral). Trefis says the fall is mostly about Fabrinet itself rather than the whole market, but no single cause is named. Its results on 2 Nov will show whether sales to Nvidia and data centres are holding up.","priced_in":{"status":"unclear","note":"The cuts followed the fall rather than causing it; options price a \u00b116.5% move for the 2 Nov results (Unusual Whales)."}},{"category":"Earnings","headline":"Alphabet reports Wednesday with capex and Cloud in focus after tech-led drop","id":"s5","impacts":[{"direction":"watch","source_refs":[1,3],"ticker":"GOOGL","why":"Heygotrade says worries about AI spending and cost of capital hit hyperscaler shares; Reuters says investors will watch capex plans from Alphabet, Microsoft and Amazon."}],"kind":"company","published":"24 Oct 2026","section":"holding","sources":[{"date":"23 Oct 2026","publisher":"Heygotrade","title":"Google Stock News (Oct 23, 2026): GOOGL Falls 3.1% to $324.22","url":"https://www.heygotrade.com/en/news/google-googl-stock-news-october-23-2026/"},{"date":"24 Oct 2026","publisher":"TradingKey","title":"Alphabet Stock Forecast: GOOGL Breaks Triangle Support as Capex and Cloud Face the October 28 Test","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/262235520-alphabet-stock-forecast-q3-earnings-preview-cloud-capex-315-support-october-24-2026-tradingkey"},{"date":"23 Oct 2026","publisher":"Reuters (via MarketScreener)","title":"Dow, S&P 500 fall, tech steadies to end rocky week","url":"https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24"}],"summary":"Alphabet fell 3.15% on 22 Oct in the broad tech sell-off with no company-specific news, and slipped again Friday. It reports Q3 after the close on 28 Oct; consensus is about $127.5bn revenue, and 2026 capex guidance stands at $195-205bn. Reuters says Big Tech capex plans will be closely watched.","tickers":["GOOGL"],"meaning":"Alphabet dropped with the rest of big tech on Thursday, not because of its own news. On Wednesday it reports results, and Reuters says investors will focus on how much it plans to spend on AI. Its share price will depend less on profits than on whether Cloud growth justifies that spending.","priced_in":{"status":"expected","note":"The fall was market-wide; for results, options price a \u00b16.2% move, close to its usual size (EarningsWatcher)."}},{"category":"Legal","headline":"Law firms flag securities class action over Gemini 3.5 Pro timing","id":"s6","impacts":[{"direction":"watch","source_refs":[1],"ticker":"GOOGL","why":"The law-firm notice says Class A shares fell 4.4% on the July report; no new price impact is reported."}],"kind":"company","published":"23 Oct 2026","section":"holding","sources":[{"date":"23 Oct 2026","publisher":"GlobeNewswire (Bleichmar Fonti & Auld)","title":"GOOG, GOOGL Deadline News: Alphabet Investors are Notified of the Imminent December 1 Securities Fraud Class Action","url":"https://globenewswire.com/news-release/2026/10/23/3387130/0/en/goog-googl-deadline-news-alphabet-investors-are-notified-of-the-imminent-december-1-securities-fraud-class-action-contact-bfa-law-if-you-lost-money.html"}],"summary":"A shareholder suit in the Northern District of California alleges Alphabet misrepresented progress on Gemini 3.5 Pro, after a July Bloomberg report said it was months behind schedule. The lead-plaintiff deadline is 1 Dec; these are allegations, not court findings.","tickers":["GOOGL"],"meaning":"Law firms are trying to sign up shareholders for a lawsuit claiming Alphabet hid delays to its Gemini 3.5 Pro AI model. These are only allegations, and law-firm adverts like this are common after a share-price drop. The notice itself says the shares fell 4.4% on the July report; no new effect on the price is reported.","priced_in":{"status":"expected","note":"The underlying news (Gemini delay) came out in July and was already reflected in the price then."}},{"category":"Markets","explainer":{"meaning":"a poll of the resellers and partners who sell a company's products; analysts use it as an early read on demand before official results","term":"Channel survey"},"headline":"Cybersecurity stocks rally on upbeat Evercore channel survey","id":"s7","impacts":[{"direction":"up","source_refs":[3,1],"ticker":"ISPY","why":"Yahoo Finance says cybersecurity stocks rose more than 7% Friday; 24/7 Wall St reports the Evercore survey flagged strengthening demand with no near-term drop seen."}],"kind":"macro","published":"23 Oct 2026","section":"theme","sources":[{"date":"23 Oct 2026","publisher":"24/7 Wall St. (via Yahoo Finance)","title":"Cybersecurity Stocks Rise as Evercore Survey Flags Strengthening Demand: Okta, CrowdStrike and Palo Alto Climb 4%","url":"https://finance.yahoo.com/markets/stocks/articles/cybersecurity-stocks-rise-evercore-survey-145329882.html"},{"date":"23 Oct 2026","publisher":"TIKR (via Yahoo Finance)","title":"SailPoint Soars 11%, Palo Alto Up 6%, CrowdStrike Up 6% as Cybersecurity Stocks Rally","url":"https://finance.yahoo.com/markets/stocks/articles/sailpoint-soars-11-palo-alto-170741321.html"},{"date":"23 Oct 2026","publisher":"Yahoo Finance","title":"Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise","url":"https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"}],"summary":"Evercore ISI's partner survey pointed to strengthening security budgets focused on data, AI, identity and cloud protection. Palo Alto and CrowdStrike rose about 6% and SailPoint about 11%, extending gains that began after critical PHP flaws were disclosed midweek.","theme":"Cyber security","tickers":["ISPY"],"meaning":"Cyber-security shares jumped after a survey of companies that sell security software (Evercore ISI) found customers are increasing their security budgets, especially for AI and cloud protection. That is good news for your cyber ETF, whose biggest holdings include Palo Alto and CrowdStrike. Yahoo Finance says the sector rose over 7% on Friday.","priced_in":{"status":"surprise","note":"The survey was better than feared; sources say it signalled no drop in demand ahead (24/7 Wall St)."}},{"category":"Energy","explainer":{"meaning":"one of the giant cloud companies (Amazon, Microsoft, Google, Meta) that build huge data centres; their spending plans drive demand for chips, power and grid equipment","term":"Hyperscaler"},"headline":"Power-equipment stocks slump as Meta's spending plans stoke AI-financing worries","id":"s8","image_url":"https://247wallst.com/wp-content/uploads/2024/05/shutterstock_2239822283-scaled.jpg","impacts":[{"direction":"down","source_refs":[1],"ticker":"FGRD","why":"24/7 Wall St says the First Trust Nasdaq Clean Edge Smart Grid ETF (GRID, the US twin of FGRD) fell 4% that afternoon."},{"direction":"watch","source_refs":[1],"ticker":"VST","why":"Not named in this report; separately TIKR tied Vistra's ~10% fall the same day to the post-Meta AI sell-off (see Vistra story)."}],"kind":"macro","published":"22 Oct 2026","section":"theme","sources":[{"date":"22 Oct 2026","publisher":"24/7 Wall St.","title":"GE Vernova Slumps 11% as Meta's Spending Outlook Stokes AI Financing Worries; Vertiv Holdings Drops 7%, Eaton Slides 6%","url":"https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"}],"summary":"GE Vernova fell about 11%, Vertiv 7% and Eaton 6% on 22 Oct after Meta raised its AI spending outlook and posted negative free cash flow. 24/7 Wall St says the open question is whether financing strain slows hyperscaler orders for power equipment; GE Vernova reports Q3 next.","theme":"Grid & energy","tickers":["FGRD","VST"],"meaning":"Companies that make power equipment for data centres (GE Vernova, Vertiv, Eaton) fell sharply because Meta's spending plans raised a question: can the big tech firms keep paying for all these data centres? 24/7 Wall St says FGRD's US twin fell 4% that afternoon. Your grid ETF holds Eaton and similar firms, so it moves with this worry.","priced_in":{"status":"surprise","note":"Orders are still strong; the fall reflects worry about future financing rather than a drop in demand (24/7 Wall St)."}},{"category":"Energy","explainer":{"meaning":"a plant that heats mined ore to extract the pure metal; without enough smelting capacity, mined copper cannot become wire and grid parts","term":"Smelter"},"headline":"Grupo M\u00e9xico plans up to $6bn to expand US copper mining and restart a smelter","id":"s9","image_url":"https://247wallst.com/wp-content/uploads/2026/10/this-6-billion-investment-could-open-a-relief-valv-featured-1792847971851.webp","impacts":[{"direction":"watch","source_refs":[1],"ticker":"FGRD","why":"24/7 Wall St links more US copper supply to grid-equipment makers including Eaton; it does not discuss the ETF directly."}],"kind":"macro","published":"24 Oct 2026","section":"theme","sources":[{"date":"24 Oct 2026","publisher":"24/7 Wall St.","title":"This $6 Billion Investment Could Open a Relief Valve for America's AI and Power-Grid Boom","url":"https://247wallst.com/investing/2026/10/24/this-6-billion-investment-could-open-a-relief-valve-for-americas-ai-and-power-grid-boom/"}],"summary":"Grupo M\u00e9xico's US unit Asarco told analysts on 22 Oct it plans $4-6bn over three years to expand two Arizona copper mines and restart the Hayden smelter. 24/7 Wall St frames it as a possible relief for copper supply to transformer, switchgear and transmission makers such as Eaton and Hubbell, though the projects still need studies, permits and financing.","theme":"Grid & energy","tickers":["FGRD"],"meaning":"A big mining company plans to spend up to $6bn producing more copper in the US. Copper is a key material for transformers and power cables, so 24/7 Wall St says more supply could ease costs for grid-equipment makers like Eaton and Hubbell, which your grid ETF holds. The projects are years away, so this is a slow-burn story.","priced_in":{"status":"unclear","note":"Early-stage plan; no share-price reaction reported."}},{"category":"Markets","explainer":{"meaning":"an asset like gold or government bonds that investors buy when worried; it can still fall when rates or the dollar rise","term":"Safe haven"},"headline":"Oil hits six-month high on Middle East attacks; gold slips to three-month low","id":"s10","impacts":[{"direction":"down","source_refs":[1,2],"ticker":"SGLN","why":"Yahoo Finance reports gold fell 1.29% to $4,007.90 Friday and opened at a three-month low as oil prices rose; it does not give a specific cause."}],"kind":"macro","published":"23 Oct 2026","section":"theme","sources":[{"date":"23 Oct 2026","publisher":"Yahoo Finance","title":"Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise","url":"https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"},{"date":"23 Oct 2026","publisher":"Yahoo Finance","title":"Gold price today, Friday, October 23, 2026: Gold opens at 3-month lows as oil prices keep rising","url":"https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-october-23-2026-gold-opens-at-3-month-lows-as-oil-prices-keep-rising-111248003.html"},{"date":"23 Oct 2026","publisher":"Reuters (via MarketScreener)","title":"Dow, S&P 500 fall, tech steadies to end rocky week","url":"https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24"}],"summary":"Brent settled at $116.72 on Friday, a six-month high, after Houthi attacks on Saudi oil infrastructure raised supply fears. Gold futures opened at their lowest since 29 July and closed down 1.3% at about $4,008.","theme":"Gold","tickers":["SGLN"],"meaning":"Oil jumped to a six-month high after attacks on Saudi oil sites, and gold fell to its lowest since July. Higher oil can push inflation up, which makes interest-rate rises more likely, and gold tends to struggle when rates rise because it pays no interest. Your gold ETF (SGLN) follows the gold price.","priced_in":{"status":"surprise","note":"The oil spike came from new attacks; Yahoo Finance gives no single cause for gold's fall, but other sources this week tie it to rising rate-hike odds (Trading Economics)."}},{"category":"AI capex","explainer":{"meaning":"a newer, specialist cloud firm (like CoreWeave) that rents out Nvidia-powered AI computing, often funded with heavy borrowing","term":"Neocloud"},"headline":"AI-financing jitters: neocloud credit stress spreads, Huang flags capital scarcity","id":"s11","impacts":[{"direction":"watch","source_refs":[1],"ticker":"NVDA","why":"Yahoo Finance (CryptoProwl) reports Nvidia traded flat near $211.60 Friday while Huang said a 'scarcity of capital' is hampering neocloud buildouts."},{"direction":"down","source_refs":[2],"ticker":"NVDA","why":"Stocktwits via Yahoo Finance says the AI-linked chip basket fell and the Nasdaq 100 had its worst two-week drop since April 2025 as credit concerns grew."}],"kind":"macro","published":"23 Oct 2026","section":"theme","sources":[{"date":"23 Oct 2026","publisher":"Yahoo Finance (CryptoProwl)","title":"CoreWeave Heads for Third Weekly Loss, Weighing on Stocks and Bitcoin Over AI Financing Fears","url":"https://finance.yahoo.com/markets/crypto/articles/coreweave-heads-third-weekly-loss-194400826.html"},{"date":"24 Oct 2026","publisher":"Yahoo Finance (Stocktwits)","title":"Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week","url":"https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-010033087.html"},{"date":"22 Oct 2026","publisher":"Briefs Finance (citing CNBC)","title":"Nvidia's Jensen Huang: Neocloud demand is \"off the charts,\" but cash and power are the choke points","url":"https://www.briefs.co/news/nvidia-s-jensen-huang-neocloud-demand-is-off-the-charts-but/"}],"summary":"CoreWeave headed for a third weekly loss, down roughly 37% in October, as credit spreads and default-swap prices widened for neocloud providers. Nvidia CEO Jensen Huang said neocloud demand is 'off the charts' but working capital is the constraint, and Gartner warned of possible large AI data-centre write-downs by 2032.","theme":"AI & chips","tickers":["NVDA"],"meaning":"Some smaller AI cloud companies (called neoclouds, such as CoreWeave) borrowed heavily to buy Nvidia chips, and lenders are getting nervous. Nvidia's boss said demand is huge but these customers are short of money. That matters for your Nvidia holding: Yahoo Finance says chip shares fell as credit worries grew.","priced_in":{"status":"surprise","note":"Credit spreads for neoclouds widened during October; the AI chip basket fell and the Nasdaq 100 had its worst two weeks since April 2025 (Stocktwits via Yahoo)."}},{"category":"Markets","explainer":{"meaning":"when an index ends Friday lower than the previous Friday's close; two in a row signals fading momentum","term":"Weekly loss"},"headline":"US stocks end a rocky week lower as tech steadies after AI sell-off","id":"s12","impacts":[{"direction":"watch","source_refs":[1,2],"ticker":"NVDA","why":"Reuters says the Philadelphia chip index rose 0.6% Friday after Thursday's steep fall; Yahoo Finance says Nvidia closed mixed and briefly lost the top market-value spot to Apple."},{"direction":"watch","source_refs":[1],"ticker":"VWRP","why":"No direct link reported; the S&P 500 fell 0.43% Friday and was on track for a weekly loss per Reuters."}],"kind":"macro","published":"23 Oct 2026","section":"theme","sources":[{"date":"23 Oct 2026","publisher":"Reuters (via MarketScreener)","title":"Dow, S&P 500 fall, tech steadies to end rocky week","url":"https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24"},{"date":"23 Oct 2026","publisher":"Yahoo Finance","title":"Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise","url":"https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"}],"summary":"The Dow fell 1.2% and the S&P 500 0.4% on Friday, while the Nasdaq was nearly flat after Thursday's steepest drop since June on worries about financing heavy AI spending. The S&P 500 and Nasdaq posted a second straight weekly loss; energy hit a record high as oil climbed.","theme":"Global markets","tickers":["NVDA","VWRP"],"meaning":"US shares had a second losing week, mainly because of worries over how AI spending will be financed. Reuters says chip shares steadied on Friday after Thursday's sharp drop. Your All-World fund is about 62% US shares, so US market moves drive most of its value.","priced_in":{"status":"unclear","note":"Friday's moves were small after Thursday's sell-off; no single surprise."}},{"category":"Markets","explainer":{"meaning":"a survey score of how upbeat households feel about their finances and the economy; a falling score often signals weaker spending ahead","term":"Consumer confidence"},"headline":"FTSE 100 dips 0.3% Friday and loses 1.8% on the week as oil climbs and UK shoppers pull back","id":"s13","image_url":"https://mdb.ad-hoc-news.de/bild/bild-2404988_1920_1080.webp","impacts":[{"direction":"watch","source_refs":[1],"ticker":"VWRP","why":"No direct link reported; ad-hoc-news says the FTSE 100 fell 1.8% for the week, while Reuters had the S&P 500 down 0.43% Friday."}],"kind":"macro","published":"23 Oct 2026","section":"theme","sources":[{"date":"23 Oct 2026","publisher":"ad-hoc-news.de","title":"FTSE 100 closes lower as oil surges, down 35 points","url":"https://www.ad-hoc-news.de/boerse/news/marktberichte/ftse-100-closes-lower-as-oil-surges-down-35-points/70401077"}],"summary":"The FTSE 100 closed at 10,690 on 23 Oct, down 35 points, as oil majors BP and Shell rose but Rolls-Royce fell 7.6% on a Safran warning. UK retail sales volumes fell 0.4% in September and consumer confidence dropped 11 points to -24 ahead of Wednesday's Budget.","theme":"Global markets","tickers":["VWRP"],"meaning":"The UK's main share index fell 1.8% over the week as shoppers spent less and confidence dropped ahead of Wednesday's Budget. UK shares are only about 3% of your All-World fund, so this matters less for you than US markets.","priced_in":{"status":"surprise","note":"Retail sales fell 0.4% in September; consumer confidence dropped 11 points to -24 (ad-hoc-news)."}},{"category":"Rates","explainer":{"meaning":"when a central bank raises its main interest rate to cool inflation; it makes borrowing dearer and often weighs on growth shares","term":"Rate hike"},"headline":"Fed expected to hold on Wednesday; ING sees a December hike","id":"s14","impacts":[{"direction":"watch","source_refs":[3],"ticker":"NVDA","why":"Yahoo Finance reported after hot September CPI that investors feared another Fed hike would raise the cost of capital and could disrupt the AI trade; Nvidia led chips lower that day."}],"kind":"macro","published":"23 Oct 2026","section":"macro","sources":[{"date":"23 Oct 2026","publisher":"ING (via Investing.com)","title":"Federal Reserve Preview: A Pause Before a December Hike","url":"https://uk.investing.com/analysis/federal-reserve-preview-a-pause-before-a-december-hike-200628994"},{"date":"23 Oct 2026","publisher":"Yahoo Finance","title":"Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise","url":"https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"},{"date":"15 Oct 2026","publisher":"Yahoo Finance","title":"Nvidia stock sinks as chip sell-off deepens on hot inflation data","url":"https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html"}],"summary":"Markets and economists expect the Fed under Chair Kevin Warsh to hold rates on 28 Oct, with possible dissents in favour of a hike. ING forecasts a 25bp rise in December; Yahoo Finance says bets on an October hike fell to about 5% from 37% at end-September.","tickers":["NVDA"],"meaning":"The US central bank is expected to keep interest rates unchanged on Wednesday, so that is already in prices. The bigger question is December, when ING expects a rise. Yahoo Finance says investors fear more rate rises would make borrowing for AI more expensive, which has weighed on Nvidia and other chip shares.","priced_in":{"status":"expected","note":"A hold is about 90% priced (CME FedWatch); October hike bets fell to ~5% from 37% at end-September (Yahoo Finance)."}},{"category":"Rates","explainer":{"meaning":"the interest rate investors earn for lending to a government; when it rises, borrowing gets dearer and growth shares usually fall","term":"Bond yield"},"headline":"10-year Treasury yield slips back to 5% on safe-haven buying; pound near $1.34","id":"s15","image_url":"https://editorial.fxsstatic.com/images/i/Discover-f-34_Medium.jpg","impacts":[{"direction":"watch","source_refs":[2],"ticker":"VWRP","why":"FXStreet puts GBP/USD at about 1.3366 Friday; VWRP is priced in pounds, so currency moves change the sterling value of its overseas holdings."}],"kind":"macro","published":"24 Oct 2026","section":"macro","sources":[{"date":"24 Oct 2026","publisher":"Yahoo Finance (Stocktwits)","title":"Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week","url":"https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-010033087.html"},{"date":"23 Oct 2026","publisher":"FXStreet","title":"British Pound falters near 1.3400 as US business strength lifts Dollar","url":"https://www.fxstreet.com/news/british-pound-falters-near-13400-as-us-business-strength-lifts-dollar-202610231627"}],"summary":"The US 10-year yield ended the week around 5.00%, down 8bp, as investors moved into bonds during the AI sell-off; the dollar index was little changed at about 101.75. GBP/USD eased to roughly 1.337 on Friday after weak UK retail sales and firm US PMI data.","tickers":["VWRP"],"meaning":"Investors bought US government bonds during the AI sell-off, pushing the 10-year yield (the interest rate on 10-year US government debt) back to about 5%. The pound is around $1.34. Your pie funds are priced in pounds but hold mostly dollar assets, so if the pound weakens, they are worth more in pounds, and vice versa (FXStreet).","priced_in":{"status":"unclear","note":"Safe-haven buying during the sell-off; no scheduled surprise."}},{"category":"Policy","explainer":{"meaning":"the Bank of England's main interest rate, which sets the cost of mortgages and loans across the UK","term":"Bank Rate"},"headline":"UK Budget on Wednesday; BoE decision 5 Nov with a hike seen as live","id":"s16","impacts":[],"kind":"macro","published":"22 Oct 2026","section":"macro","sources":[{"date":"22 Oct 2026","publisher":"House of Commons Library","title":"Autumn Budget 2026: Background briefing","url":"https://commonslibrary.parliament.uk/research-briefings/cbp-12245/"},{"date":"18 Sep 2026","publisher":"Cambridge Currencies","title":"Bank of England Base Rate: Held at 3.75%, Next 5 November","url":"https://cambridgecurrencies.com/next-bank-of-england-interest-rate-decision/"}],"summary":"Chancellor John Healey delivers the Autumn Budget on 28 Oct alongside new OBR forecasts, with higher inflation and rates likely to lift debt-interest costs. Bank Rate is 3.75% after a 6-3 hold in September, and a rise to 4% on 5 Nov is described as a live possibility.","tickers":[],"meaning":"Two big UK events are coming: the Budget on Wednesday and a Bank of England rate decision on 5 Nov, where a rise to 4% is now widely expected. These mainly move the pound and UK interest rates. For you, the pound matters because your pie funds hold mostly overseas assets.","priced_in":{"status":"expected","note":"A BoE rise is about 95% priced in SONIA futures (FXStreet); the Budget is seen as a gilt and pound risk (IndexBox)."}}],"topline":["Meta fell about 7% after Q3: revenue rose 26% to $64.6bn but free cash flow turned negative and 2026 capex rose to $135-145bn; Rosenblatt still lifted its target to $900.","Vistra dropped ~10% on 22 Oct in the post-Meta AI sell-off as power-equipment names GE Vernova and Eaton also slumped; HSBC started Vistra at Buy with a $190 target.","Fabrinet's slide deepened as Susquehanna cut its target to $600 from $850; results are due 2 Nov.","Cybersecurity stocks rallied Friday on an upbeat Evercore survey (ISPY +3.7%), while gold slipped to a three-month low near $4,008 (SGLN -1.5%).","Big Wednesday ahead: UK Budget, the Fed decision (hold expected) and Alphabet's Q3 results all land on 28 Oct."]}
+{
+ "calendar": [
+  {
+   "date": "2026-10-28",
+   "event": "UK Autumn Budget + OBR forecasts",
+   "source": "House of Commons Library",
+   "tickers": [],
+   "time": "Time TBC",
+   "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-12245/",
+   "affects": [
+    {
+     "ticker": "VWRP",
+     "why": "Your pie funds are priced in pounds; a budget that moves the pound changes the sterling value of their mostly US holdings. A weaker pound has added to sterling returns this year (Pound Sterling Live).",
+     "url": "https://www.poundsterlinglive.com/"
+    },
+    {
+     "ticker": "SGLN",
+     "why": "Gold is priced in dollars, so a pound move changes what SGLN is worth in pounds.",
+     "url": "https://www.poundsterlinglive.com/"
+    }
+   ],
+   "expected": "Headline income tax, VAT and NI rates pledged unchanged; reported measures include a higher bank surcharge and a cut to the mansion-tax threshold. Economists put the fiscal headroom at about \u00a310\u201312bn (Reuters poll median), down from \u00a324bn in March.",
+   "expected_url": "https://www.vantagemarkets.com/en/market-analysis/autumn-budget-2026-gilts-pound-ftse-100-explained/",
+   "priced": "10-year gilt yield 5.40% (21 Oct), just off its highest since 2007; GBP/USD about 1.337. FX options suggest traders don't see the budget as a big risk event, though BofA warns against complacency.",
+   "priced_url": "https://www.indexbox.io/blog/uk-budget-2026-john-healeys-first-budget-gilt-yields-and-sterling-risk/",
+   "beat_record": "Some fund managers (M&G, Ninety One, HSBC) are buying gilts betting on a 'play-it-safe' budget (Bloomberg).",
+   "upside": [
+    "Headroom of \u00a315bn+ could pull the 10-year yield down up to 20bp and lift GBP/USD towards 1.34 (Admirals, UBS)."
+   ],
+   "downside": [
+    "Headroom under \u00a310bn or uncosted spending could push the 30-year towards 6% and GBP/USD to 1.31\u20131.30 (Admirals).",
+    "ING lists a defence 'spending splurge' and bigger borrowing (~\u00a3325bn) as possible shocks."
+   ],
+   "previews": [
+    {
+     "name": "Bloomberg",
+     "url": "https://ca.finance.yahoo.com/news/uk-debt-buy-traders-betting-061000139.html"
+    },
+    {
+     "name": "Admirals",
+     "url": "https://admiralmarkets.com/analytics/traders-blog/uk-budget-gbp-usd-eur-gbp-ftse-100-scenarios"
+    },
+    {
+     "name": "ING via FXStreet",
+     "url": "https://www.fxstreet.com/analysis/five-ways-the-uks-autumn-budget-could-shock-us-202610160805"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Fed rate decision (FOMC), Warsh press conference",
+   "source": "TradingKey",
+   "tickers": [],
+   "time": "2pm ET (6pm UK)",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262235520-alphabet-stock-forecast-q3-earnings-preview-cloud-capex-315-support-october-24-2026-tradingkey",
+   "expected": "Hold at 3.75\u20134.00% after September's hike. No new projections until 9 Dec; the watch point is how many members dissent in favour of a hike.",
+   "expected_url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/",
+   "affects": [
+    {
+     "ticker": "SGLN",
+     "why": "Gold pays no interest, so rate-rise odds weigh on it; it fell this week as hike odds rose (Trading Economics).",
+     "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+     "ticker": "NVDA",
+     "why": "Benzinga ties this month's AI-stock sell-off partly to rising interest rates.",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"
+    },
+    {
+     "ticker": "FGRD",
+     "why": "Grid-equipment shares sold off on the same rate and AI-bubble worries (Benzinga).",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"
+    }
+   ],
+   "priced": "CME FedWatch: about 90% hold now (only ~9% hike), but 84% odds of a hike on 9 Dec. October hike odds were 42% as recently as 14 Oct, so a hold is now fully priced.",
+   "priced_url": "https://yardeniquicktakes.com/economic-week-ahead-october-26-30",
+   "beat_record": "A hawkish hold is the base case and is expected to move markets little (Admirals).",
+   "upside": [
+    "A dovish hold that lowers December hike odds would support gold and shares (Admirals); gold's bull case is $4,150 (FinanceFeeds)."
+   ],
+   "downside": [
+    "A surprise hike would likely mean higher yields and dollar, lower gold, and falling shares including tech (Admirals).",
+    "A clear December signal: gold's bear case $3,890 (FinanceFeeds)."
+   ],
+   "previews": [
+    {
+     "name": "Forbes",
+     "url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/"
+    },
+    {
+     "name": "Admirals",
+     "url": "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026"
+    },
+    {
+     "name": "FinanceFeeds (gold)",
+     "url": "https://financefeeds.com/gold-price-today-3996-saturday-week-ahead-fed-28-october-silver-year-low-bull-4150-bear-3890"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Alphabet Q3 2026 earnings",
+   "source": "StockTitan earnings calendar",
+   "tickers": [
+    "GOOGL"
+   ],
+   "time": "After US close; call 4:30pm ET (8:30pm UK)",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026",
+   "expected": "EPS about $3.03 (MarketBeat; Zacks $2.94), revenue about $127.9bn. Google Cloud expected at ~$29.2bn, +92% (Zacks). Alphabet gives no revenue guidance.",
+   "expected_url": "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/earnings/",
+   "affects": [
+    {
+     "ticker": "GOOGL",
+     "why": "Your holding; Cloud growth and 2027 capex guidance are the numbers previews focus on (Pepperstone).",
+     "url": "https://pepperstone.com/en/insights/market-analysis/equities/alphabet-q3-2026-earnings-preview-can-cloud-and-tpu-growth-justify-the-ai-spending-boom"
+    },
+    {
+     "ticker": "NVDA",
+     "why": "Alphabet's AI spending plans feed chip demand; when Meta changed its spending outlook on 22 Oct, AI-hardware shares moved sharply (24/7 Wall St).",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    },
+    {
+     "ticker": "FGRD",
+     "why": "The same 22 Oct spending news sent Eaton down 6% and FGRD's US twin down 4% (24/7 Wall St).",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    },
+    {
+     "ticker": "VST",
+     "why": "Power and grid shares fell with AI-spending worries this month; Benzinga links the sell-off to rates and data-centre cancellations.",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"
+    }
+   ],
+   "priced": "Options imply a \u00b16.2% move, close to its 10-year average (\u00b16.6% intraday peak, \u00b15.2% at the close). Shares are ~21% below their high going in.",
+   "priced_url": "https://earnings-watcher.com/wiki/googl-earnings-october-2026",
+   "beat_record": "Beat EPS in 8 of the last 8 quarters (MarketBeat), though Q2's beat came from a one-off investment gain. Estimate revisions are mixed: Zacks +1.4% over 30 days, TradingKey -2%.",
+   "upside": [
+    "Cloud growth above 75% and the $514bn Cloud backlog converting (Top1Markets, TradingKey).",
+    "Search still growing mid-to-high teens."
+   ],
+   "downside": [
+    "Q2 free cash flow was -$5.9bn; debt and equity raises are rising (TradingKey).",
+    "The stock fell 7.1% after Q2 on capex, so a higher 2027 spending plan is the main risk."
+   ],
+   "previews": [
+    {
+     "name": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/countdown-alphabet-googl-q3-earnings-121507781.html"
+    },
+    {
+     "name": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262235520-alphabet-stock-forecast-q3-earnings-preview-cloud-capex-315-support-october-24-2026-tradingkey"
+    },
+    {
+     "name": "Top1Markets",
+     "url": "https://www.top1markets.com/news/alphabet-q3-2026-earnings-preview-cloud-capex"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Microsoft Q1 FY27 earnings (AI capex read-across)",
+   "source": "StockTitan earnings calendar",
+   "tickers": [],
+   "time": "After US close; call 5:30pm ET (9:30pm UK)",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026",
+   "affects": [
+    {
+     "ticker": "NVDA",
+     "why": "Microsoft's AI spending plans feed chip demand; when Meta changed its spending outlook on 22 Oct, AI-hardware shares moved sharply (24/7 Wall St).",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    },
+    {
+     "ticker": "FGRD",
+     "why": "The same 22 Oct spending news sent Eaton down 6% and FGRD's US twin down 4% (24/7 Wall St).",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    },
+    {
+     "ticker": "VST",
+     "why": "Power and grid shares fell with AI-spending worries this month; Benzinga links the sell-off to rates and data-centre cancellations.",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"
+    },
+    {
+     "ticker": "VWRP",
+     "why": "Microsoft is 3.6% of the All-World fund (Vanguard, 30 Sep).",
+     "url": "https://www.vanguard.co.uk/professional/product/etf/equity/9679/ftse-all-world-ucits-etf-usd-accumulating"
+    }
+   ],
+   "expected": "EPS $4.71, revenue ~$90.6bn. Company guided Azure growth ~45% and ~$50bn capex for the quarter; Yahoo calls 45% 'the baseline, not the upside case'.",
+   "expected_url": "https://finance.yahoo.com/markets/stocks/articles/microsofts-earnings-problem-even-great-120000006.html",
+   "priced": "Options imply \u00b15.5%, in line with its 10-year average (\u00b15.3%); shares ~6% below their high.",
+   "priced_url": "https://earnings-watcher.com/wiki/msft-earnings-october-2026",
+   "beat_record": "Beat EPS in 8 of the last 8 quarters, average surprise 8.75% over the last two (Zacks).",
+   "upside": [
+    "Azure above 45% and commercial bookings (RPO $678bn, +84%) with 'demand exceeding capacity'."
+   ],
+   "downside": [
+    "Azure can disappoint even on a beat: in January it beat guidance and the stock fell 10%.",
+    "Capex above $50bn and free cash flow down 23%. For your holdings, higher Microsoft capex is the read-across for Nvidia, Fabrinet and the grid stocks."
+   ],
+   "previews": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/microsofts-earnings-problem-even-great-120000006.html"
+    },
+    {
+     "name": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-beat-estimates-again-151002495.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "event": "Amazon Q3 2026 earnings",
+   "source": "StockTitan earnings calendar",
+   "tickers": [
+    "AMZN"
+   ],
+   "time": "After US close; call 5pm ET (9pm UK)",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026",
+   "affects": [
+    {
+     "ticker": "AMZN",
+     "why": "Your own holding: Benzinga says AWS growth (30-35% expected after 37% in Q2) and the 2026 capex plan (~$220bn) are what investors will watch.",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62522059/amazon-earnings-are-a-week-away-heres-what-to-expect"
+    },
+    {
+     "ticker": "FN",
+     "why": "Amazon is about 11% of Fabrinet's sales (Fabrinet Q4 call).",
+     "url": "https://www.nasdaq.com/articles/fabrinet-q4-earnings-call-highlights"
+    },
+    {
+     "ticker": "NVDA",
+     "why": "Amazon's AI spending plans feed chip demand; when Meta changed its spending outlook on 22 Oct, AI-hardware shares moved sharply (24/7 Wall St).",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    },
+    {
+     "ticker": "FGRD",
+     "why": "The same 22 Oct spending news sent Eaton down 6% and FGRD's US twin down 4% (24/7 Wall St).",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    },
+    {
+     "ticker": "VST",
+     "why": "Power and grid shares fell with AI-spending worries this month; Benzinga links the sell-off to rates and data-centre cancellations.",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"
+    },
+    {
+     "ticker": "VWRP",
+     "why": "Amazon is 2.3% of the All-World fund (Vanguard).",
+     "url": "https://www.vanguard.co.uk/professional/product/etf/equity/9679/ftse-all-world-ucits-etf-usd-accumulating"
+    }
+   ],
+   "expected": "EPS ~$1.96\u20132.02, revenue ~$202bn (guide $197\u2013202bn). AWS expected to grow 30\u201335% after 37% in Q2; 2026 capex ~$220bn.",
+   "expected_url": "https://www.benzinga.com/trading-ideas/movers/26/10/62522059/amazon-earnings-are-a-week-away-heres-what-to-expect",
+   "priced": "Options imply \u00b16.2% (Unusual Whales) to \u00b17.7% (EarningsWatcher), around its 10-year average. Shares rose 15% after Q2.",
+   "priced_url": "https://earnings-watcher.com/wiki/amzn-earnings-october-2026",
+   "beat_record": "Beat EPS in 7 of the last 8 quarters by MarketBeat's count, but only 2 of the last 4 by Zacks'; Zacks ESP -2.1%.",
+   "upside": [
+    "Jassy says AWS 2026 capacity is fully committed and most of 2027 sold; AWS backlog $496bn (TokenPost).",
+    "Advertising +26% (24/7 Wall St)."
+   ],
+   "downside": [
+    "Trailing free cash flow -$7.6bn; Q2 EPS was flattered by a $53.4bn Anthropic gain.",
+    "AWS growth slipping towards 30% would test the story (24/7 Wall St, PrimeXBT)."
+   ],
+   "previews": [
+    {
+     "name": "Benzinga",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62522059/amazon-earnings-are-a-week-away-heres-what-to-expect"
+    },
+    {
+     "name": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/20/q3-trendssuggest-amazon-will-rise-on-oct-29-but-thats-not-why-im-buying/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "event": "Fabrinet Q1 FY27 earnings",
+   "source": "Fabrinet press release",
+   "tickers": [
+    "FN"
+   ],
+   "time": "After US close; call 5pm ET (10pm UK)",
+   "url": "https://www.stocktitan.net/news/FN/fabrinet-to-announce-first-quarter-fiscal-year-2027-financial-ky68oflej8g8.html",
+   "expected": "EPS $4.19, revenue $1.40bn (MarketBeat), right in the middle of Fabrinet's own guide ($1.375\u20131.425bn, EPS $4.10\u20134.25).",
+   "expected_url": "https://www.marketbeat.com/stocks/NYSE/FN/earnings/",
+   "priced": "Options imply a huge \u00b116.5% move. Shares are 58% below their high and down 47% since the last report, so a lot of bad news is already in the price.",
+   "priced_url": "https://unusualwhales.com/stock/FN/earnings",
+   "beat_record": "Beat EPS in 6 of the last 7 quarters (MarketBeat) \u2014 but it fell 19% after the last beat, so beating alone has not been enough.",
+   "upside": [
+    "Data-centre sales (51% of revenue, +68%) and demand above supply; new factory capacity from early 2027 (Trefis)."
+   ],
+   "downside": [
+    "Fears that co-packaged optics will replace its pluggable modules; 12% gross margin at a multi-year low.",
+    "Four customers are over 57% of sales; weaker Nvidia orders caused the August fall (TradingKey, Yahoo)."
+   ],
+   "previews": [
+    {
+     "name": "Trefis",
+     "url": "https://www.trefis.com/stock/fn/articles2/614727/how-far-can-fabrinet-stock-fall-while-its-business-accelerates/2026-09-09"
+    },
+    {
+     "name": "TradingKey",
+     "url": "https://www.tradingkey.com/news/market-movers/262212285-market-movers-fn-20261012"
+    }
+   ],
+   "affects": []
+  },
+  {
+   "date": "2026-11-02",
+   "time": "after US close (date per Unusual Whales/MarketBeat; not confirmed by Grab)",
+   "event": "Grab Q3 2026 results",
+   "tickers": [
+    "GRAB"
+   ],
+   "source": "Unusual Whales",
+   "url": "https://unusualwhales.com/stock/GRAB/earnings",
+   "expected": "EPS $0.02, revenue ~$1.05bn (MarketBeat). Full-year guide (raised in August): revenue $4.10\u20134.15bn, adjusted EBITDA $720\u2013740m.",
+   "expected_url": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings",
+   "priced": "Options imply \u00b18.5%. Shares are down 24% since the last report and below their 50- and 200-day averages.",
+   "priced_url": "https://unusualwhales.com/stock/GRAB/earnings",
+   "beat_record": "Mixed record: 2 beats, 2 misses, 2 in line over the last 6 quarters (MarketBeat). Zacks upgraded it to Strong Buy on 6 Oct.",
+   "upside": [
+    "Financial services turning profitable in the second half, deliveries growth speeding up, $750m buyback (Q2 call)."
+   ],
+   "downside": [
+    "Lower take rates, a 2\u20133% currency headwind and Indonesian commission rules (Q2 call)."
+   ],
+   "previews": [
+    {
+     "name": "Q2 call transcript",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-grab-posts-record-q2-2026-profit-growth-shares-rise-93CH-4832657"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections",
+   "source": "Reuters",
+   "tickers": [],
+   "time": "All day",
+   "url": "https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24",
+   "expected": "Prediction markets favour Democrats to win the House (~91%) and the Senate (~66%).",
+   "expected_url": "https://defirate.com/odds/2026-midterms/",
+   "priced": "Republican sweep priced at only 7.5\u20139.4%. Admirals says a Democratic result is largely priced, so the first move could be muted.",
+   "priced_url": "https://admiralmarkets.com/analytics/traders-blog/us-midterms-night-us500-us100-dollar-gold",
+   "beat_record": "The S&P 500 was higher 12 months after all 19 midterms since 1950 (Admirals).",
+   "upside": [
+    "A split Congress: 'gridlock is Goldilocks' for shares (BofA's Hartnett)."
+   ],
+   "downside": [
+    "A Republican sweep is the 'unpriced' risk: higher long yields and dollar, lower gold (FXStreet).",
+    "A slow or disputed count would hit high-beta tech hardest (TradingKey)."
+   ],
+   "previews": [
+    {
+     "name": "FXStreet",
+     "url": "https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"
+    },
+    {
+     "name": "TradingKey (tech)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262202848-us-midterm-elections-stock-market-tech-stocks-ai-trade-scenarios-tradingkey"
+    }
+   ],
+   "affects": [
+    {
+     "ticker": "SGLN",
+     "why": "A Republican sweep would push yields and the dollar up and gold down; a slow count could lift gold as a haven (FXStreet, Admirals).",
+     "url": "https://www.fxstreet.com/analysis/what-would-a-republican-sweep-mean-for-gold-and-treasury-yields-202610231410"
+    },
+    {
+     "ticker": "NVDA",
+     "why": "In a disputed result, high-beta tech would take the brunt; a Democratic House brings data-centre regulation risk (TradingKey).",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262202848-us-midterm-elections-stock-market-tech-stocks-ai-trade-scenarios-tradingkey"
+    },
+    {
+     "ticker": "VWRP",
+     "why": "US shares are ~62% of the fund; Hartnett's downside case is a US stock drop of 10% or more.",
+     "url": "https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Bank of England rate decision + Monetary Policy Report",
+   "source": "Cambridge Currencies",
+   "tickers": [],
+   "time": "12:00 UK",
+   "url": "https://cambridgecurrencies.com/next-bank-of-england-interest-rate-decision/",
+   "expected": "A rise from 3.75% to 4.00%: 54 of 63 economists in a Reuters poll expect it, after September inflation came in at 3.5% vs 3.4% forecast.",
+   "expected_url": "https://hoa.org.uk/news/interest-rate-predictions-2/",
+   "affects": [
+    {
+     "ticker": "VWRP",
+     "why": "A rate decision that moves the pound changes the sterling value of your dollar holdings and pie funds (Pound Sterling Live).",
+     "url": "https://www.poundsterlinglive.com/"
+    }
+   ],
+   "priced": "About 95\u201396% priced in SONIA futures, with ~48% odds of a second rise by December.",
+   "priced_url": "https://www.fxstreet.com/news/the-british-pound-goes-into-retail-sales-with-its-november-hike-already-priced-202610212153",
+   "beat_record": "Because November is fully priced, weaker UK data would hit December odds first (FXStreet).",
+   "upside": [
+    "A hike with hawkish guidance could take GBP/USD through 1.3408 towards 1.35 (Tradingnews)."
+   ],
+   "downside": [
+    "A hold 'would be a sharp surprise', sending GBP/USD towards 1.32 (Tradingnews).",
+    "A tighter budget could ease pressure to hike, softening the pound (Admirals)."
+   ],
+   "previews": [
+    {
+     "name": "FXStreet",
+     "url": "https://www.fxstreet.com/news/the-british-pound-goes-into-retail-sales-with-its-november-hike-already-priced-202610212153"
+    },
+    {
+     "name": "Tradingnews",
+     "url": "https://www.tradingnews.com/news/gbpusd-133365-outperforms-the-euro-as-a-november-boe-hike-to-4-percent"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "event": "US October jobs report",
+   "source": "FedRateCalc",
+   "tickers": [],
+   "time": "8:30am ET (1:30pm UK)",
+   "url": "https://fedratecalc.com/us-economic-calendar/november-2026/",
+   "affects": [
+    {
+     "ticker": "SGLN",
+     "why": "Strong data raises the odds of the 9 Dec Fed hike markets already expect (Forbes); higher rate odds have weighed on gold this month (Trading Economics).",
+     "url": "https://tradingeconomics.com/commodity/gold"
+    }
+   ],
+   "expected": "No survey consensus yet. September added only 29k jobs vs 89k expected; unemployment 4.2%.",
+   "expected_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+   "priced": "Prediction markets (14 Oct) put the median at about +55k jobs, range -10k to +125k.",
+   "priced_url": "https://www.octagonai.co/markets/economics/jobs-economy/unemployment-in-october/",
+   "beat_record": "A miss of 100k+ typically moves the S&P 500 0.5\u20131.5% and the dollar about 0.5% in the first hour; unemployment, wages and revisions can reverse it (FinanceCalendar).",
+   "upside": [
+    "A weak number would lower the odds of the December Fed hike; falling December odds support gold and shares (Admirals)."
+   ],
+   "downside": [
+    "A strong number would firm up the December hike that is already 84% priced (FedWatch via Yardeni)."
+   ],
+   "previews": [
+    {
+     "name": "FinanceCalendar",
+     "url": "https://www.financecalendar.com/us-jobs-report/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "event": "Vistra Q3 2026 results",
+   "source": "Vistra press release (Finviz)",
+   "tickers": [
+    "VST"
+   ],
+   "time": "Call 10am ET (3pm UK)",
+   "url": "https://finviz.com/news/396792/vistra-to-report-third-quarter-results-on-nov-6-2026",
+   "expected": "EPS ~$2.71\u20132.89, adjusted EBITDA ~$2.1bn (TIKR); 2026 EBITDA guidance $6.8\u20137.6bn reaffirmed. Revenue estimates vary widely ($6.7\u20137.8bn). Results before the US open, call 3pm UK.",
+   "expected_url": "https://www.tikr.com/blog/vistra-stock-fell-6-in-a-day-after-a-20-run-heres-what-its-november-6-report-needs-to-show",
+   "priced": "Options imply \u00b18\u201311%, about double its 10-year average (\u00b15.3%); the actual move beat the implied move in only 4 of 18 reports.",
+   "priced_url": "https://earnings-watcher.com/wiki/vst-implied-move",
+   "beat_record": "Zacks ESP +8.2%; average EPS surprise 23% over the last two quarters. EBITDA beat in 4 of 5 quarters, revenue missed in 4 of 5 (TIKR).",
+   "upside": [
+    "The DOE nuclear loan (up to $4.2bn) and a 2026/27 guidance update on the call (TIKR)."
+   ],
+   "downside": [
+    "2027 revenue consensus cut ~4% since June; weaker Texas power forward prices; BMO cut its target to $210 (TIKR)."
+   ],
+   "previews": [
+    {
+     "name": "TIKR",
+     "url": "https://www.tikr.com/blog/vistra-stock-fell-6-in-a-day-after-a-20-run-heres-what-its-november-6-report-needs-to-show"
+    },
+    {
+     "name": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-vst-keep-earnings-surprise-151003565.html"
+    }
+   ],
+   "affects": []
+  },
+  {
+   "date": "2026-11-10",
+   "event": "US October CPI",
+   "source": "FedRateCalc",
+   "tickers": [],
+   "time": "8:30am ET (1:30pm UK)",
+   "url": "https://fedratecalc.com/us-economic-calendar/november-2026/",
+   "expected": "No survey consensus yet. Cleveland Fed nowcast: headline 3.75% y/y (+0.25% m/m), core 2.48% y/y. September was 3.7%.",
+   "expected_url": "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting",
+   "affects": [
+    {
+     "ticker": "SGLN",
+     "why": "Hot inflation lifted rate-hike odds, which pushed gold to its lowest since July this week (Trading Economics).",
+     "url": "https://tradingeconomics.com/commodity/gold"
+    }
+   ],
+   "priced": "A December Fed hike is already 84% priced (FedWatch), so a hot print mainly confirms it; a soft print would be the surprise.",
+   "priced_url": "https://yardeniquicktakes.com/economic-week-ahead-october-26-30",
+   "beat_record": "Treasury yields usually rise on a hot print and fall on a soft one (TickerVelocity).",
+   "upside": [
+    "A soft print would pull yields down, which helps long-duration growth shares (TickerVelocity)."
+   ],
+   "downside": [
+    "A hot print lifts yields; growth shares can suffer while financials outperform (TickerVelocity)."
+   ],
+   "previews": [
+    {
+     "name": "TickerVelocity",
+     "url": "https://tickervelocity.com/2026/10/18/us-cpi-october-2026-report/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Nvidia Q3 FY27 earnings",
+   "source": "Wall Street Horizon",
+   "tickers": [
+    "NVDA"
+   ],
+   "time": "After US close (~9pm UK)",
+   "url": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
+   "expected": "EPS $2.49, revenue $108.8bn (MarketBeat), just above Nvidia's own $108bn \u00b12% guide; gross margin guided 74%. Date not yet confirmed (17, 18 or 25 Nov listed).",
+   "expected_url": "https://www.marketbeat.com/earnings/reports/2026-11-18-nvidia-co-stock/",
+   "affects": [
+    {
+     "ticker": "FN",
+     "why": "Nvidia is about 16% of Fabrinet's sales (Fabrinet Q4 call).",
+     "url": "https://www.nasdaq.com/articles/fabrinet-q4-earnings-call-highlights"
+    },
+    {
+     "ticker": "VWRP",
+     "why": "Nvidia is the All-World fund's largest holding at 5.0% (Vanguard).",
+     "url": "https://www.vanguard.co.uk/professional/product/etf/equity/9679/ftse-all-world-ucits-etf-usd-accumulating"
+    }
+   ],
+   "priced": "Options not yet listed for the event. Its 10-year average results move is \u00b18.4% (2-year \u00b15.7%); last quarter options implied \u00b15.9% and it closed +8.7%.",
+   "priced_url": "https://earnings-watcher.com/wiki/nvda-implied-move",
+   "beat_record": "Beat EPS in 7 of the last 8 quarters (MarketBeat).",
+   "upside": [
+    "Last quarter's guide was well above consensus, and the CFO pointed to ~70% growth in FY28 vs ~44% expected (XTB)."
+   ],
+   "downside": [
+    "Three customers are 44% of revenue; purchase commitments up to $279bn; gross margin guided lower; no China data-centre sales assumed (XTB)."
+   ],
+   "previews": [
+    {
+     "name": "XTB",
+     "url": "https://www.xtb.com/ae-en/market-analysis/news-and-research/nvidia-shares-react-to-solid-earnings-report-and-stonger-guidance-what-s-next-for-the-ai-giant"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "time": "after US close (estimate; not yet confirmed)",
+   "event": "Autodesk Q3 FY27 results",
+   "tickers": [
+    "ADSK"
+   ],
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/ADSK/earnings/",
+   "expected": "Autodesk's own guide: revenue $2.125\u20132.140bn, non-GAAP EPS $3.04\u20133.09. Consensus ~$3.14 (Earnings Whispers).",
+   "expected_url": "https://www.sec.gov/Archives/edgar/data/0000769397/000076939726000059/q227pressrelease.htm",
+   "priced": "Options not yet listed. Last quarter implied \u00b19.4%; its 10-year average move is \u00b18.5% (2-year \u00b17.8%).",
+   "priced_url": "https://earnings-watcher.com/wiki/adsk-implied-move",
+   "beat_record": "Beat EPS in each of the last 4 quarters.",
+   "upside": [
+    "Subscription revenue grew 17% last quarter vs 14.5% expected; BofA calls second-half guidance conservative (Finviz)."
+   ],
+   "downside": [
+    "Current bookings growth (cRPO) slowed to 12% from 18\u201320% and is expected to stay lower for several quarters; full-year guide midpoint was below consensus."
+   ],
+   "previews": [
+    {
+     "name": "Finviz",
+     "url": "https://finviz.com/news/386537/autodesk-shares-fall-as-fiscal-2027-earnings-guidance-trails-expectations-despite-q2-beat"
+    }
+   ]
+  }
+ ],
+ "compiled_at": "05:25 UK, Sun 25 Oct",
+ "date": "2026-10-25",
+ "gbpusd": 1.3366,
+ "prices": [
+  {
+   "as_of": "23 Oct close",
+   "change_pct": -1.08,
+   "price": "$252.20",
+   "ticker": "ADSK"
+  },
+  {
+   "as_of": "23 Oct close",
+   "change_pct": -0.86,
+   "price": "$314.94",
+   "ticker": "FN"
+  },
+  {
+   "as_of": "23 Oct close (mid, AJ Bell, delayed)",
+   "change_pct": -0.05,
+   "price": "4,248p",
+   "ticker": "FGRD"
+  },
+  {
+   "as_of": "23 Oct close",
+   "change_pct": -0.48,
+   "price": "$140.16",
+   "ticker": "VST"
+  },
+  {
+   "as_of": "23 Oct close",
+   "change_pct": -1.24,
+   "price": "$320.21",
+   "ticker": "GOOGL"
+  },
+  {
+   "as_of": "23 Oct close",
+   "change_pct": -0.96,
+   "price": "$642.62",
+   "ticker": "META"
+  },
+  {
+   "as_of": "23 Oct close",
+   "change_pct": -0.59,
+   "price": "$210.96",
+   "ticker": "NVDA"
+  },
+  {
+   "as_of": "23 Oct close (mid, AJ Bell, delayed)",
+   "change_pct": -0.08,
+   "price": "14,165p",
+   "ticker": "VWRP"
+  },
+  {
+   "as_of": "23 Oct close (mid, AJ Bell, delayed)",
+   "change_pct": 1.07,
+   "price": "3,596p",
+   "ticker": "ISPY"
+  },
+  {
+   "as_of": "23 Oct close (mid, AJ Bell, delayed)",
+   "change_pct": -1.45,
+   "price": "5,795p",
+   "ticker": "SGLN"
+  },
+  {
+   "as_of": "23 Oct close",
+   "change_pct": -0.95,
+   "price": "$248.00",
+   "ticker": "AMZN"
+  }
+ ],
+ "stories": [
+  {
+   "category": "Earnings",
+   "headline": "Meta beats on revenue but negative free cash flow and higher capex hit shares",
+   "id": "s1",
+   "impacts": [
+    {
+     "direction": "down",
+     "source_refs": [
+      3,
+      2
+     ],
+     "ticker": "META",
+     "why": "Yahoo Finance says Meta dropped roughly 7% Thursday after results before paring losses Friday; Fortune says settlements and AI spending squeezed profit and free cash flow."
+    },
+    {
+     "direction": "down",
+     "source_refs": [
+      4
+     ],
+     "ticker": "VST",
+     "why": "TIKR reports AI-linked stocks including Vistra sold off the day after Meta's results on concerns over the rising cost of data-centre expansion."
+    }
+   ],
+   "kind": "company",
+   "published": "21 Oct 2026",
+   "section": "holding",
+   "sources": [
+    {
+     "date": "21 Oct 2026",
+     "publisher": "Meta press release (via StockTitan)",
+     "title": "Meta Reports Third Quarter 2026 Results",
+     "url": "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html"
+    },
+    {
+     "date": "21 Oct 2026",
+     "publisher": "Fortune",
+     "title": "Meta's revenue surges 26% to $64.6 billion, but billions in settlements and skyrocketing AI spending turn screws on profit, free cash flow",
+     "url": "https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Yahoo Finance",
+     "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+    },
+    {
+     "date": "24 Oct 2026",
+     "publisher": "TIKR",
+     "title": "Vistra Stock Fell Nearly 10% in a Day After Meta's Earnings",
+     "url": "https://www.tikr.com/blog/vistra-stock-fell-nearly-10-in-a-day-after-metas-earnings-heres-why-its-forecast-already-discounts-the-data-center-hype"
+    }
+   ],
+   "summary": "Meta's Q3 revenue rose 26% to $64.6bn and it guided Q4 to $73-76bn, but a $9.9bn legal charge cut EPS to $3.83 and free cash flow was about -$2.1bn. It raised the low end of 2026 capex to $135-145bn and announced a Class C share dividend expected to work like a 2-for-1 split from January.",
+   "tickers": [
+    "META",
+    "VST"
+   ],
+   "meaning": "Meta's ad business is still growing fast (sales +26%), but it is spending so heavily on AI data centres that it now burns more cash than it makes, and it raised its spending plans again. Yahoo Finance says investors sold the shares about 7% on that. For you this matters twice: Meta's spending is revenue for your AI-supplier holdings, and TIKR says the same worries dragged Vistra and other AI-linked shares down the next day.",
+   "priced_in": {
+    "status": "surprise",
+    "note": "Revenue beat forecasts ($64.6bn vs ~$63.3bn), but the size of the 2026 capex plan and the negative free cash flow were not expected; shares fell ~7% (Yahoo Finance)."
+   }
+  },
+  {
+   "category": "Analysts",
+   "headline": "Rosenblatt lifts Meta target to $900, keeps Buy",
+   "id": "s2",
+   "impacts": [
+    {
+     "direction": "up",
+     "source_refs": [
+      1
+     ],
+     "ticker": "META",
+     "why": "Investing.com reports Rosenblatt sees AI-driven ad performance supporting its positive view."
+    }
+   ],
+   "kind": "company",
+   "published": "23 Oct 2026",
+   "section": "holding",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Investing.com",
+     "title": "Rosenblatt raises Meta stock price target to $900 on AI ad growth",
+     "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-raises-meta-stock-price-target-to-900-on-ai-ad-growth-93CH-4968487"
+    }
+   ],
+   "summary": "Rosenblatt raised its Meta price target to $900 from $886, citing Q3 revenue growth near Q2's pace and Q4 guidance implying about 27% growth. It credited AI improvements for better engagement and ad returns.",
+   "tickers": [
+    "META"
+   ],
+   "meaning": "One analyst firm, Rosenblatt, looked at the results and became slightly more positive, lifting its 12-month price target to $900 (about 40% above today's price). Investing.com says it credits AI tools for making Meta's ads work better. Analyst targets are opinions, but a run of raised targets shows the professionals still back the business despite the spending worries.",
+   "priced_in": {
+    "status": "expected",
+    "note": "Several brokers raised targets after results; a small $14 increase from $886 suggests Rosenblatt's view was already positive."
+   }
+  },
+  {
+   "category": "Analysts",
+   "headline": "Vistra sinks ~10% in AI sell-off; HSBC starts coverage at Buy",
+   "id": "s3",
+   "impacts": [
+    {
+     "direction": "down",
+     "source_refs": [
+      1
+     ],
+     "ticker": "VST",
+     "why": "TIKR links the drop to a broad AI sell-off on data-centre cost concerns after Meta's report."
+    },
+    {
+     "direction": "up",
+     "source_refs": [
+      2
+     ],
+     "ticker": "VST",
+     "why": "MarketBeat (via Daily Political) says HSBC's $190 target implied about 22% upside at the time."
+    }
+   ],
+   "kind": "company",
+   "published": "24 Oct 2026",
+   "section": "holding",
+   "sources": [
+    {
+     "date": "24 Oct 2026",
+     "publisher": "TIKR",
+     "title": "Vistra Stock Fell Nearly 10% in a Day After Meta's Earnings",
+     "url": "https://www.tikr.com/blog/vistra-stock-fell-nearly-10-in-a-day-after-metas-earnings-heres-why-its-forecast-already-discounts-the-data-center-hype"
+    },
+    {
+     "date": "22 Oct 2026",
+     "publisher": "Daily Political (MarketBeat)",
+     "title": "Vistra (NYSE:VST) Now Covered by HSBC",
+     "url": "https://www.dailypolitical.com/2026/10/22/vistra-nysevst-now-covered-by-hsbc.html"
+    }
+   ],
+   "summary": "Vistra fell 9.81% to $140.83 on 22 Oct as AI-linked stocks slid after Meta's results, then edged lower Friday. The same day HSBC initiated coverage with a Buy rating and a $190 target.",
+   "tickers": [
+    "VST"
+   ],
+   "meaning": "Vistra sells electricity, and part of its story is supplying power to AI data centres. When Meta's results revived fears about AI spending, TIKR says investors sold anything tied to the AI build-out, and Vistra fell almost 10% in a day with no bad news of its own. On the same day HSBC started covering it with a Buy rating and a $190 target, so analysts did not change their view of the company itself.",
+   "priced_in": {
+    "status": "surprise",
+    "note": "No Vistra-specific news: the fall came from the market-wide AI sell-off after Meta (TIKR)."
+   }
+  },
+  {
+   "category": "Analysts",
+   "headline": "Fabrinet slide deepens as Susquehanna and B. Riley cut targets",
+   "id": "s4",
+   "impacts": [
+    {
+     "direction": "down",
+     "source_refs": [
+      1,
+      2
+     ],
+     "ticker": "FN",
+     "why": "Trefis says the slide is largely Fabrinet-specific rather than market-driven, without naming a single cause; MarketBeat reports the target cuts but gives no reason."
+    }
+   ],
+   "kind": "company",
+   "published": "21 Oct 2026",
+   "section": "holding",
+   "sources": [
+    {
+     "date": "21 Oct 2026",
+     "publisher": "Trefis",
+     "title": "A 9-Day Losing Streak Has Fabrinet Stock Down 29%",
+     "url": "https://www.trefis.com/stock/fn/articles/619603/a-9-day-losing-streak-has-fabrinet-stock-down-29/2026-10-21"
+    },
+    {
+     "date": "21 Oct 2026",
+     "publisher": "MarketBeat",
+     "title": "Fabrinet (NYSE:FN) Stock Price Target Lowered at Susquehanna",
+     "url": "https://www.marketbeat.com/instant-alerts/analyst-fabrinet-nyse-fn-stock-price-target-lowered-at-susquehanna-2026-10-21/"
+    },
+    {
+     "date": "19 Oct 2026",
+     "publisher": "Fabrinet press release (via StockTitan)",
+     "title": "Fabrinet to Announce First Quarter Fiscal Year 2027 Financial Results on November 2, 2026",
+     "url": "https://www.stocktitan.net/news/FN/fabrinet-to-announce-first-quarter-fiscal-year-2027-financial-ky68oflej8g8.html"
+    }
+   ],
+   "summary": "Fabrinet fell for nine straight sessions to 20 Oct, losing about 29%, and closed Friday at $314.94. Susquehanna cut its target to $600 from $850 while staying positive, after B. Riley moved to Neutral with a $431 target; Q1 FY27 results are due 2 Nov.",
+   "tickers": [
+    "FN"
+   ],
+   "meaning": "Fabrinet has fallen nine days in a row and lost about 29% this month, and two analysts cut their targets (Susquehanna to $600, still positive; B. Riley to $431, neutral). Trefis says the fall is mostly about Fabrinet itself rather than the whole market, but no single cause is named. Its results on 2 Nov will show whether sales to Nvidia and data centres are holding up.",
+   "priced_in": {
+    "status": "unclear",
+    "note": "The cuts followed the fall rather than causing it; options price a \u00b116.5% move for the 2 Nov results (Unusual Whales)."
+   }
+  },
+  {
+   "category": "Earnings",
+   "headline": "Alphabet reports Wednesday with capex and Cloud in focus after tech-led drop",
+   "id": "s5",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      1,
+      3
+     ],
+     "ticker": "GOOGL",
+     "why": "Heygotrade says worries about AI spending and cost of capital hit hyperscaler shares; Reuters says investors will watch capex plans from Alphabet, Microsoft and Amazon."
+    }
+   ],
+   "kind": "company",
+   "published": "24 Oct 2026",
+   "section": "holding",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Heygotrade",
+     "title": "Google Stock News (Oct 23, 2026): GOOGL Falls 3.1% to $324.22",
+     "url": "https://www.heygotrade.com/en/news/google-googl-stock-news-october-23-2026/"
+    },
+    {
+     "date": "24 Oct 2026",
+     "publisher": "TradingKey",
+     "title": "Alphabet Stock Forecast: GOOGL Breaks Triangle Support as Capex and Cloud Face the October 28 Test",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262235520-alphabet-stock-forecast-q3-earnings-preview-cloud-capex-315-support-october-24-2026-tradingkey"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Reuters (via MarketScreener)",
+     "title": "Dow, S&P 500 fall, tech steadies to end rocky week",
+     "url": "https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24"
+    }
+   ],
+   "summary": "Alphabet fell 3.15% on 22 Oct in the broad tech sell-off with no company-specific news, and slipped again Friday. It reports Q3 after the close on 28 Oct; consensus is about $127.5bn revenue, and 2026 capex guidance stands at $195-205bn. Reuters says Big Tech capex plans will be closely watched.",
+   "tickers": [
+    "GOOGL"
+   ],
+   "meaning": "Alphabet dropped with the rest of big tech on Thursday, not because of its own news. On Wednesday it reports results, and Reuters says investors will focus on how much it plans to spend on AI. Its share price will depend less on profits than on whether Cloud growth justifies that spending.",
+   "priced_in": {
+    "status": "expected",
+    "note": "The fall was market-wide; for results, options price a \u00b16.2% move, close to its usual size (EarningsWatcher)."
+   }
+  },
+  {
+   "category": "Legal",
+   "headline": "Law firms flag securities class action over Gemini 3.5 Pro timing",
+   "id": "s6",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      1
+     ],
+     "ticker": "GOOGL",
+     "why": "The law-firm notice says Class A shares fell 4.4% on the July report; no new price impact is reported."
+    }
+   ],
+   "kind": "company",
+   "published": "23 Oct 2026",
+   "section": "holding",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "GlobeNewswire (Bleichmar Fonti & Auld)",
+     "title": "GOOG, GOOGL Deadline News: Alphabet Investors are Notified of the Imminent December 1 Securities Fraud Class Action",
+     "url": "https://globenewswire.com/news-release/2026/10/23/3387130/0/en/goog-googl-deadline-news-alphabet-investors-are-notified-of-the-imminent-december-1-securities-fraud-class-action-contact-bfa-law-if-you-lost-money.html"
+    }
+   ],
+   "summary": "A shareholder suit in the Northern District of California alleges Alphabet misrepresented progress on Gemini 3.5 Pro, after a July Bloomberg report said it was months behind schedule. The lead-plaintiff deadline is 1 Dec; these are allegations, not court findings.",
+   "tickers": [
+    "GOOGL"
+   ],
+   "meaning": "Law firms are trying to sign up shareholders for a lawsuit claiming Alphabet hid delays to its Gemini 3.5 Pro AI model. These are only allegations, and law-firm adverts like this are common after a share-price drop. The notice itself says the shares fell 4.4% on the July report; no new effect on the price is reported.",
+   "priced_in": {
+    "status": "expected",
+    "note": "The underlying news (Gemini delay) came out in July and was already reflected in the price then."
+   }
+  },
+  {
+   "category": "Markets",
+   "explainer": {
+    "meaning": "a poll of the resellers and partners who sell a company's products; analysts use it as an early read on demand before official results",
+    "term": "Channel survey"
+   },
+   "headline": "Cybersecurity stocks rally on upbeat Evercore channel survey",
+   "id": "s7",
+   "impacts": [
+    {
+     "direction": "up",
+     "source_refs": [
+      3,
+      1
+     ],
+     "ticker": "ISPY",
+     "why": "Yahoo Finance says cybersecurity stocks rose more than 7% Friday; 24/7 Wall St reports the Evercore survey flagged strengthening demand with no near-term drop seen."
+    }
+   ],
+   "kind": "macro",
+   "published": "23 Oct 2026",
+   "section": "theme",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "24/7 Wall St. (via Yahoo Finance)",
+     "title": "Cybersecurity Stocks Rise as Evercore Survey Flags Strengthening Demand: Okta, CrowdStrike and Palo Alto Climb 4%",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cybersecurity-stocks-rise-evercore-survey-145329882.html"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "TIKR (via Yahoo Finance)",
+     "title": "SailPoint Soars 11%, Palo Alto Up 6%, CrowdStrike Up 6% as Cybersecurity Stocks Rally",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sailpoint-soars-11-palo-alto-170741321.html"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Yahoo Finance",
+     "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+    }
+   ],
+   "summary": "Evercore ISI's partner survey pointed to strengthening security budgets focused on data, AI, identity and cloud protection. Palo Alto and CrowdStrike rose about 6% and SailPoint about 11%, extending gains that began after critical PHP flaws were disclosed midweek.",
+   "theme": "Cyber security",
+   "tickers": [
+    "ISPY"
+   ],
+   "meaning": "Cyber-security shares jumped after a survey of companies that sell security software (Evercore ISI) found customers are increasing their security budgets, especially for AI and cloud protection. That is good news for your cyber ETF, whose biggest holdings include Palo Alto and CrowdStrike. Yahoo Finance says the sector rose over 7% on Friday.",
+   "priced_in": {
+    "status": "surprise",
+    "note": "The survey was better than feared; sources say it signalled no drop in demand ahead (24/7 Wall St)."
+   }
+  },
+  {
+   "category": "Energy",
+   "explainer": {
+    "meaning": "one of the giant cloud companies (Amazon, Microsoft, Google, Meta) that build huge data centres; their spending plans drive demand for chips, power and grid equipment",
+    "term": "Hyperscaler"
+   },
+   "headline": "Power-equipment stocks slump as Meta's spending plans stoke AI-financing worries",
+   "id": "s8",
+   "image_url": "https://247wallst.com/wp-content/uploads/2024/05/shutterstock_2239822283-scaled.jpg",
+   "impacts": [
+    {
+     "direction": "down",
+     "source_refs": [
+      1
+     ],
+     "ticker": "FGRD",
+     "why": "24/7 Wall St says the First Trust Nasdaq Clean Edge Smart Grid ETF (GRID, the US twin of FGRD) fell 4% that afternoon."
+    },
+    {
+     "direction": "watch",
+     "source_refs": [
+      1
+     ],
+     "ticker": "VST",
+     "why": "Not named in this report; separately TIKR tied Vistra's ~10% fall the same day to the post-Meta AI sell-off (see Vistra story)."
+    }
+   ],
+   "kind": "macro",
+   "published": "22 Oct 2026",
+   "section": "theme",
+   "sources": [
+    {
+     "date": "22 Oct 2026",
+     "publisher": "24/7 Wall St.",
+     "title": "GE Vernova Slumps 11% as Meta's Spending Outlook Stokes AI Financing Worries; Vertiv Holdings Drops 7%, Eaton Slides 6%",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    }
+   ],
+   "summary": "GE Vernova fell about 11%, Vertiv 7% and Eaton 6% on 22 Oct after Meta raised its AI spending outlook and posted negative free cash flow. 24/7 Wall St says the open question is whether financing strain slows hyperscaler orders for power equipment; GE Vernova reports Q3 next.",
+   "theme": "Grid & energy",
+   "tickers": [
+    "FGRD",
+    "VST"
+   ],
+   "meaning": "Companies that make power equipment for data centres (GE Vernova, Vertiv, Eaton) fell sharply because Meta's spending plans raised a question: can the big tech firms keep paying for all these data centres? 24/7 Wall St says FGRD's US twin fell 4% that afternoon. Your grid ETF holds Eaton and similar firms, so it moves with this worry.",
+   "priced_in": {
+    "status": "surprise",
+    "note": "Orders are still strong; the fall reflects worry about future financing rather than a drop in demand (24/7 Wall St)."
+   }
+  },
+  {
+   "category": "Energy",
+   "explainer": {
+    "meaning": "a plant that heats mined ore to extract the pure metal; without enough smelting capacity, mined copper cannot become wire and grid parts",
+    "term": "Smelter"
+   },
+   "headline": "Grupo M\u00e9xico plans up to $6bn to expand US copper mining and restart a smelter",
+   "id": "s9",
+   "image_url": "https://247wallst.com/wp-content/uploads/2026/10/this-6-billion-investment-could-open-a-relief-valv-featured-1792847971851.webp",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      1
+     ],
+     "ticker": "FGRD",
+     "why": "24/7 Wall St links more US copper supply to grid-equipment makers including Eaton; it does not discuss the ETF directly."
+    }
+   ],
+   "kind": "macro",
+   "published": "24 Oct 2026",
+   "section": "theme",
+   "sources": [
+    {
+     "date": "24 Oct 2026",
+     "publisher": "24/7 Wall St.",
+     "title": "This $6 Billion Investment Could Open a Relief Valve for America's AI and Power-Grid Boom",
+     "url": "https://247wallst.com/investing/2026/10/24/this-6-billion-investment-could-open-a-relief-valve-for-americas-ai-and-power-grid-boom/"
+    }
+   ],
+   "summary": "Grupo M\u00e9xico's US unit Asarco told analysts on 22 Oct it plans $4-6bn over three years to expand two Arizona copper mines and restart the Hayden smelter. 24/7 Wall St frames it as a possible relief for copper supply to transformer, switchgear and transmission makers such as Eaton and Hubbell, though the projects still need studies, permits and financing.",
+   "theme": "Grid & energy",
+   "tickers": [
+    "FGRD"
+   ],
+   "meaning": "A big mining company plans to spend up to $6bn producing more copper in the US. Copper is a key material for transformers and power cables, so 24/7 Wall St says more supply could ease costs for grid-equipment makers like Eaton and Hubbell, which your grid ETF holds. The projects are years away, so this is a slow-burn story.",
+   "priced_in": {
+    "status": "unclear",
+    "note": "Early-stage plan; no share-price reaction reported."
+   }
+  },
+  {
+   "category": "Markets",
+   "explainer": {
+    "meaning": "an asset like gold or government bonds that investors buy when worried; it can still fall when rates or the dollar rise",
+    "term": "Safe haven"
+   },
+   "headline": "Oil hits six-month high on Middle East attacks; gold slips to three-month low",
+   "id": "s10",
+   "impacts": [
+    {
+     "direction": "down",
+     "source_refs": [
+      1,
+      2
+     ],
+     "ticker": "SGLN",
+     "why": "Yahoo Finance reports gold fell 1.29% to $4,007.90 Friday and opened at a three-month low as oil prices rose; it does not give a specific cause."
+    }
+   ],
+   "kind": "macro",
+   "published": "23 Oct 2026",
+   "section": "theme",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Yahoo Finance",
+     "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Yahoo Finance",
+     "title": "Gold price today, Friday, October 23, 2026: Gold opens at 3-month lows as oil prices keep rising",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-october-23-2026-gold-opens-at-3-month-lows-as-oil-prices-keep-rising-111248003.html"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Reuters (via MarketScreener)",
+     "title": "Dow, S&P 500 fall, tech steadies to end rocky week",
+     "url": "https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24"
+    }
+   ],
+   "summary": "Brent settled at $116.72 on Friday, a six-month high, after Houthi attacks on Saudi oil infrastructure raised supply fears. Gold futures opened at their lowest since 29 July and closed down 1.3% at about $4,008.",
+   "theme": "Gold",
+   "tickers": [
+    "SGLN"
+   ],
+   "meaning": "Oil jumped to a six-month high after attacks on Saudi oil sites, and gold fell to its lowest since July. Higher oil can push inflation up, which makes interest-rate rises more likely, and gold tends to struggle when rates rise because it pays no interest. Your gold ETF (SGLN) follows the gold price.",
+   "priced_in": {
+    "status": "surprise",
+    "note": "The oil spike came from new attacks; Yahoo Finance gives no single cause for gold's fall, but other sources this week tie it to rising rate-hike odds (Trading Economics)."
+   }
+  },
+  {
+   "category": "AI capex",
+   "explainer": {
+    "meaning": "a newer, specialist cloud firm (like CoreWeave) that rents out Nvidia-powered AI computing, often funded with heavy borrowing",
+    "term": "Neocloud"
+   },
+   "headline": "AI-financing jitters: neocloud credit stress spreads, Huang flags capital scarcity",
+   "id": "s11",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      1
+     ],
+     "ticker": "NVDA",
+     "why": "Yahoo Finance (CryptoProwl) reports Nvidia traded flat near $211.60 Friday while Huang said a 'scarcity of capital' is hampering neocloud buildouts."
+    },
+    {
+     "direction": "down",
+     "source_refs": [
+      2
+     ],
+     "ticker": "NVDA",
+     "why": "Stocktwits via Yahoo Finance says the AI-linked chip basket fell and the Nasdaq 100 had its worst two-week drop since April 2025 as credit concerns grew."
+    }
+   ],
+   "kind": "macro",
+   "published": "23 Oct 2026",
+   "section": "theme",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Yahoo Finance (CryptoProwl)",
+     "title": "CoreWeave Heads for Third Weekly Loss, Weighing on Stocks and Bitcoin Over AI Financing Fears",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/coreweave-heads-third-weekly-loss-194400826.html"
+    },
+    {
+     "date": "24 Oct 2026",
+     "publisher": "Yahoo Finance (Stocktwits)",
+     "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
+     "url": "https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-010033087.html"
+    },
+    {
+     "date": "22 Oct 2026",
+     "publisher": "Briefs Finance (citing CNBC)",
+     "title": "Nvidia's Jensen Huang: Neocloud demand is \"off the charts,\" but cash and power are the choke points",
+     "url": "https://www.briefs.co/news/nvidia-s-jensen-huang-neocloud-demand-is-off-the-charts-but/"
+    }
+   ],
+   "summary": "CoreWeave headed for a third weekly loss, down roughly 37% in October, as credit spreads and default-swap prices widened for neocloud providers. Nvidia CEO Jensen Huang said neocloud demand is 'off the charts' but working capital is the constraint, and Gartner warned of possible large AI data-centre write-downs by 2032.",
+   "theme": "AI & chips",
+   "tickers": [
+    "NVDA"
+   ],
+   "meaning": "Some smaller AI cloud companies (called neoclouds, such as CoreWeave) borrowed heavily to buy Nvidia chips, and lenders are getting nervous. Nvidia's boss said demand is huge but these customers are short of money. That matters for your Nvidia holding: Yahoo Finance says chip shares fell as credit worries grew.",
+   "priced_in": {
+    "status": "surprise",
+    "note": "Credit spreads for neoclouds widened during October; the AI chip basket fell and the Nasdaq 100 had its worst two weeks since April 2025 (Stocktwits via Yahoo)."
+   }
+  },
+  {
+   "category": "Markets",
+   "explainer": {
+    "meaning": "when an index ends Friday lower than the previous Friday's close; two in a row signals fading momentum",
+    "term": "Weekly loss"
+   },
+   "headline": "US stocks end a rocky week lower as tech steadies after AI sell-off",
+   "id": "s12",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      1,
+      2
+     ],
+     "ticker": "NVDA",
+     "why": "Reuters says the Philadelphia chip index rose 0.6% Friday after Thursday's steep fall; Yahoo Finance says Nvidia closed mixed and briefly lost the top market-value spot to Apple."
+    },
+    {
+     "direction": "watch",
+     "source_refs": [
+      1
+     ],
+     "ticker": "VWRP",
+     "why": "No direct link reported; the S&P 500 fell 0.43% Friday and was on track for a weekly loss per Reuters."
+    }
+   ],
+   "kind": "macro",
+   "published": "23 Oct 2026",
+   "section": "theme",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Reuters (via MarketScreener)",
+     "title": "Dow, S&P 500 fall, tech steadies to end rocky week",
+     "url": "https://www.marketscreener.com/news/dow-s-p-500-fall-tech-steadies-to-end-rocky-week-ce785cdfdd8eff24"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Yahoo Finance",
+     "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+    }
+   ],
+   "summary": "The Dow fell 1.2% and the S&P 500 0.4% on Friday, while the Nasdaq was nearly flat after Thursday's steepest drop since June on worries about financing heavy AI spending. The S&P 500 and Nasdaq posted a second straight weekly loss; energy hit a record high as oil climbed.",
+   "theme": "Global markets",
+   "tickers": [
+    "NVDA",
+    "VWRP"
+   ],
+   "meaning": "US shares had a second losing week, mainly because of worries over how AI spending will be financed. Reuters says chip shares steadied on Friday after Thursday's sharp drop. Your All-World fund is about 62% US shares, so US market moves drive most of its value.",
+   "priced_in": {
+    "status": "unclear",
+    "note": "Friday's moves were small after Thursday's sell-off; no single surprise."
+   }
+  },
+  {
+   "category": "Markets",
+   "explainer": {
+    "meaning": "a survey score of how upbeat households feel about their finances and the economy; a falling score often signals weaker spending ahead",
+    "term": "Consumer confidence"
+   },
+   "headline": "FTSE 100 dips 0.3% Friday and loses 1.8% on the week as oil climbs and UK shoppers pull back",
+   "id": "s13",
+   "image_url": "https://mdb.ad-hoc-news.de/bild/bild-2404988_1920_1080.webp",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      1
+     ],
+     "ticker": "VWRP",
+     "why": "No direct link reported; ad-hoc-news says the FTSE 100 fell 1.8% for the week, while Reuters had the S&P 500 down 0.43% Friday."
+    }
+   ],
+   "kind": "macro",
+   "published": "23 Oct 2026",
+   "section": "theme",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "ad-hoc-news.de",
+     "title": "FTSE 100 closes lower as oil surges, down 35 points",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/ftse-100-closes-lower-as-oil-surges-down-35-points/70401077"
+    }
+   ],
+   "summary": "The FTSE 100 closed at 10,690 on 23 Oct, down 35 points, as oil majors BP and Shell rose but Rolls-Royce fell 7.6% on a Safran warning. UK retail sales volumes fell 0.4% in September and consumer confidence dropped 11 points to -24 ahead of Wednesday's Budget.",
+   "theme": "Global markets",
+   "tickers": [
+    "VWRP"
+   ],
+   "meaning": "The UK's main share index fell 1.8% over the week as shoppers spent less and confidence dropped ahead of Wednesday's Budget. UK shares are only about 3% of your All-World fund, so this matters less for you than US markets.",
+   "priced_in": {
+    "status": "surprise",
+    "note": "Retail sales fell 0.4% in September; consumer confidence dropped 11 points to -24 (ad-hoc-news)."
+   }
+  },
+  {
+   "category": "Rates",
+   "explainer": {
+    "meaning": "when a central bank raises its main interest rate to cool inflation; it makes borrowing dearer and often weighs on growth shares",
+    "term": "Rate hike"
+   },
+   "headline": "Fed expected to hold on Wednesday; ING sees a December hike",
+   "id": "s14",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      3
+     ],
+     "ticker": "NVDA",
+     "why": "Yahoo Finance reported after hot September CPI that investors feared another Fed hike would raise the cost of capital and could disrupt the AI trade; Nvidia led chips lower that day."
+    }
+   ],
+   "kind": "macro",
+   "published": "23 Oct 2026",
+   "section": "macro",
+   "sources": [
+    {
+     "date": "23 Oct 2026",
+     "publisher": "ING (via Investing.com)",
+     "title": "Federal Reserve Preview: A Pause Before a December Hike",
+     "url": "https://uk.investing.com/analysis/federal-reserve-preview-a-pause-before-a-december-hike-200628994"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "Yahoo Finance",
+     "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+    },
+    {
+     "date": "15 Oct 2026",
+     "publisher": "Yahoo Finance",
+     "title": "Nvidia stock sinks as chip sell-off deepens on hot inflation data",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html"
+    }
+   ],
+   "summary": "Markets and economists expect the Fed under Chair Kevin Warsh to hold rates on 28 Oct, with possible dissents in favour of a hike. ING forecasts a 25bp rise in December; Yahoo Finance says bets on an October hike fell to about 5% from 37% at end-September.",
+   "tickers": [
+    "NVDA"
+   ],
+   "meaning": "The US central bank is expected to keep interest rates unchanged on Wednesday, so that is already in prices. The bigger question is December, when ING expects a rise. Yahoo Finance says investors fear more rate rises would make borrowing for AI more expensive, which has weighed on Nvidia and other chip shares.",
+   "priced_in": {
+    "status": "expected",
+    "note": "A hold is about 90% priced (CME FedWatch); October hike bets fell to ~5% from 37% at end-September (Yahoo Finance)."
+   }
+  },
+  {
+   "category": "Rates",
+   "explainer": {
+    "meaning": "the interest rate investors earn for lending to a government; when it rises, borrowing gets dearer and growth shares usually fall",
+    "term": "Bond yield"
+   },
+   "headline": "10-year Treasury yield slips back to 5% on safe-haven buying; pound near $1.34",
+   "id": "s15",
+   "image_url": "https://editorial.fxsstatic.com/images/i/Discover-f-34_Medium.jpg",
+   "impacts": [
+    {
+     "direction": "watch",
+     "source_refs": [
+      2
+     ],
+     "ticker": "VWRP",
+     "why": "FXStreet puts GBP/USD at about 1.3366 Friday; VWRP is priced in pounds, so currency moves change the sterling value of its overseas holdings."
+    }
+   ],
+   "kind": "macro",
+   "published": "24 Oct 2026",
+   "section": "macro",
+   "sources": [
+    {
+     "date": "24 Oct 2026",
+     "publisher": "Yahoo Finance (Stocktwits)",
+     "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
+     "url": "https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-010033087.html"
+    },
+    {
+     "date": "23 Oct 2026",
+     "publisher": "FXStreet",
+     "title": "British Pound falters near 1.3400 as US business strength lifts Dollar",
+     "url": "https://www.fxstreet.com/news/british-pound-falters-near-13400-as-us-business-strength-lifts-dollar-202610231627"
+    }
+   ],
+   "summary": "The US 10-year yield ended the week around 5.00%, down 8bp, as investors moved into bonds during the AI sell-off; the dollar index was little changed at about 101.75. GBP/USD eased to roughly 1.337 on Friday after weak UK retail sales and firm US PMI data.",
+   "tickers": [
+    "VWRP"
+   ],
+   "meaning": "Investors bought US government bonds during the AI sell-off, pushing the 10-year yield (the interest rate on 10-year US government debt) back to about 5%. The pound is around $1.34. Your pie funds are priced in pounds but hold mostly dollar assets, so if the pound weakens, they are worth more in pounds, and vice versa (FXStreet).",
+   "priced_in": {
+    "status": "unclear",
+    "note": "Safe-haven buying during the sell-off; no scheduled surprise."
+   }
+  },
+  {
+   "category": "Policy",
+   "explainer": {
+    "meaning": "the Bank of England's main interest rate, which sets the cost of mortgages and loans across the UK",
+    "term": "Bank Rate"
+   },
+   "headline": "UK Budget on Wednesday; BoE decision 5 Nov with a hike seen as live",
+   "id": "s16",
+   "impacts": [],
+   "kind": "macro",
+   "published": "22 Oct 2026",
+   "section": "macro",
+   "sources": [
+    {
+     "date": "22 Oct 2026",
+     "publisher": "House of Commons Library",
+     "title": "Autumn Budget 2026: Background briefing",
+     "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-12245/"
+    },
+    {
+     "date": "18 Sep 2026",
+     "publisher": "Cambridge Currencies",
+     "title": "Bank of England Base Rate: Held at 3.75%, Next 5 November",
+     "url": "https://cambridgecurrencies.com/next-bank-of-england-interest-rate-decision/"
+    }
+   ],
+   "summary": "Chancellor John Healey delivers the Autumn Budget on 28 Oct alongside new OBR forecasts, with higher inflation and rates likely to lift debt-interest costs. Bank Rate is 3.75% after a 6-3 hold in September, and a rise to 4% on 5 Nov is described as a live possibility.",
+   "tickers": [],
+   "meaning": "Two big UK events are coming: the Budget on Wednesday and a Bank of England rate decision on 5 Nov, where a rise to 4% is now widely expected. These mainly move the pound and UK interest rates. For you, the pound matters because your pie funds hold mostly overseas assets.",
+   "priced_in": {
+    "status": "expected",
+    "note": "A BoE rise is about 95% priced in SONIA futures (FXStreet); the Budget is seen as a gilt and pound risk (IndexBox)."
+   }
+  }
+ ],
+ "topline": [
+  "Meta fell about 7% after Q3: revenue rose 26% to $64.6bn but free cash flow turned negative and 2026 capex rose to $135-145bn; Rosenblatt still lifted its target to $900.",
+  "Vistra dropped ~10% on 22 Oct in the post-Meta AI sell-off as power-equipment names GE Vernova and Eaton also slumped; HSBC started Vistra at Buy with a $190 target.",
+  "Fabrinet's slide deepened as Susquehanna cut its target to $600 from $850; results are due 2 Nov.",
+  "Cybersecurity stocks rallied Friday on an upbeat Evercore survey (ISPY +3.7%), while gold slipped to a three-month low near $4,008 (SGLN -1.5%).",
+  "Big Wednesday ahead: UK Budget, the Fed decision (hold expected) and Alphabet's Q3 results all land on 28 Oct."
+ ]
+}

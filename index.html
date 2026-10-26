@@ -268,7 +268,7 @@ const gbp=v=>!isNum(v)?'N/A':PUB()?(v<1?v.toFixed(1):Math.round(v))+'%':'£'+Mat
 const pct=(v,dp=1)=>isNum(v)?(v>0?'+':'')+v.toFixed(dp)+'%':'N/A';
 const cls=v=>!isNum(v)?'flat':v>0?'pos':v<0?'neg':'flat';
 const DIR={up:'Positive',down:'Negative',mixed:'Mixed',watch:'Watch'},ARROW={up:'▲',down:'▼',mixed:'◆',watch:'●'};
-const HZ={long:['long','Long-term'],years:['years','Years'],months:['months','A few months'],swing:['swing','Swing'],pie:['pie','Pie, to 2031+']};
+const HZ={long:['long','Mag7 pie (Trading 212)'],years:['years','Years'],months:['months','A few months'],swing:['swing','Swing'],pie:['pie','Pie, to 2031+']};
 
 /* ================= illustrations (generic subjects, drawn here) ================= */
 const ART={
@@ -277,6 +277,7 @@ pylon:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width=
 shield:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M60 6 34 16v22c0 18 11 30 26 36 15-6 26-18 26-36V16z" fill="currentColor" fill-opacity=".15"/><circle cx="60" cy="36" r="7"/><path d="M60 43v12"/><path d="M14 20h12M14 30h8M94 20h12M98 30h8" stroke-opacity=".5"/></svg>`,
 gold:`<svg viewBox="0 0 120 80" fill="currentColor"><path d="M22 70l8-20h30l8 20z" fill-opacity=".85"/><path d="M52 70l8-20h30l8 20z" fill-opacity=".6"/><path d="M37 48l8-20h30l8 20z" fill-opacity=".75"/><path d="M48 33l6-8M70 33l-4-8" stroke="currentColor" stroke-width="0" /><circle cx="94" cy="20" r="3" fill-opacity=".5"/><circle cx="102" cy="30" r="2" fill-opacity=".5"/></svg>`,
 globe:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="2.6"><circle cx="60" cy="40" r="32" fill="currentColor" fill-opacity=".12"/><ellipse cx="60" cy="40" rx="14" ry="32"/><path d="M28 40h64M33 24h54M33 56h54"/></svg>`,
+parcel:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M60 10 98 26v32L60 74 22 58V26z" fill="currentColor" fill-opacity=".14"/><path d="M22 26l38 16 38-16M60 42v32"/><path d="M41 18l38 16" stroke-opacity=".55"/><path d="M40 60q20 8 40 0" stroke-opacity=".7"/></svg>`,
 delivery:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="62" y="20" width="26" height="22" rx="3" fill="currentColor" fill-opacity=".18"/><path d="M68 31h14"/><circle cx="34" cy="62" r="10"/><circle cx="88" cy="62" r="10"/><path d="M34 62l14-20h22l10 20M48 42l-6-12h-8M70 42l4-0"/><path d="M8 40h14M4 50h12" stroke-opacity=".5"/></svg>`,
 blueprint:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M10 10h100v60H10z" fill="currentColor" fill-opacity=".1" stroke-opacity=".5"/>${[22,34,46,58].map(y=>`<path d="M10 ${y}h100" stroke-opacity=".18"/>`).join('')}${[26,42,58,74,90].map(x=>`<path d="M${x} 10v60" stroke-opacity=".18"/>`).join('')}<path d="M24 62V26h34v36zM58 40h26v22H58" stroke-width="3"/><path d="M90 20l14 40-14-6z" fill="currentColor" fill-opacity=".3"/></svg>`,
 plant:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M22 72c4-16 4-34 0-50h26c-4 16-4 34 0 50z" fill="currentColor" fill-opacity=".15"/><path d="M28 16q6-8 14 0M34 10q6-6 12 0" stroke-opacity=".5"/><path d="M60 72V44h40v28" /><path d="M66 52h8M84 52h8M66 62h8M84 62h8" stroke-width="2.4"/><path d="M84 8 74 26h10l-8 16" stroke-width="3.2"/></svg>`,
@@ -288,7 +289,7 @@ chart:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width=
 deal:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M10 34l18-12 16 8 16-8 16 8 16-8 18 12"/><path d="M28 22v24l20 16a6 6 0 0 0 8-1l14-13M92 22v24L74 60" /><path d="M44 30l14 12a5 5 0 0 0 7-7l-9-9" fill="currentColor" fill-opacity=".15"/></svg>`,
 gavel:`<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M44 18l20 20M56 10l20 20M50 14l20 20" /><path d="M60 34 28 66"/><path d="M20 72h44" stroke-opacity=".5"/><rect x="72" y="52" width="32" height="12" rx="3" fill="currentColor" fill-opacity=".15"/></svg>`
 };
-const TICK_ART={NVDA:['chip','--c-chip'],FN:['optic','--c-optic'],VST:['plant','--c-plant'],FGRD:['pylon','--c-grid'],GOOGL:['search','--c-chip'],META:['social','--c-social'],GRAB:['delivery','--c-delivery'],ADSK:['blueprint','--c-soft'],ISPY:['shield','--c-cyber'],SGLN:['gold','--c-gold'],VWRP:['globe','--c-globe']};
+const TICK_ART={NVDA:['chip','--c-chip'],FN:['optic','--c-optic'],VST:['plant','--c-plant'],FGRD:['pylon','--c-grid'],GOOGL:['search','--c-chip'],AMZN:['parcel','--c-soft'],META:['social','--c-social'],GRAB:['delivery','--c-delivery'],ADSK:['blueprint','--c-soft'],ISPY:['shield','--c-cyber'],SGLN:['gold','--c-gold'],VWRP:['globe','--c-globe']};
 const THEME_ART={'Cyber security':['shield','--c-cyber'],'Grid & energy':['pylon','--c-grid'],'Gold':['gold','--c-gold'],'Global markets':['globe','--c-globe'],'AI & chips':['chip','--c-chip']};
 const CAT_ART={Rates:['macro','--c-macro'],Inflation:['macro','--c-macro'],Policy:['macro','--c-macro'],Economy:['macro','--c-macro'],Energy:['pylon','--c-grid'],'AI capex':['chip','--c-chip'],Markets:['chart','--c-macro'],Earnings:['chart','--c-chip'],Analysts:['chart','--c-macro'],Deals:['deal','--c-delivery'],Legal:['gavel','--c-macro'],Gold:['gold','--c-gold'],Cyber:['shield','--c-cyber'],Currency:['globe','--c-globe']};
 function artFor(s){
@@ -304,7 +305,7 @@ function tile([k,c],label,img){
 
 /* ================= state ================= */
 let db=null,stocks={},holdings=[],editions=[],route='overview',newsTab='holdings',newsFilter='all',edIdx=0;
-const ORDER=['NVDA','GOOGL','META','GRAB','VST','ADSK','FN','VWRP','ISPY','FGRD','SGLN'];
+const ORDER=['NVDA','GOOGL','META','AMZN','GRAB','VST','ADSK','FN','VWRP','ISPY','FGRD','SGLN'];
 const groupOf=s=>s.horizon||'long';
 function sorted(){return Object.values(stocks).sort((a,b)=>{const ia=ORDER.indexOf(a.ticker),ib=ORDER.indexOf(b.ticker);return (ia<0?99:ia)-(ib<0?99:ib)})}
 const latest=()=>editions[0]?editions[0].data:null;
@@ -326,7 +327,7 @@ function upside(s){const p=curPrice(s),t=s.targets||{};return isNum(p)&&isNum(t.
 function navHTML(){
   const main=[['overview','Overview'],['news','News'],['calendar','Coming up'],['learn','How to read this']];
   $('navMain').innerHTML='<h6>Desk</h6>'+main.map(([k,l])=>`<a class="navlink" href="#${k}" ${route===k?'aria-current="page"':''}><span class="t">${l}</span><span></span></a>`).join('');
-  const groups=[['long','Long-term'],['years','Years'],['months','A few months'],['swing','Swing'],['pie','ETF pie, to 2031+']];
+  const groups=[['long','Mag7 pie · Trading 212'],['years','Years'],['months','A few months'],['swing','Swing'],['pie','ETF pie, to 2031+']];
   $('navHold').innerHTML=groups.map(([g,l])=>{
     const ss=sorted().filter(s=>groupOf(s)===g);if(!ss.length)return'';
     return `<h6 style="margin-top:10px">${l}</h6>`+ss.map(s=>`<a class="navlink" href="#${s.ticker}" ${route===s.ticker?'aria-current="page"':''}><span class="t"><b>${esc(s.ticker)}</b><span>${esc(s.short||s.name)}</span></span><span class="chg ${cls(s.change_pct)}">${isNum(s.change_pct)?pct(s.change_pct):''}</span></a>`).join('');
@@ -450,10 +451,10 @@ function vOverview(){
   return `<div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">${e?'Edition · '+esc(nice(e.date))+(e.compiled_at?' · compiled '+esc(e.compiled_at):''):'Overview'}</span>
     <h1>Your portfolio this morning</h1><p class="lede">Prices from the latest close, your positions estimated from them, and what the news means for each holding.</p></div>
   <div class="kpis">
-    ${PUB()?`<div class="kpi"><small>Holdings</small><b>${rows.length}</b><span>7 shares + 4 ETFs in the pie</span></div>
+    ${PUB()?`<div class="kpi"><small>Holdings</small><b>${rows.length}</b><span>${rows.filter(r=>r.s.kind!=='etf').length} shares + ${rows.filter(r=>r.s.kind==='etf').length} ETFs in the pie</span></div>
     <div class="kpi"><small>Largest single share</small><b>${(()=>{const r=rows.filter(r=>r.s.kind!=='etf').sort((a,b)=>b.v-a.v)[0];return r?esc(r.s.ticker)+' '+Math.round(r.v)+'%':'N/A'})()}</b><span>share of the whole portfolio</span></div>`:`<div class="kpi"><small>Estimated value</small><b>${gbp(tot)}</b><span>Shares + pie, at latest prices</span></div>
     <div class="kpi"><small>Gain / loss</small><b class="${cls(tot-cost)}">${isNum(cost)&&cost?(tot-cost>=0?'+':'−')+gbp(Math.abs(tot-cost)).slice(0):'N/A'}</b><span>${cost?pct((tot-cost)/cost*100)+' on £'+Math.round(cost).toLocaleString('en-GB')+' invested':''}</span></div>`}
-    <div class="kpi"><small>AI build-out share</small><b>${tot?Math.round(ai/tot*100)+'%':'N/A'}</b><span>5 shares + the grid ETF move together</span></div>
+    <div class="kpi"><small>AI build-out share</small><b>${tot?Math.round(ai/tot*100)+'%':'N/A'}</b><span>${rows.filter(r=>r.s.theme_group==='AI build-out'&&r.s.kind!=='etf').length} shares + the grid ETF move together</span></div>
     <div class="kpi"><small>Next results</small><b style="font-size:1.1rem">${evs?esc(evs.ticker||'')+' · '+esc(short(evs.date)):'N/A'}</b><span>${evs?esc(evs.event):''}</span></div>
   </div>
   <section class="panel"><header><h3>Where your money is</h3><span>by what each holding is a bet on</span></header>
