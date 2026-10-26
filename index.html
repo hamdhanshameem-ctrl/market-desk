@@ -233,6 +233,14 @@ table.hold td a span{color:var(--muted);font-size:.82rem}
   .rrow{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.mkts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.mkt{background:var(--surface);padding:10px 14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.mkt small{font-size:.68rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.mkt .row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.mkt .row b{font-family:var(--f-mono,ui-monospace,monospace);font-size:1.25rem;font-weight:600;font-variant-numeric:tabular-nums}
+.mkt .row span{font-size:.8rem}
+.mkt .sub{font-size:.74rem;color:var(--muted)}
+.mkt .pos{color:var(--pos,#137a47)}.mkt .neg{color:var(--neg,#b03a2e)}
 </style>
 
 
@@ -303,6 +311,12 @@ function tile([k,c],label,img){
   return `<div class="art" style="--c:var(${c})">${ART[k]||ART.chart}${label?`<span class="lab">${esc(label)}</span>`:''}${im}</div>`;
 }
 
+function mktsHTML(e){const m=(e&&e.markets)||[];if(!m.length)return'';
+  const p=(v,dp=1)=>typeof v==='number'&&isFinite(v)?(v>0?'+':'')+v.toFixed(dp)+'%':'N/A';
+  const c=v=>typeof v==='number'?(v>0?'pos':v<0?'neg':''):'';
+  return `<div class="mkts">${m.map(x=>`<div class="mkt"><small>${esc(x.name)}</small>
+    <div class="row"><b class="${c(x.off_high_pct)}">${typeof x.off_high_pct==='number'?(x.off_high_pct<0?esc(Math.abs(x.off_high_pct).toFixed(1))+'% below':'at')+' its high':'N/A'}</b></div>
+    <div class="sub">Day <span class="${c(x.change_pct)}">${p(x.change_pct,2)}</span>${typeof x.ytd_pct==='number'?' · 2026 <span class="'+c(x.ytd_pct)+'">'+p(x.ytd_pct)+'</span>':''} · high ${esc(x.high_date||'')} · ${esc(x.as_of||'')}${safeUrl(x.url)?` · <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source||'source')} ↗</a>`:''}</div></div>`).join('')}</div>`}
 /* ================= state ================= */
 let db=null,stocks={},holdings=[],editions=[],route='overview',newsTab='holdings',newsFilter='all',edIdx=0;
 const ORDER=['NVDA','GOOGL','META','AMZN','GRAB','VST','ADSK','FN','VWRP','ISPY','FGRD','SGLN'];
@@ -448,7 +462,7 @@ function vOverview(){
   const ai=themes['AI build-out']||0;
   const evs=upcoming().find(c=>(c.tickers||[]).length);
   const stories=e?(e.stories||[]):[];const top=stories.slice(0,3);
-  return `<div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">${e?'Edition · '+esc(nice(e.date))+(e.compiled_at?' · compiled '+esc(e.compiled_at):''):'Overview'}</span>
+  return `${mktsHTML(e)}<div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">${e?'Edition · '+esc(nice(e.date))+(e.compiled_at?' · compiled '+esc(e.compiled_at):''):'Overview'}</span>
     <h1>Your portfolio this morning</h1><p class="lede">Prices from the latest close, your positions estimated from them, and what the news means for each holding.</p></div>
   <div class="kpis">
     ${PUB()?`<div class="kpi"><small>Holdings</small><b>${rows.length}</b><span>${rows.filter(r=>r.s.kind!=='etf').length} shares + ${rows.filter(r=>r.s.kind==='etf').length} ETFs in the pie</span></div>

@@ -1422,5 +1422,29 @@
   "Fabrinet's slide deepened as Susquehanna cut its target to $600 from $850; results are due 2 Nov.",
   "Cybersecurity stocks rallied Friday on an upbeat Evercore survey (ISPY +3.7%), while gold slipped to a three-month low near $4,008 (SGLN -1.5%).",
   "Big Wednesday ahead: UK Budget, the Fed decision (hold expected) and Alphabet's Q3 results all land on 28 Oct."
+ ],
+ "markets": [
+  {
+   "name": "Nasdaq Composite",
+   "note": "US index of ~3,000 Nasdaq-listed shares, tech-heavy",
+   "change_pct": -0.24,
+   "off_high_pct": -6.0,
+   "high_date": "6 Oct",
+   "ytd_pct": 11.9,
+   "as_of": "23 Oct close",
+   "source": "ChartRow (ONEQ tracker)",
+   "url": "https://chartrow.com/nasdaq-composite/drawdown"
+  },
+  {
+   "name": "Your Vanguard All-World (VWRP)",
+   "note": "~3,700 shares worldwide, about 60% US",
+   "change_pct": -0.08,
+   "off_high_pct": -3.7,
+   "high_date": "6 Oct",
+   "ytd_pct": null,
+   "as_of": "23 Oct close",
+   "source": "StockAnalysis",
+   "url": "https://stockanalysis.com/quote/lon/VWRP/history/"
+  }
  ]
 }
