@@ -155,7 +155,150 @@
      "url": "https://www.top1markets.com/news/alphabet-q3-2026-earnings-preview-cloud-capex"
     }
    ],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q3 24",
+     "date": "2024-10-29",
+     "eps_est": 1.83,
+     "eps_act": 2.12,
+     "rev_est": 86.31,
+     "rev_act": 88.27,
+     "move_pct": 2.82,
+     "implied_pct": 6.1
+    },
+    {
+     "q": "Q4 24",
+     "date": "2025-02-04",
+     "eps_est": 2.12,
+     "eps_act": 2.15,
+     "rev_est": 96.67,
+     "rev_act": 96.47,
+     "move_pct": -7.29,
+     "implied_pct": 5.9
+    },
+    {
+     "q": "Q1 25",
+     "date": "2025-04-24",
+     "eps_est": 2.02,
+     "eps_act": 2.81,
+     "rev_est": 89.3,
+     "rev_act": 90.23,
+     "move_pct": 1.68,
+     "implied_pct": 6.1
+    },
+    {
+     "q": "Q2 25",
+     "date": "2025-07-23",
+     "eps_est": 2.15,
+     "eps_act": 2.31,
+     "rev_est": 93.6,
+     "rev_act": 96.43,
+     "move_pct": 1.02,
+     "implied_pct": 5.7
+    },
+    {
+     "q": "Q3 25",
+     "date": "2025-10-29",
+     "eps_est": 2.29,
+     "eps_act": 2.87,
+     "rev_est": 99.9,
+     "rev_act": 102.35,
+     "move_pct": 2.52,
+     "implied_pct": 6.5
+    },
+    {
+     "q": "Q4 25",
+     "date": "2026-02-04",
+     "eps_est": 2.57,
+     "eps_act": 2.82,
+     "rev_est": 111.24,
+     "rev_act": 113.83,
+     "move_pct": -0.54,
+     "implied_pct": 6.5
+    },
+    {
+     "q": "Q1 26",
+     "date": "2026-04-29",
+     "eps_est": 2.64,
+     "eps_act": 5.11,
+     "rev_est": 106.98,
+     "rev_act": 109.9,
+     "move_pct": 9.96,
+     "implied_pct": 5.5,
+     "eps_adj": 2.62
+    },
+    {
+     "q": "Q2 26",
+     "date": "2026-07-22",
+     "eps_est": 2.89,
+     "eps_act": 9.11,
+     "rev_est": 117.07,
+     "rev_act": 119.8,
+     "move_pct": -7.13,
+     "implied_pct": 5.9,
+     "oneoff": true
+    }
+   ],
+   "means": [
+    "Alphabet is in your Mag7 pie. This report tests whether its AI spending (about $200bn this year) is paying off, mainly through Google Cloud.",
+    "The number the market cares about most is Cloud revenue: about $29.2bn expected, up 92% (Zacks).",
+    "A beat alone may not be enough. In July it beat forecasts but fell 7.1% because it raised its spending plan.",
+    "Its last two reports included huge one-off gains on its Anthropic and SpaceX stakes, so judge it on underlying profit, not the headline EPS.",
+    "Options price a move of about 6% either way. A smaller move means the results matched what traders expected."
+   ],
+   "watch_line": "Watch: Google Cloud growth and the 2027 spending plan",
+   "key_metrics": [
+    {
+     "metric": "Google Cloud revenue",
+     "consensus": "~$29.2bn, +92%",
+     "why": "The main proof AI spending pays off"
+    },
+    {
+     "metric": "Search revenue",
+     "consensus": "~$65bn, +15%",
+     "why": "Still pays for everything"
+    },
+    {
+     "metric": "2026 capex",
+     "consensus": "Street ~$202bn",
+     "why": "Higher = more cost, but more orders for Nvidia and your grid ETF"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "earnings-watcher GOOGL implied move",
+     "url": "https://earnings-watcher.com/wiki/googl-implied-move"
+    },
+    {
+     "name": "MarketBeat GOOGL earnings",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/earnings/"
+    },
+    {
+     "name": "OptionsAI GOOGL earnings moves",
+     "url": "https://tools.optionsai.com/earnings/GOOGL"
+    },
+    {
+     "name": "The Fly/TipRanks implied move Oct 2024",
+     "url": "https://www.tipranks.com/news/the-fly/alphabet-class-a-options-imply-6-1-move-in-share-price-post-earnings"
+    },
+    {
+     "name": "The Fly/TipRanks implied move Feb 2025",
+     "url": "https://www.tipranks.com/news/the-fly/alphabet-class-a-options-imply-5-9-move-in-share-price-post-earnings"
+    },
+    {
+     "name": "Benzinga Q3 2024 results",
+     "url": "https://benzinga.com/news/earnings/24/10/41611263/alphabet-q3-earnings-highlights-revenue-beat-eps-beat-google-cloud-up-35-momentum-across-the-compan"
+    }
+   ],
+   "rev_unit": "$bn",
+   "eps_est": 3.03,
+   "implied_pct": 6.2,
+   "past_notes": [
+    "Q4 24: fell 7.3% after Cloud revenue missed forecasts.",
+    "Q1 26: jumped 10% as Cloud revenue ($20.0bn) beat forecasts ($18.4bn).",
+    "Q2 26: beat, but fell 7.1% after raising its spending plan."
+   ]
   },
   {
    "date": "2026-10-28",
@@ -208,7 +351,141 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-beat-estimates-again-151002495.html"
     }
    ],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q1 FY25",
+     "date": "2024-10-30",
+     "eps_est": 3.1,
+     "eps_act": 3.3,
+     "rev_est": 64.57,
+     "rev_act": 65.59,
+     "move_pct": -6.05,
+     "implied_pct": 4.7
+    },
+    {
+     "q": "Q2 FY25",
+     "date": "2025-01-29",
+     "eps_est": 3.15,
+     "eps_act": 3.23,
+     "rev_est": 68.86,
+     "rev_act": 69.6,
+     "move_pct": -6.18,
+     "implied_pct": 4.1
+    },
+    {
+     "q": "Q3 FY25",
+     "date": "2025-04-30",
+     "eps_est": 3.22,
+     "eps_act": 3.46,
+     "rev_est": 68.54,
+     "rev_act": 70.07,
+     "move_pct": 7.63,
+     "implied_pct": 4.4
+    },
+    {
+     "q": "Q4 FY25",
+     "date": "2025-07-30",
+     "eps_est": 3.35,
+     "eps_act": 3.65,
+     "rev_est": 73.79,
+     "rev_act": 76.44,
+     "move_pct": 3.95,
+     "implied_pct": 3.7
+    },
+    {
+     "q": "Q1 FY26",
+     "date": "2025-10-29",
+     "eps_est": 3.65,
+     "eps_act": 4.13,
+     "rev_est": 75.49,
+     "rev_act": 77.67,
+     "move_pct": -2.92,
+     "implied_pct": 5.2
+    },
+    {
+     "q": "Q2 FY26",
+     "date": "2026-01-28",
+     "eps_est": 3.86,
+     "eps_act": 4.14,
+     "rev_est": 80.28,
+     "rev_act": 81.27,
+     "move_pct": -9.99,
+     "implied_pct": 5.4
+    },
+    {
+     "q": "Q3 FY26",
+     "date": "2026-04-29",
+     "eps_est": 4.06,
+     "eps_act": 4.27,
+     "rev_est": 81.44,
+     "rev_act": 82.89,
+     "move_pct": -3.93,
+     "implied_pct": 6.5
+    },
+    {
+     "q": "Q4 FY26",
+     "date": "2026-07-29",
+     "eps_est": 4.24,
+     "eps_act": 4.74,
+     "rev_est": 87.62,
+     "rev_act": 90.01,
+     "move_pct": 15.51,
+     "implied_pct": 6.8
+    }
+   ],
+   "means": [
+    "You don't own Microsoft directly (it is inside your Vanguard fund), but its spending decides orders for Nvidia, Fabrinet, Vistra and your grid ETF.",
+    "Microsoft guided Azure cloud growth of 44-45%. In January it beat on profit but fell 10% because Azure disappointed.",
+    "It said quarterly capex would be above $50bn. A higher number is good news for your AI-supplier holdings, even if Microsoft's own shares dip.",
+    "Options price a move of about 5.5%, in line with its usual reaction."
+   ],
+   "watch_line": "Not held directly. Watch Azure growth and capex: they feed your AI holdings",
+   "key_metrics": [
+    {
+     "metric": "Azure growth",
+     "consensus": "44-45% guided",
+     "why": "The single number the shares react to"
+    },
+    {
+     "metric": "Quarterly capex",
+     "consensus": "above $50bn guided",
+     "why": "Spending that becomes revenue for your AI holdings"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "earnings-watcher MSFT implied move",
+     "url": "https://earnings-watcher.com/wiki/msft-implied-move"
+    },
+    {
+     "name": "MarketBeat MSFT earnings",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/MSFT/earnings/"
+    },
+    {
+     "name": "OptionsAI MSFT earnings moves",
+     "url": "https://tools.optionsai.com/earnings/MSFT"
+    },
+    {
+     "name": "TipRanks FQ1 2025 preview (implied 4.7%)",
+     "url": "https://www.tipranks.com/news/microsoft-msft-q1-earnings-preview-heres-what-to-expect"
+    },
+    {
+     "name": "The Fly/TipRanks implied move Jan 2025",
+     "url": "https://www.tipranks.com/news/the-fly/microsoft-options-imply-4-1-move-in-share-price-post-earnings"
+    },
+    {
+     "name": "Microsoft FQ2 2025 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-ex99_1.htm"
+    }
+   ],
+   "rev_unit": "$bn",
+   "eps_est": 4.72,
+   "implied_pct": 5.5,
+   "past_notes": [
+    "Q2 FY26 (Jan): beat but fell 10% on Azure.",
+    "Q4 FY26 (Jul): jumped 15.5% as Azure grew 43%, above its 39-40% guide."
+   ]
   },
   {
    "date": "2026-10-29",
@@ -274,7 +551,150 @@
      "url": "https://247wallst.com/investing/2026/10/20/q3-trendssuggest-amazon-will-rise-on-oct-29-but-thats-not-why-im-buying/"
     }
    ],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q3 24",
+     "date": "2024-10-31",
+     "eps_est": 1.14,
+     "eps_act": 1.43,
+     "rev_est": 157.28,
+     "rev_act": 158.88,
+     "move_pct": 6.19,
+     "implied_pct": 5.8
+    },
+    {
+     "q": "Q4 24",
+     "date": "2025-02-06",
+     "eps_est": 1.52,
+     "eps_act": 1.86,
+     "rev_est": 187.25,
+     "rev_act": 187.8,
+     "move_pct": -4.05,
+     "implied_pct": 5.9
+    },
+    {
+     "q": "Q1 25",
+     "date": "2025-05-01",
+     "eps_est": 1.38,
+     "eps_act": 1.59,
+     "rev_est": 154.96,
+     "rev_act": 155.67,
+     "move_pct": -0.12,
+     "implied_pct": 6.3
+    },
+    {
+     "q": "Q2 25",
+     "date": "2025-07-31",
+     "eps_est": 1.31,
+     "eps_act": 1.68,
+     "rev_est": 161.8,
+     "rev_act": 167.7,
+     "move_pct": -8.27,
+     "implied_pct": 5.9
+    },
+    {
+     "q": "Q3 25",
+     "date": "2025-10-30",
+     "eps_est": 1.57,
+     "eps_act": 1.95,
+     "rev_est": 177.53,
+     "rev_act": 180.17,
+     "move_pct": 9.58,
+     "implied_pct": 7.1
+    },
+    {
+     "q": "Q4 25",
+     "date": "2026-02-05",
+     "eps_est": 1.97,
+     "eps_act": 1.95,
+     "rev_est": 211.02,
+     "rev_act": 213.39,
+     "move_pct": -5.55,
+     "implied_pct": 8.7
+    },
+    {
+     "q": "Q1 26",
+     "date": "2026-04-29",
+     "eps_est": 1.63,
+     "eps_act": 2.78,
+     "rev_est": 177.28,
+     "rev_act": 181.52,
+     "move_pct": 0.77,
+     "implied_pct": 7.6,
+     "oneoff": true
+    },
+    {
+     "q": "Q2 26",
+     "date": "2026-07-30",
+     "eps_est": 1.82,
+     "eps_act": 5.75,
+     "rev_est": 197.03,
+     "rev_act": 200.61,
+     "move_pct": 15.32,
+     "implied_pct": 8.3,
+     "oneoff": true
+    }
+   ],
+   "means": [
+    "Amazon is your newest Mag7 holding. AWS cloud earns about 60% of its profit, so AWS growth is the number that matters: 30-35% expected after 37% in Q2.",
+    "Total sales growth will look slow (guided 9-12%) because Prime Day moved into Q2. That is already known and shouldn't shock anyone.",
+    "The worry is spending: a $220bn capex plan has pushed free cash flow negative. In February it fell 5.6% on spending fears.",
+    "Shares jumped 15% after Q2, its biggest reaction in two years, so expectations are higher this time.",
+    "Its last two reports included big Anthropic gains, so the underlying operating income (guided $22.5-26.5bn) is the cleaner test."
+   ],
+   "watch_line": "Watch: AWS growth (30-35% expected) and capex",
+   "key_metrics": [
+    {
+     "metric": "AWS growth",
+     "consensus": "30-35% expected",
+     "why": "AWS earns most of Amazon's profit"
+    },
+    {
+     "metric": "Operating income",
+     "consensus": "$22.5-26.5bn guided",
+     "why": "Cleaner than EPS, which includes Anthropic gains"
+    },
+    {
+     "metric": "2026 capex",
+     "consensus": "~$220bn plan",
+     "why": "A further raise would worry investors about cash flow"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "earnings-watcher AMZN implied move",
+     "url": "https://earnings-watcher.com/wiki/amzn-implied-move"
+    },
+    {
+     "name": "MarketBeat AMZN earnings",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/"
+    },
+    {
+     "name": "OptionsAI AMZN earnings moves",
+     "url": "https://tools.optionsai.com/earnings/AMZN"
+    },
+    {
+     "name": "The Fly/TipRanks implied move Oct 2024",
+     "url": "https://www.tipranks.com/news/the-fly/amazon-options-imply-5-8-move-in-share-price-post-earnings"
+    },
+    {
+     "name": "The Fly/TipRanks implied move Feb 2025",
+     "url": "https://www.tipranks.com/news/the-fly/amazon-options-imply-5-9-move-in-share-price-post-earnings"
+    },
+    {
+     "name": "Yahoo Finance Q4 2024 results",
+     "url": "https://finance.yahoo.com/news/amazon-beats-q4-expectations-forecasts-005551957.html"
+    }
+   ],
+   "rev_unit": "$bn",
+   "eps_est": 1.96,
+   "implied_pct": 6.2,
+   "past_notes": [
+    "Q2 25: fell 8.3% as AWS growth (17.5%) lagged rivals.",
+    "Q4 25: fell 5.6% on its $200bn spending plan; its only EPS miss here.",
+    "Q2 26: jumped 15.3% as AWS grew 37%, its fastest in 18 quarters."
+   ]
   },
   {
    "date": "2026-11-02",
@@ -308,7 +728,146 @@
     }
    ],
    "affects": [],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q1 FY25",
+     "date": "2024-11-04",
+     "eps_est": 2.38,
+     "eps_act": 2.39,
+     "rev_est": 0.771,
+     "rev_act": 0.804,
+     "move_pct": -3.91,
+     "implied_pct": null
+    },
+    {
+     "q": "Q2 FY25",
+     "date": "2025-02-03",
+     "eps_est": 2.5,
+     "eps_act": 2.61,
+     "rev_est": 0.814,
+     "rev_act": 0.834,
+     "move_pct": -8.19,
+     "implied_pct": null
+    },
+    {
+     "q": "Q3 FY25",
+     "date": "2025-05-05",
+     "eps_est": 2.47,
+     "eps_act": 2.52,
+     "rev_est": 0.857,
+     "rev_act": 0.872,
+     "move_pct": -7.27,
+     "implied_pct": null
+    },
+    {
+     "q": "Q4 FY25",
+     "date": "2025-08-18",
+     "eps_est": 2.63,
+     "eps_act": 2.65,
+     "rev_est": 0.88,
+     "rev_act": 0.91,
+     "move_pct": -12.81,
+     "implied_pct": null
+    },
+    {
+     "q": "Q1 FY26",
+     "date": "2025-11-03",
+     "eps_est": 2.82,
+     "eps_act": 2.92,
+     "rev_est": 0.934,
+     "rev_act": 0.978,
+     "move_pct": 3.75,
+     "implied_pct": null
+    },
+    {
+     "q": "Q2 FY26",
+     "date": "2026-02-02",
+     "eps_est": 3.26,
+     "eps_act": 3.36,
+     "rev_est": 1.08,
+     "rev_act": 1.13,
+     "move_pct": -10.22,
+     "implied_pct": null
+    },
+    {
+     "q": "Q3 FY26",
+     "date": "2026-05-04",
+     "eps_est": 3.58,
+     "eps_act": 3.72,
+     "rev_est": 1.19,
+     "rev_act": 1.214,
+     "move_pct": -8.01,
+     "implied_pct": null
+    },
+    {
+     "q": "Q4 FY26",
+     "date": "2026-08-17",
+     "eps_est": 3.81,
+     "eps_act": 4.1,
+     "rev_est": 1.28,
+     "rev_act": 1.316,
+     "move_pct": -19.37,
+     "implied_pct": 12.0
+    }
+   ],
+   "means": [
+    "Fabrinet beat forecasts in all 8 of the last quarters, yet its shares fell after 7 of them. The market wants big beats and a strong outlook, not just a beat.",
+    "Options price a move of about 16.5% either way, the largest of your holdings. Expect a big swing.",
+    "The worries are its thin 12.2% gross margin (the CFO flagged a seasonal dip this quarter) and fears that newer optical technology replaces its products.",
+    "Data-centre sales were $669m last quarter, up 68%. New transceiver programmes starting now are the upside case.",
+    "The shares are about 58% below their high, so a lot of bad news is already in the price."
+   ],
+   "watch_line": "Watch: gross margin and the guide for next quarter",
+   "key_metrics": [
+    {
+     "metric": "Revenue",
+     "consensus": "$1.375-1.425bn guided",
+     "why": "About 43% growth on a year ago"
+    },
+    {
+     "metric": "Gross margin",
+     "consensus": "12.2% last quarter",
+     "why": "The CFO flagged a seasonal dip this quarter"
+    },
+    {
+     "metric": "Data-centre revenue",
+     "consensus": "$669m last quarter, +68%",
+     "why": "New transceiver programmes start ramping now"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "MarketBeat FN earnings",
+     "url": "https://www.marketbeat.com/stocks/NYSE/FN/earnings/"
+    },
+    {
+     "name": "Barchart/Webull FN earnings move history",
+     "url": "https://www.webull.com/news/15403232987849728"
+    },
+    {
+     "name": "Regards of Wall Street FN earnings moves",
+     "url": "https://www.regardsofwallstreet.com/data/earnings-moves/ticker/fn"
+    },
+    {
+     "name": "Regards of Wall Street FN Q4 FY26 preview",
+     "url": "https://www.regardsofwallstreet.com/news/fabrinet-fn-q4-fy2026-earnings-preview-august-17"
+    },
+    {
+     "name": "Fabrinet Q4 FY26 release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001408710/000140871026000026/fn-2026811xex991q426.htm"
+    },
+    {
+     "name": "Fabrinet Q3 FY26 release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001408710/000140871026000014/fn-2026504xex991q326.htm"
+    }
+   ],
+   "rev_unit": "$bn",
+   "eps_est": 4.19,
+   "implied_pct": 16.5,
+   "past_notes": [
+    "Q4 FY26 (Aug): beat, then fell 19.4% on weaker Nvidia orders and margin worries."
+   ]
   },
   {
    "date": "2026-11-02",
@@ -336,7 +895,153 @@
      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-grab-posts-record-q2-2026-profit-growth-shares-rise-93CH-4832657"
     }
    ],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q3 24",
+     "date": "2024-11-11",
+     "eps_est": 0.7054,
+     "eps_act": 0.716,
+     "rev_est": 0.7054,
+     "rev_act": 0.716,
+     "move_pct": 11.64,
+     "implied_pct": null
+    },
+    {
+     "q": "Q4 24",
+     "date": "2025-02-19",
+     "eps_est": 0.7626,
+     "eps_act": 0.764,
+     "rev_est": 0.7626,
+     "rev_act": 0.764,
+     "move_pct": -10.39,
+     "implied_pct": null
+    },
+    {
+     "q": "Q1 25",
+     "date": "2025-04-29",
+     "eps_est": 0.7643,
+     "eps_act": 0.773,
+     "rev_est": 0.7643,
+     "rev_act": 0.773,
+     "move_pct": 1.88,
+     "implied_pct": null
+    },
+    {
+     "q": "Q2 25",
+     "date": "2025-07-30",
+     "eps_est": 0.8094,
+     "eps_act": 0.819,
+     "rev_est": 0.8094,
+     "rev_act": 0.819,
+     "move_pct": -7.56,
+     "implied_pct": null
+    },
+    {
+     "q": "Q3 25",
+     "date": "2025-11-03",
+     "eps_est": 0.8704,
+     "eps_act": 0.873,
+     "rev_est": 0.8704,
+     "rev_act": 0.873,
+     "move_pct": -4.7,
+     "implied_pct": 7.2
+    },
+    {
+     "q": "Q4 25",
+     "date": "2026-02-11",
+     "eps_est": 0.9421,
+     "eps_act": 0.906,
+     "rev_est": 0.9421,
+     "rev_act": 0.906,
+     "move_pct": 0.95,
+     "implied_pct": null
+    },
+    {
+     "q": "Q1 26",
+     "date": "2026-05-04",
+     "eps_est": 0.9217,
+     "eps_act": 0.955,
+     "rev_est": 0.9217,
+     "rev_act": 0.955,
+     "move_pct": 1.66,
+     "implied_pct": null
+    },
+    {
+     "q": "Q2 26",
+     "date": "2026-08-03",
+     "eps_est": 0.995,
+     "eps_act": 0.997,
+     "rev_est": 0.995,
+     "rev_act": 0.997,
+     "move_pct": 1.36,
+     "implied_pct": null,
+     "oneoff": true
+    }
+   ],
+   "means": [
+    "Grab is your largest single share (about 15% of your portfolio) and you hold it for years, so the trend matters more than one report.",
+    "Revenue beat forecasts in 7 of the last 8 quarters. Its profit per share is a fraction of a cent, so EPS 'beats' mean little.",
+    "Adjusted EBITDA has risen every quarter, from $90m to $168m. To hit its $720-740m full-year guide it needs about $398-418m in the second half.",
+    "Watch the loan book ($2.32bn, target above $3bn by year-end) and whether financial services turns profitable as promised. This is the first quarter including Stash.",
+    "Options price about 8.5% either way; over the last 8 reports it moved about 5% on average."
+   ],
+   "watch_line": "Watch: EBITDA vs the full-year guide, and the loan book",
+   "key_metrics": [
+    {
+     "metric": "Revenue",
+     "consensus": "~$1.05-1.1bn expected",
+     "why": "First quarter including Stash"
+    },
+    {
+     "metric": "Adjusted EBITDA",
+     "consensus": "needs ~$200m+ a quarter",
+     "why": "To hit the $720-740m full-year guide"
+    },
+    {
+     "metric": "Loan book",
+     "consensus": "$2.32bn (target $3bn+)",
+     "why": "Lending growth vs bad-debt risk"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "MarketBeat GRAB earnings history",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings/"
+    },
+    {
+     "name": "Yahoo Finance GRAB price history",
+     "url": "https://finance.yahoo.com/quote/GRAB/history/"
+    },
+    {
+     "name": "OptionsAI GRAB earnings moves",
+     "url": "https://tools.optionsai.com/companies/GRAB/earnings"
+    },
+    {
+     "name": "Unusual Whales GRAB earnings",
+     "url": "https://unusualwhales.com/stock/GRAB/earnings"
+    },
+    {
+     "name": "TheFly via TipRanks: options imply 7.2% move (Q3 25)",
+     "url": "https://www.tipranks.com/news/the-fly/grab-holdings-ltd-options-imply-7-2-move-in-share-price-post-earnings-thefly"
+    },
+    {
+     "name": "Grab Q2 2026 release (SEC 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001855612/000185561226000123/a2026q2-earningspressrelea.htm"
+    }
+   ],
+   "rev_unit": "$bn",
+   "implied_pct": 8.5,
+   "est_label": "Expected revenue",
+   "est_value": "$1.05-1.1bn",
+   "beat_short": "Beat revenue forecast",
+   "beat_short_l": "revenue",
+   "beat_label": "revenue",
+   "past_notes": [
+    "Q3 24: rose 11.6% after raising guidance.",
+    "Q4 24: fell 10.4% after its full-year revenue guide came in below forecasts.",
+    "Q2 26: EPS lifted by a one-off $307m Superbank gain."
+   ]
   },
   {
    "date": "2026-11-03",
@@ -485,7 +1190,152 @@
     }
    ],
    "affects": [],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q3 24",
+     "date": "2024-11-07",
+     "eps_est": null,
+     "eps_act": 1.444,
+     "rev_est": 4.96,
+     "rev_act": 6.29,
+     "move_pct": 7.65,
+     "implied_pct": null
+    },
+    {
+     "q": "Q4 24",
+     "date": "2025-02-27",
+     "eps_est": null,
+     "eps_act": 1.985,
+     "rev_est": 4.61,
+     "rev_act": 4.04,
+     "move_pct": -12.27,
+     "implied_pct": null
+    },
+    {
+     "q": "Q1 25",
+     "date": "2025-05-07",
+     "eps_est": 1.06,
+     "eps_act": 1.24,
+     "rev_est": 4.4,
+     "rev_act": 3.93,
+     "move_pct": -3.66,
+     "implied_pct": 3.5
+    },
+    {
+     "q": "Q2 25",
+     "date": "2025-08-07",
+     "eps_est": 1.38,
+     "eps_act": 1.349,
+     "rev_est": 5.15,
+     "rev_act": 4.25,
+     "move_pct": 2.36,
+     "implied_pct": 5.4
+    },
+    {
+     "q": "Q3 25",
+     "date": "2025-11-06",
+     "eps_est": 1.55,
+     "eps_act": 1.581,
+     "rev_est": 6.6,
+     "rev_act": 4.97,
+     "move_pct": -2.52,
+     "implied_pct": 6.2
+    },
+    {
+     "q": "Q4 25",
+     "date": "2026-02-26",
+     "eps_est": 1.71,
+     "eps_act": 1.742,
+     "rev_est": 5.75,
+     "rev_act": 4.58,
+     "move_pct": 0.83,
+     "implied_pct": 7.0
+    },
+    {
+     "q": "Q1 26",
+     "date": "2026-05-07",
+     "eps_est": 1.452,
+     "eps_act": 1.494,
+     "rev_est": 5.22,
+     "rev_act": 5.64,
+     "move_pct": -2.74,
+     "implied_pct": 6.5
+    },
+    {
+     "q": "Q2 26",
+     "date": "2026-08-07",
+     "eps_est": 1.659,
+     "eps_act": 1.767,
+     "rev_est": 5.46,
+     "rev_act": 4.02,
+     "move_pct": -0.56,
+     "implied_pct": 4.9
+    }
+   ],
+   "means": [
+    "Judge Vistra on adjusted EBITDA, not EPS: its EPS jumps around with hedging accounting. About $2.1bn is expected (TIKR).",
+    "It beat EBITDA forecasts in 5 of the 6 quarters with a forecast, yet the shares fell after 5 of the last 8 reports.",
+    "The call matters more than the quarter: management will update 2026 and 2027 guidance, and the CFO says 2027 is trending to the low end of $7.4-7.8bn.",
+    "Upside: the Meta nuclear deals and the Cogentrix purchase could add about $700m to 2027, and a government nuclear loan of up to $4.2bn is pending.",
+    "Options price 8-11%, roughly double its usual move. The actual move beat the implied move in only 4 of 18 reports (earnings-watcher).",
+    "You hold it for a few months, so this report sits inside your window."
+   ],
+   "watch_line": "Watch: 2026/27 guidance update on the call",
+   "key_metrics": [
+    {
+     "metric": "Adjusted EBITDA",
+     "consensus": "~$2.1bn expected",
+     "why": "Vistra's main profit measure"
+    },
+    {
+     "metric": "2026 guidance",
+     "consensus": "$6.8-7.6bn (at or above midpoint)",
+     "why": "Any cut would hurt"
+    },
+    {
+     "metric": "2027 outlook",
+     "consensus": "$7.4-7.8bn, trending to low end",
+     "why": "The call's key update"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "MarketBeat VST earnings history",
+     "url": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/"
+    },
+    {
+     "name": "earnings-watcher VST implied move",
+     "url": "https://earnings-watcher.com/wiki/vst-implied-move"
+    },
+    {
+     "name": "Unusual Whales VST earnings",
+     "url": "https://unusualwhales.com/stock/VST/earnings"
+    },
+    {
+     "name": "Yahoo Finance VST price history",
+     "url": "https://finance.yahoo.com/quote/VST/history/"
+    },
+    {
+     "name": "Vistra Q2 2026 8-K earnings release",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000017/vistra-20260630xearningsre.htm"
+    },
+    {
+     "name": "Vistra Q3 2025 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525268033/d33941dex991.htm"
+    }
+   ],
+   "rev_unit": "$bn",
+   "implied_pct": 8.2,
+   "est_label": "Expected adj. EBITDA",
+   "est_value": "~$2.1bn",
+   "beat_short": "Beat EBITDA forecast",
+   "beat_short_l": "EBITDA",
+   "beat_label": "adjusted EBITDA",
+   "past_notes": [
+    "Q4 24: fell 12.3% on a day when AI and power stocks sold off broadly.",
+    "Q2 25: missed on EBITDA, fell 7% before the open, then closed up 2.4%."
+   ]
   },
   {
    "date": "2026-11-10",
@@ -557,7 +1407,147 @@
      "url": "https://www.xtb.com/ae-en/market-analysis/news-and-research/nvidia-shares-react-to-solid-earnings-report-and-stonger-guidance-what-s-next-for-the-ai-giant"
     }
    ],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q3 FY25",
+     "date": "2024-11-20",
+     "eps_est": 0.69,
+     "eps_act": 0.81,
+     "rev_est": 33.15,
+     "rev_act": 35.08,
+     "move_pct": 0.54,
+     "implied_pct": 8.19
+    },
+    {
+     "q": "Q4 FY25",
+     "date": "2025-02-26",
+     "eps_est": 0.84,
+     "eps_act": 0.89,
+     "rev_est": 38.16,
+     "rev_act": 39.33,
+     "move_pct": -8.48,
+     "implied_pct": 10.66
+    },
+    {
+     "q": "Q1 FY26",
+     "date": "2025-05-28",
+     "eps_est": 0.87,
+     "eps_act": 0.81,
+     "rev_est": 43.09,
+     "rev_act": 44.06,
+     "move_pct": 3.2,
+     "implied_pct": 6.8,
+     "eps_adj": 0.96
+    },
+    {
+     "q": "Q2 FY26",
+     "date": "2025-08-27",
+     "eps_est": 1.01,
+     "eps_act": 1.05,
+     "rev_est": 45.65,
+     "rev_act": 46.74,
+     "move_pct": -0.8,
+     "implied_pct": 6.6
+    },
+    {
+     "q": "Q3 FY26",
+     "date": "2025-11-19",
+     "eps_est": 1.23,
+     "eps_act": 1.3,
+     "rev_est": 54.66,
+     "rev_act": 57.01,
+     "move_pct": -3.2,
+     "implied_pct": 7.2
+    },
+    {
+     "q": "Q4 FY26",
+     "date": "2026-02-25",
+     "eps_est": 1.54,
+     "eps_act": 1.62,
+     "rev_est": 65.56,
+     "rev_act": 68.13,
+     "move_pct": -5.5,
+     "implied_pct": 6.1
+    },
+    {
+     "q": "Q1 FY27",
+     "date": "2026-05-20",
+     "eps_est": 1.76,
+     "eps_act": 1.87,
+     "rev_est": 78.42,
+     "rev_act": 81.62,
+     "move_pct": -1.8,
+     "implied_pct": 5.9
+    },
+    {
+     "q": "Q2 FY27",
+     "date": "2026-08-26",
+     "eps_est": 2.09,
+     "eps_act": 2.22,
+     "rev_est": 92.27,
+     "rev_act": 96.22,
+     "move_pct": 8.7,
+     "implied_pct": 5.9
+    }
+   ],
+   "means": [
+    "Nvidia guided $108bn revenue and a 74% gross margin; the consensus ($108.8bn) is only just above its own guide.",
+    "It beat in 7 of the last 8 quarters but the shares fell after 5 of them. What moves it is the outlook for the next quarter, not the beat.",
+    "Last quarter it rose 8.7% after guiding well above forecasts. That is the pattern to look for.",
+    "Its results also move Fabrinet, your grid ETF and your Vanguard fund, where Nvidia is one of the largest holdings."
+   ],
+   "watch_line": "Watch: next quarter's revenue guide and gross margin",
+   "key_metrics": [
+    {
+     "metric": "Revenue",
+     "consensus": "$108bn guided (consensus $108.8bn)",
+     "why": "Beating its own guide is expected"
+    },
+    {
+     "metric": "Gross margin",
+     "consensus": "74% guided",
+     "why": "Falling margins would worry investors"
+    },
+    {
+     "metric": "Next quarter's guide",
+     "consensus": "-",
+     "why": "Historically the main driver of the move"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "MarketBeat NVDA earnings",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/"
+    },
+    {
+     "name": "earnings-watcher NVDA implied move",
+     "url": "https://earnings-watcher.com/wiki/nvda-implied-move"
+    },
+    {
+     "name": "Regards of Wall Street NVDA earnings moves",
+     "url": "https://www.regardsofwallstreet.com/data/earnings-moves/ticker/nvda"
+    },
+    {
+     "name": "TipRanks implied moves 20 Nov 2024",
+     "url": "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-november-20-2024"
+    },
+    {
+     "name": "TipRanks implied moves 26 Feb 2025",
+     "url": "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-february-26-2025"
+    },
+    {
+     "name": "StatMuse NVDA Nov 2024 closes",
+     "url": "https://www.statmuse.com/money/ask/nvidia-daily-closing-price-november-2024"
+    }
+   ],
+   "rev_unit": "$bn",
+   "eps_est": 2.49,
+   "implied_pct": null,
+   "past_notes": [
+    "Q1 FY26: EPS shown as a miss only because of a $4.5bn China export charge; underlying EPS $0.96 beat.",
+    "Q2 FY27 (Aug): rose 8.7% after guiding well above forecasts."
+   ]
   },
   {
    "date": "2026-11-24",
@@ -585,7 +1575,145 @@
      "url": "https://finviz.com/news/386537/autodesk-shares-fall-as-fiscal-2027-earnings-guidance-trails-expectations-despite-q2-beat"
     }
    ],
-   "kind": "earnings"
+   "kind": "earnings",
+   "history": [
+    {
+     "q": "Q3 FY25",
+     "date": "2024-11-26",
+     "eps_est": 2.12,
+     "eps_act": 2.17,
+     "rev_est": 1.56,
+     "rev_act": 1.57,
+     "move_pct": -8.59,
+     "implied_pct": null
+    },
+    {
+     "q": "Q4 FY25",
+     "date": "2025-02-27",
+     "eps_est": 2.14,
+     "eps_act": 2.29,
+     "rev_est": 1.631,
+     "rev_act": 1.639,
+     "move_pct": -2.88,
+     "implied_pct": null
+    },
+    {
+     "q": "Q1 FY26",
+     "date": "2025-05-22",
+     "eps_est": 2.15,
+     "eps_act": 2.29,
+     "rev_est": 1.61,
+     "rev_act": 1.63,
+     "move_pct": 0.1,
+     "implied_pct": 5.3
+    },
+    {
+     "q": "Q2 FY26",
+     "date": "2025-08-28",
+     "eps_est": 2.45,
+     "eps_act": 2.62,
+     "rev_est": 1.72,
+     "rev_act": 1.76,
+     "move_pct": 9.1,
+     "implied_pct": 5.8
+    },
+    {
+     "q": "Q3 FY26",
+     "date": "2025-11-25",
+     "eps_est": 2.5,
+     "eps_act": 2.67,
+     "rev_est": 1.81,
+     "rev_act": 1.85,
+     "move_pct": 2.4,
+     "implied_pct": 6.2
+    },
+    {
+     "q": "Q4 FY26",
+     "date": "2026-02-26",
+     "eps_est": 2.64,
+     "eps_act": 2.85,
+     "rev_est": 1.91,
+     "rev_act": 1.96,
+     "move_pct": 5.3,
+     "implied_pct": 7.5
+    },
+    {
+     "q": "Q1 FY27",
+     "date": "2026-05-28",
+     "eps_est": 2.84,
+     "eps_act": 2.99,
+     "rev_est": 1.89,
+     "rev_act": 1.93,
+     "move_pct": -4.0,
+     "implied_pct": 9.2
+    },
+    {
+     "q": "Q2 FY27",
+     "date": "2026-08-27",
+     "eps_est": 3.12,
+     "eps_act": 3.3,
+     "rev_est": 2.01,
+     "rev_act": 2.046,
+     "move_pct": -3.7,
+     "implied_pct": 9.4
+    }
+   ],
+   "means": [
+    "Autodesk beat forecasts in all 8 of the last quarters, but the shares rose after only 4.",
+    "In its last two reports it beat yet fell about 4% each time, because full-year guidance came in light and future contracted revenue (cRPO) slowed to 12% growth from 18-20%.",
+    "So the key numbers are cRPO and the free-cash-flow guide ($2.725-2.750bn for the year), not the EPS beat.",
+    "You hold it for a few months, so this report falls inside your holding window."
+   ],
+   "watch_line": "Watch: cRPO growth and full-year guidance",
+   "key_metrics": [
+    {
+     "metric": "Revenue",
+     "consensus": "$2.125-2.140bn guided",
+     "why": "It has beaten its guide every quarter here"
+    },
+    {
+     "metric": "cRPO growth",
+     "consensus": "12% last quarter (was 18-20%)",
+     "why": "Future contracted revenue: the market's worry"
+    },
+    {
+     "metric": "Free cash flow (year)",
+     "consensus": "$2.725-2.750bn guided",
+     "why": "Cuts here would hit the shares"
+    }
+   ],
+   "history_sources": [
+    {
+     "name": "MarketBeat ADSK earnings",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/ADSK/earnings/"
+    },
+    {
+     "name": "earnings-watcher ADSK implied move",
+     "url": "https://earnings-watcher.com/wiki/adsk-implied-move"
+    },
+    {
+     "name": "Autodesk Q2 FY27 release",
+     "url": "https://investors.autodesk.com/node/36196"
+    },
+    {
+     "name": "Autodesk Q4 FY25 release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939725000013/q425pressrelease.htm"
+    },
+    {
+     "name": "Nasdaq Q4 FY25 beat",
+     "url": "https://www.nasdaq.com/articles/autodesks-earnings-beat-expectations"
+    },
+    {
+     "name": "Benzinga Q1 FY26",
+     "url": "https://www.benzinga.com/news/earnings/25/05/45575552/autodesk-stock-climbs-after-better-than-expected-q1-results-raised-fy26-guidance"
+    }
+   ],
+   "rev_unit": "$bn",
+   "eps_est": 3.14,
+   "implied_pct": null,
+   "past_notes": [
+    "Q1 and Q2 FY27: beat both times, but fell ~4% each time on light guidance and slowing cRPO."
+   ]
   }
  ],
  "compiled_at": "05:25 UK, Sun 25 Oct",
