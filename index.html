@@ -558,11 +558,12 @@ let calOpen=new Set(),calTab={};
 const isEarn=c=>c.kind==='earnings'||(Array.isArray(c.history)&&c.history.length>0);
 const fmtP=(v,dp=1)=>isNum(v)?(v>0?'+':'')+v.toFixed(dp)+'%':'N/A';
 function earnStats(h){
-  const q=(h||[]).filter(x=>isNum(x.eps_est)&&isNum(x.eps_act));
-  const beats=q.filter(x=>x.eps_act>x.eps_est).length;
+  const epsA=x=>isNum(x.eps_adj)?x.eps_adj:(x.oneoff?null:x.eps_act);
+  const q=(h||[]).filter(x=>isNum(x.eps_est)&&isNum(epsA(x)));
+  const beats=q.filter(x=>epsA(x)>x.eps_est).length;
   const mv=(h||[]).filter(x=>isNum(x.move_pct));
   const ups=mv.filter(x=>x.move_pct>0).length;
-  const beatDown=(h||[]).filter(x=>isNum(x.eps_est)&&isNum(x.eps_act)&&x.eps_act>x.eps_est&&isNum(x.move_pct)&&x.move_pct<0).length;
+  const beatDown=q.filter(x=>epsA(x)>x.eps_est&&isNum(x.move_pct)&&x.move_pct<0).length;
   const avgAbs=mv.length?mv.reduce((a,x)=>a+Math.abs(x.move_pct),0)/mv.length:null;
   const im=(h||[]).filter(x=>isNum(x.implied_pct));
   const avgImp=im.length?im.reduce((a,x)=>a+x.implied_pct,0)/im.length:null;
@@ -572,7 +573,7 @@ function earnStats(h){
 }
 /* bar chart: values per quarter; optional band (±implied) behind each bar */
 function qBars(h,key,opt){
-  opt=opt||{};const rows=(h||[]).map(x=>({q:x.q,v:opt.val?opt.val(x):x[key],b:opt.band?opt.band(x):null}));
+  opt=opt||{};const rows=(h||[]).map(x=>({q:x.q,v:opt.val?opt.val(x):x[key],b:opt.band?opt.band(x):null,na:opt.nalabel?opt.nalabel(x):'n/a'}));
   const vals=rows.map(r=>r.v).filter(isNum);if(!vals.length)return `<div class="note">No figures found for this chart.</div>`;
   const W=640,H=200,L=10,R=10,T=18,B=34;const n=rows.length,slot=(W-L-R)/n,bw=Math.min(40,slot*0.5);
   const mx=Math.max(...vals.map(Math.abs),...rows.map(r=>isNum(r.b)?r.b:0),1)*1.12;
@@ -583,7 +584,7 @@ function qBars(h,key,opt){
     if(isNum(r.v)){const top=Math.min(y(r.v),y0),hh=Math.max(2,Math.abs(y(r.v)-y0));const col=r.v>=0?'var(--up)':'var(--down)';
       g+=`<rect x="${cx-bw/2}" y="${top}" width="${bw}" height="${hh}" rx="3" fill="${col}"><title>${esc(r.q)}: ${fmtP(r.v)}</title></rect>`;
       g+=`<text x="${cx}" y="${r.v>=0?top-5:top+hh+12}" text-anchor="middle" font-size="11" font-family="var(--f-mono)" fill="var(--ink)">${(r.v>0?'+':'')+r.v.toFixed(1)}</text>`;}
-    else g+=`<text x="${cx}" y="${y0-5}" text-anchor="middle" font-size="10" fill="var(--faint)">n/a</text>`;
+    else g+=`<text x="${cx}" y="${y0-5}" text-anchor="middle" font-size="10" fill="var(--faint)">${esc(r.na)}</text>`;
     g+=`<text x="${cx}" y="${H-10}" text-anchor="middle" font-size="11" fill="var(--muted)">${esc(r.q)}</text>`;});
   return `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(opt.label||key)}">${g}</svg></div>`;
 }
@@ -627,8 +628,8 @@ function earnCard(c,i){
     if(st.big)take.push(`Biggest reaction: <b>${fmtP(st.big.move_pct)}</b> after ${esc(st.big.q)}${st.big.note?' ('+esc(st.big.note)+')':''}.`);
     body=`<div class="takes">${take.map(x=>`<div>${x}</div>`).join('')}</div>
       <div class="grid2c">
-        <div><h4 class="h4">Did it beat profit forecasts?</h4><p class="note">Actual EPS vs forecast, % above (green) or below (red).</p>
-          ${qBars(h,null,{val:x=>isNum(x.eps_est)&&isNum(x.eps_act)&&x.eps_est!==0?(x.eps_act-x.eps_est)/Math.abs(x.eps_est)*100:null,label:'EPS surprise'})}</div>
+        <div><h4 class="h4">Did it beat profit forecasts?</h4><p class="note">Actual EPS vs forecast, % above (green) or below (red). "one-off" = profit swollen by investment gains, so left out.</p>
+          ${qBars(h,null,{val:x=>{const a=isNum(x.eps_adj)?x.eps_adj:(x.oneoff?null:x.eps_act);return isNum(x.eps_est)&&isNum(a)&&x.eps_est!==0?(a-x.eps_est)/Math.abs(x.eps_est)*100:null},nalabel:x=>x.oneoff?'one-off':'n/a',label:'EPS surprise'})}</div>
         <div><h4 class="h4">How the shares reacted next day</h4><p class="note">% move after each report. Grey box = the move options had priced in.</p>
           ${qBars(h,'move_pct',{band:x=>x.implied_pct,label:'Next-day move'})}</div></div>
       ${revBars(h)?`<div><h4 class="h4">Revenue each quarter${c.rev_unit?' ('+esc(c.rev_unit)+')':''}</h4><p class="note">Bars = actual. Dashed line = what analysts expected.</p>${revBars(h)}</div>`:''}
