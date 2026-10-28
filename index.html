@@ -275,6 +275,11 @@ details.explain{background:var(--surface);border:1px solid var(--line);border-ra
 .odate{font-size:.85rem;color:var(--muted)}.odate b{color:var(--ink)}.otitle{display:flex;flex-direction:column;font-weight:600;min-width:0}.otitle small{font-weight:400;color:var(--muted);font-size:.78rem}
 .otags{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.obody{padding:2px 0 14px;display:flex;flex-direction:column;gap:10px}
 @media (max-width:700px){.estats{padding:4px 14px 12px}.resbox{margin:0 14px 12px}.ehead{grid-template-columns:52px minmax(0,1fr) 28px;padding:12px 14px 8px;gap:10px}.grid2c{grid-template-columns:1fr}.ohead{grid-template-columns:72px minmax(0,1fr) 28px}.otags{display:none}.ebody{padding:12px 14px 16px}.grid3{grid-template-columns:1fr}}
+.ovsum{display:flex;gap:12px;align-items:baseline;background:var(--accent-soft);border-radius:10px;padding:10px 14px}.ovsum b{font-family:var(--f-mono);font-size:1.4rem}.ovsum span{font-size:.92rem}
+.ovlist{display:flex;flex-direction:column;gap:8px}.ovrow{display:grid;grid-template-columns:minmax(120px,190px) minmax(0,1fr) 54px;gap:10px;align-items:center}
+.ovname{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:.9rem}.ovbar{display:flex;height:14px;background:var(--soft);border-radius:4px;overflow:hidden}.ovbar i{display:block;height:100%}
+.ovval{text-align:right;font-weight:600;font-size:.9rem}
+@media (max-width:700px){.ovrow{grid-template-columns:96px minmax(0,1fr) 46px;gap:8px}.ovname{font-size:.82rem}.ovname .tag{display:none}}
 </style>
 
 
@@ -351,6 +356,34 @@ function mktsHTML(e){const m=(e&&e.markets)||[];if(!m.length)return'';
   return `<div class="mkts">${m.map(x=>`<div class="mkt"><small>${esc(x.name)}</small>
     <div class="row"><b class="${c(x.off_high_pct)}">${typeof x.off_high_pct==='number'?(x.off_high_pct<0?esc(Math.abs(x.off_high_pct).toFixed(1))+'% below':'at')+' its high':'N/A'}</b></div>
     <div class="sub">Day <span class="${c(x.change_pct)}">${p(x.change_pct,2)}</span>${typeof x.ytd_pct==='number'?' · 2026 <span class="'+c(x.ytd_pct)+'">'+p(x.ytd_pct)+'</span>':''} · high ${esc(x.high_date||'')} · ${esc(x.as_of||'')}${safeUrl(x.url)?` · <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source||'source')} ↗</a>`:''}</div></div>`).join('')}</div>`}
+
+/* ================= overlap ================= */
+let overlap=null;
+function overlapHTML(rows,tot){
+  if(!overlap||!overlap.funds||!tot)return'';
+  const share={};rows.forEach(r=>{if(isNum(r.v))share[r.s.ticker]=r.v/tot*100});
+  const co={};
+  const add=(key,name,src,val)=>{if(!isNum(val)||val<=0)return;const c=co[key]||(co[key]={name,parts:[],total:0});c.parts.push({src,val});c.total+=val};
+  Object.values(stocks).forEach(s=>{if(s.kind!=='etf'&&isNum(share[s.ticker]))add(s.ticker,s.short||s.name,'Direct',share[s.ticker])});
+  const fundKeys=Object.keys(overlap.funds);
+  fundKeys.forEach(f=>{const fd=overlap.funds[f];const fs=share[f];if(!isNum(fs))return;
+    (fd.holdings||[]).forEach(h=>add(h.ticker||h.name,stocks[h.ticker]?(stocks[h.ticker].short||h.name):h.name,f,fs*h.pct/100))});
+  const list=Object.entries(co).map(([k,c])=>({k,...c})).sort((a,b)=>b.total-a.total).slice(0,10);
+  const dbl=list.filter(c=>c.parts.length>1);
+  const mx=Math.max(...list.map(c=>c.total),1);
+  const COL={Direct:'var(--accent)',VWRP:'var(--c-globe)',FGRD:'var(--c-grid)',ISPY:'var(--c-cyber)'};
+  const mag=['NVDA','GOOGL','AMZN','META'];const vw=overlap.funds.VWRP;
+  const magIn=vw?(vw.holdings||[]).filter(h=>mag.includes(h.ticker)).reduce((a,h)=>a+h.pct,0):0;
+  const noW=Object.values(stocks).filter(s=>s.kind!=='etf'&&!isNum(share[s.ticker])).map(s=>s.short||s.ticker);
+  return `<section class="panel" id="sec-overlap"><header><h3>Overlap: what you really own</h3><span>your direct shares plus what's inside your funds</span></header>
+    ${magIn?`<div class="ovsum"><b>${magIn.toFixed(1)}%</b><span>of your Vanguard All-World fund is the same four companies as your Mag7 pie (Nvidia, Alphabet, Amazon, Meta), so you own them twice.</span></div>`:''}
+    <div class="ovlist">${list.map(c=>`<div class="ovrow"><div class="ovname"><b>${esc(c.name)}</b>${c.parts.length>1?'<span class="tag" style="color:var(--amber)">double-up</span>':''}</div>
+      <div class="ovbar">${c.parts.map(p=>`<i style="width:${(p.val/mx*100).toFixed(2)}%;background:${COL[p.src]||'var(--c-macro)'}" title="${esc(p.src)}: ${p.val.toFixed(2)}%"></i>`).join('')}</div>
+      <div class="ovval num">${c.total.toFixed(1)}%</div></div>`).join('')}</div>
+    <div class="legend"><span><i style="background:${COL.Direct}"></i>Owned directly</span>${fundKeys.map(f=>`<span><i style="background:${COL[f]}"></i>via ${esc(stocks[f]?.short||f)}</span>`).join('')}</div>
+    ${dbl.length?`<ul class="list" style="font-size:.9rem">${dbl.map(c=>`<li><b>${esc(c.name)}</b>: ${c.parts.map(p=>`${p.src==='Direct'?'direct':esc(stocks[p.src]?.short||p.src)} ${p.val.toFixed(1)}%`).join(' + ')} = <b>${c.total.toFixed(1)}%</b> of your portfolio</li>`).join('')}</ul>`:''}
+    <p class="note">Figures are % of your whole portfolio. They count each fund's top holdings only (${fundKeys.map(f=>`<a href="${esc(overlap.funds[f].url)}" target="_blank" rel="noopener">${esc(f)}</a> ${esc(overlap.funds[f].date)}`).join(', ')}); the thousands of smaller positions inside Vanguard All-World are not included.${noW.length?' No weight yet for '+esc(noW.join(', '))+', so it is left out.':''}</p></section>`;
+}
 /* ================= state ================= */
 let db=null,stocks={},holdings=[],editions=[],route='overview',newsTab='holdings',newsFilter='all',edIdx=0;
 const ORDER=['NVDA','GOOGL','META','AMZN','GRAB','VST','ADSK','FN','VWRP','ISPY','FGRD','SGLN'];
@@ -508,6 +541,7 @@ function vOverview(){
   <section class="panel"><header><h3>Where your money is</h3><span>by what each holding is a bet on</span></header>
     <div class="alloc">${Object.entries(themes).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<i title="${esc(k)} ${gbp(v)}" style="width:${(v/tot*100).toFixed(2)}%;background:${TC[k]||TC.Other}"></i>`).join('')}</div>
     <div class="legend">${Object.entries(themes).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<span><i style="background:${TC[k]||TC.Other}"></i>${esc(k)} <b class="num">${Math.round(v/tot*100)}%</b></span>`).join('')}</div></section>
+  ${overlapHTML(rows,tot)}
   <section class="panel"><header><h3>Holdings</h3><span>click a row for the full page</span></header><div class="tablewrap"><table class="hold">
     <thead><tr><th>Holding</th><th>Hold for</th><th>Price</th><th>Day</th><th>Off 52w high</th><th>${PUB()?'Weight':'Value'}</th><th>${PUB()?'':'Your P/L'}</th><th>Analysts</th><th>Upside</th><th>Next event</th></tr></thead><tbody>
     ${rows.map(({s,v,cost})=>{const pl=isNum(v)&&isNum(cost)?(v-cost)/cost*100:null;const hz=HZ[groupOf(s)]||HZ.long;const ne=(s.events||[]).find(x=>x.date>=today())||null;
@@ -777,6 +811,7 @@ go();
       Promise.all((idx.stocks||[]).map(t=>get('data/stocks/'+t+'.json').catch(()=>null))),
       Promise.all((idx.editions||[]).slice().sort().reverse().slice(0,21).map(d=>get('data/editions/'+d+'.json').then(x=>({id:d,data:x})).catch(()=>null)))]);
     stocks={};ss.filter(Boolean).forEach(x=>{stocks[x.ticker]=x});
+    try{overlap=await get('data/overlap.json')}catch(e){overlap=null}
     editions=eds.filter(Boolean);navHTML();render();
   }catch(e){$('view').innerHTML=`<div class="empty"><b>Couldn't load the data</b>Check your connection and refresh.</div>`}
 })();

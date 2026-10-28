@@ -1,0 +1,12 @@
+{"note":"Top holdings of each fund you own; smaller positions inside each fund are not counted.",
+ "funds":{
+  "VWRP":{"name":"Vanguard FTSE All-World","date":"31 Aug 2026","source":"justETF","url":"https://www.justetf.com/uk/etf-profile.html?isin=IE00BK5BQT80",
+   "holdings":[{"name":"Nvidia","ticker":"NVDA","pct":4.77},{"name":"Apple","pct":4.24},{"name":"Microsoft","pct":3.49},{"name":"Amazon","ticker":"AMZN","pct":2.33},
+     {"name":"Alphabet","ticker":"GOOGL","pct":3.31,"note":"A 1.87% + C 1.44% shares"},{"name":"TSMC","pct":1.70},{"name":"Broadcom","pct":1.59},{"name":"Meta","ticker":"META","pct":1.17},{"name":"Micron","pct":1.00}]},
+  "FGRD":{"name":"First Trust Smart Grid","date":"31 Aug 2026 (Nvidia: 30 Jun 2026)","source":"FGRD factsheet / Trackinsight","url":"https://www.trackinsight.com/en/fund/XETR:GRID/holdings",
+   "holdings":[{"name":"Schneider Electric","pct":9.3},{"name":"Johnson Controls","pct":8.9},{"name":"Eaton","pct":8.6},{"name":"ABB","pct":7.9},{"name":"Quanta Services","pct":7.3},
+     {"name":"National Grid","pct":4.2},{"name":"Prysmian","pct":3.5},{"name":"nVent","pct":3.1},{"name":"Nvidia","ticker":"NVDA","pct":1.90}]},
+  "ISPY":{"name":"L&G Cyber Security","date":"23 Oct 2026","source":"Fidelity","url":"https://www.fidelity.co.uk/factsheet-data/factsheet/IE00BYPLS672-legal--general-ucits-etf-plc/portfolio/1000",
+   "holdings":[{"name":"Netskope","pct":6.6},{"name":"Check Point","pct":5.9},{"name":"Rubrik","pct":5.7},{"name":"Qualys","pct":5.5},{"name":"Gen Digital","pct":5.4},
+     {"name":"Trend Micro","pct":5.3},{"name":"Fortinet","pct":5.1},{"name":"CrowdStrike","pct":4.9},{"name":"Palo Alto Networks","pct":4.8}]}
+ }}
