@@ -319,7 +319,7 @@ const gbp=v=>!isNum(v)?'N/A':PUB()?(v<1?v.toFixed(1):Math.round(v))+'%':'£'+Mat
 const pct=(v,dp=1)=>isNum(v)?(v>0?'+':'')+v.toFixed(dp)+'%':'N/A';
 const cls=v=>!isNum(v)?'flat':v>0?'pos':v<0?'neg':'flat';
 const DIR={up:'Positive',down:'Negative',mixed:'Mixed',watch:'Watch'},ARROW={up:'▲',down:'▼',mixed:'◆',watch:'●'};
-const HZ={long:['long','Mag7 pie (Trading 212)'],years:['years','Years'],months:['months','A few months'],swing:['swing','Swing'],pie:['pie','Pie, to 2031+']};
+const HZ={long:['long','Mag7 pie (Trading 212)'],years:['years','Years, adding gradually'],months:['months','A few months'],swing:['swing','Swing'],pie:['pie','Pie, to 2031+']};
 
 /* ================= illustrations (generic subjects, drawn here) ================= */
 const ART={
@@ -390,7 +390,7 @@ function overlapHTML(rows,tot){
 }
 /* ================= state ================= */
 let db=null,stocks={},holdings=[],editions=[],route='overview',newsTab='holdings',newsFilter='all',edIdx=0;
-const ORDER=['NVDA','GOOGL','META','AMZN','GRAB','VST','ADSK','FN','VWRP','ISPY','FGRD','SGLN'];
+const ORDER=['NVDA','GOOGL','META','AMZN','GRAB','VST','ADSK','VWRP','ISPY','FGRD','SGLN'];
 const groupOf=s=>s.horizon||'long';
 function sorted(){return Object.values(stocks).sort((a,b)=>{const ia=ORDER.indexOf(a.ticker),ib=ORDER.indexOf(b.ticker);return (ia<0?99:ia)-(ib<0?99:ib)})}
 const latest=()=>editions[0]?editions[0].data:null;
@@ -412,7 +412,7 @@ function upside(s){const p=curPrice(s),t=s.targets||{};return isNum(p)&&isNum(t.
 function navHTML(){
   const main=[['overview','Overview'],['news','News'],['calendar','Coming up'],['learn','How to read this']];
   $('navMain').innerHTML='<h6>Desk</h6>'+main.map(([k,l])=>`<a class="navlink" href="#${k}" ${route===k?'aria-current="page"':''}><span class="t">${l}</span><span></span></a>`).join('');
-  const groups=[['long','Mag7 pie · Trading 212'],['years','Years'],['months','A few months'],['swing','Swing'],['pie','ETF pie, to 2031+']];
+  const groups=[['long','Mag7 pie · Trading 212'],['years','Years'],['months','A few months'],['pie','ETF pie, to 2031+']];
   $('navHold').innerHTML=groups.map(([g,l])=>{
     const ss=sorted().filter(s=>groupOf(s)===g);if(!ss.length)return'';
     return `<h6 style="margin-top:10px">${l}</h6>`+ss.map(s=>`<a class="navlink" href="#${s.ticker}" ${route===s.ticker?'aria-current="page"':''}><span class="t"><b>${esc(s.ticker)}</b><span>${esc(s.short||s.name)}</span></span><span class="chg ${cls(s.change_pct)}">${isNum(s.change_pct)?pct(s.change_pct):''}</span></a>`).join('');
